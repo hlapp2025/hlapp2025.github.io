@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>红领巾瓜报网</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《红领巾瓜报网》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于红领巾瓜报网</h2>
+<p>					红领巾瓜报网<p>五色神光之中，被魔魂老人炼化了一段时空长河进去。那是残缺的时空长河的碎片，曾经在大人物的交手之中毁灭，只留下了无尽的残骸，里面的无穷时空都是被毁灭了，亿万大宇宙覆灭，被魔魂老人获得。</p><p>魔魂老人经历了漫长的岁月之后，才是将这一段时空长河一分为五，分别融合炼化进了自己的五色神光之中。这可是了不得的杀招，敌手一个不小心，就有可能会被困在时空长河之中，永久地迷失在里面。</p><p>要知道，那可是时空长河，即便是残缺的，那里面也是蕴含有无穷无尽的源世界存在。若是一个不小心，被五色神光困住，只怕就算是超脱境界强者也会迷失。</p><p>萧龙的攻击也不简单，那一道道剑气之中，有着龙吟虎啸，也有着鲲鹏和凤凰在展翅，有金乌在啼叫！</p><p>那些剑气看起来是剑气，但是其实是萧龙曾经修行过的法术的体现。比如一道剑气之中，有真龙显化，那是真龙道法的体现。</p><p>当然，有一些法术不是萧龙主体修行过的，不属于圣天龙帝法之中的法术。例如金乌道法，例如鲲鹏道法等等。</p><p>但是萧龙的分身修行过，曾经身化万千，走过很多不同的道路，在每一个不同的时间节点之中修行过。</p><p>走的道路不同，修行的法术也不同。例如白虎道法，例如金乌道法，还有雷霆道法等等，这些都是萧龙曾经走过的路。</p><p>因此，现在的萧龙可以说是精微万法全，几乎六域宇宙之中所有的法术，不管是强大的还是弱小的，萧龙都修行过。</p><p>可以这么说，萧龙现在那就是行走的法术百科全书。世间亿万法术，千万道法，都是掌握在自己的内心。</p><p>这是法术的对碰，也是两个人的较量和交锋。可以看到，有着亿万条秩序神链垂落而下，被两人演化的无上法术而展现。</p><p>“吼！”那头怪物也是杀了过来，跟魔魂老人一起跟萧龙进攻，打的天崩地裂，日月无光，也不知道多少光年的空间被击碎。</p><p>坑洞墙壁之上，有着不知道多少的小空间崩塌，里面的天材地宝和珍贵稀有的土地全部都是毁于一旦。</p><p>萧龙施展一气化三清，有着另外一个萧龙出现，跟随着萧龙自己的分身一起厮杀。对于处于同一个境界的对手来说，萧龙的压力是巨大的。</p><p>尤其是，对方还同为是超脱境界的存在！到了超脱境界，谁又会比谁差呢？都是各自时代的主角，各自时代的天骄天才！</p><p>更何况，能够成为超脱境界便已经是千难万难了。想要在超脱境界走出漫长的距离，走到八重天那更是难如登天。</p><p>这里的黑雾更加的浓郁了，几乎是遮蔽了天上地下，快要形成液体一般粘稠的物质，那是无尽的黑暗物质的具象化。</p><p>“十死无生大法！”魔魂老人双手划出一道道法印，天地之间的秩序神链波动，有着无尽的法则符文环绕在他的周身。</p><p>十道法身从魔魂老人的背后走出来，气势惊人，一样散发着令人胆战心惊的力量，可以轻易毁灭无尽的大宇宙。</p><p>那是一种无上的法术，古往今来少见，可以化出十道法身，法身也有着本体的全部实力。那等于是在一瞬间，提升十倍的战斗力。</p><p>但是，这种法术也很难修成，必须在每一个境界都死亡十次，才能够达到完美境界。那种死亡可不是单纯的假死，而是真正的死亡，神魂和肉身都是湮灭才行！</p><p>也只有这样，修炼出来的十死无生，才是完美的，能够横推一切敌手。因为那相当于自己的十个前世，十个人生。</p><p>不是这样的话，根本不可能修炼出十死无生大法！这种法术难以修行，一个不小心就有可能无法复活，彻底死去。</p><p>古往今来，有几个人能够修炼成功？几乎不可能，几万亿个修炼者，也不见得能出现一个修炼大成的人。</p><p>也正是因为如此，这种无上的大法术才会失传，淹没在时空长河之中，掩埋在历史的尘埃之下，不见天日。</p><p>一个魔魂老人，就已经是超脱在外，接近是古今未来无敌手的存在了，更不要说是十个魔魂老人一起进攻。</p><p>“亿万道法，尽加吾身！吾身永恒！”萧龙也是施展无上的大法术，手中的斩龙剑若上苍之剑，破开一切阻挡。</p><p>从无尽遥远的天穹之上，有着一道道巨大的光华落下来，形成一条条广阔崩腾的河流，真的大到无法想象。</p><p>“轰！”萧龙一个人，跟十个魔魂老人一起厮杀，这是血肉的对碰，拳拳到肉，打的天崩地裂，日月无光。</p><p>浩瀚的血气冲天而起，呈现出赤金色，那是萧龙自身浩瀚的血气，是萧龙自身血肉的体现，可以破灭一切阻挡。</p><p>萧龙化身三头六臂，整个人发出赤金色的光芒，若一轮烈日横空，照耀的整个坑洞明晃晃，亮堂堂。</p><p>可以这么说，两个人现在的对决，就是两条不同的进化道路的对决，也是走两条不同的道路的交锋。</p><p>一个化万千法身，将自身的战斗力推演到极致，以数量获得绝对的胜利。另外一个，万法加身，只修唯一身，要以一己之力，破灭世间亿万法则。</p><p>“斩！”到最后，萧龙一声大喝出声，若上天的审判，无人可挡，无人可阻！一道金色的神剑斩出，要审判世间万事万物。</p><p>“噗嗤！”一个魔魂老人的化身被神剑击中，在一瞬间湮灭，化为了漫天的黑暗物质崩溃。化身终究只是化身，不如本体那般不死不灭，可以永世长存。</p><p>当然，化出来的化身也很强大，也很恐怖，真的有一种气吞山河的气势，能够轻易覆灭亿万大世界。</p><p>这要是放在外界，有几个同境界的修士能够抗衡的？恐怕，恒古恒今都未必能够找出几个人，有点超出正常人的想象。</p><p>九个魔魂老人一起出手，每一个化身都有着不亚于本体，也就是超脱八重天境界强者的实力，这等战斗力，有几个人可以抗衡？</p><p>五色神光绽放，如同五十道神剑斩出，在萧龙的身体之上划出一道道伤痕，金色的神血洒落而下，令的整个空间震动不止。</p><p>“封！”萧龙双手合十，天地之间有着两个巨大的磨盘出现，那是凝聚天地大道化为的天地磨盘，可以磨灭世界万事万物。</p><p>天地磨盘轰隆隆的碾压而过，亿万法则都是在磨盘的碾压之下破碎，无尽的时空化为虚无，这就是天地磨盘的威力。</p><p>“咖嚓！咖嚓！”魔魂老人的一道化身破碎，被天地磨盘碾压而过，彻底湮灭成为了一片光点，这是他的第二道法身。</p><p>“老夫还真是小看你了！”魔魂老人冷冷地说道，无法相信面对自己的十死无生大法，居然有人能够抗衡，而且还强势灭杀自己的两道法身。</p><p>萧龙披头散发，没有多说什么废话，依然在跟魔魂老人的化身在交锋。强大的气息弥漫，双方杀到了白热化。</p><p>“轰！”另外一边，萧龙跟怪物的对碰也是分出了胜负，怪物的几个头颅被萧龙强势斩杀了下来，有黑暗神魂被灭杀。</p><p>“吼！”怪物剩下的几个头颅发出怒吼，很不甘心，同为超脱八重天境界的存在，他居然是不如对方，让他愤怒和不甘心。</p><p>萧龙迈步，自身绽放的金色神光若一道道锋利的利剑，斩下对方的头颅，横击对方那不灭的黑暗神魂。</p><p>怪物怒吼，同时也是在后退。到了他们这种境界，早就已经是不死不灭，很难被杀死，神魂不朽不灭。</p><p>即便是经历亿万大劫，也能够与世长存，永恒存活下去，这就是超脱境界强者的恐怖实力。</p><p>眼前的这一头怪物，虽然战败了，但是他并不惧怕，因为相信自己能够不死，还能够存活漫长的岁月，最多被封印而已。</p><p>可是，他却是想错了，萧龙不会放过他，要将他彻底绞杀。“吼！你杀不死我，我是不灭的！”怪物怒吼，剩下来的一个头颅之中，有着一道黑暗神魂存在。</p><p>“嗡！”萧龙没有说话，双手划出一道道复杂的纹路，他在布阵，在演化天地大道的运行轨迹，要刻画一道绝世杀阵。</p><p>一把巨大的弓箭成型，凌厉的气息令的一旁的魔魂老人都是感受到了危险的气息。“那是。。？”魔魂老人目光怀疑地看着对方。</p><p>“呼！”弓箭轻鸣，一支巨大的金色的箭矢射出，贯穿无尽的天地，直奔着那一头恐怖的怪物极速而去。</p><p>这一只箭矢不简单，乃是萧龙自身修行道法的体现，也是天地大道的具象化加持的结果。威力巨大，同境界无人可挡！</p><p>“噗嗤！”怪物的肉身在箭矢的作用之下直接炸开，就连神魂都是四分五裂，在箭矢强大的威力之下粉碎。</p><p>恍惚之间，魔魂老人似乎看到有着无数的进化道路化为秩序神链，束缚在怪物的神魂之上，共同参与绞杀。</p><p>那是萧龙引动天地大道的结果，世间万事万物的法则汇聚成为的秩序神链，代表着天地意志的威能。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

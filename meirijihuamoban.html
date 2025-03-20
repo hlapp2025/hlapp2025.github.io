@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日计划 模板</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《每日计划 模板》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于每日计划 模板</h2>
+<p>					每日计划 模板<p>（请以最新的为主，新的为旧设定的补充或者修改，旧设定请无视）</p><p>1世界观（按照大小排名）：卫星；</p><p>行星；</p><p>恒星；</p><p>恒星系统：类似于太阳系的恒星和行星组成的天体系统；</p><p>星系：类似于银河系的星系系统；</p><p>星河：同星系，只不过外观比较像银河，故称星河；</p><p>星系群：由众多的星系组合而成的星系群，至少含有上百个星系组合而成；</p><p>星系团：由至少含有上百个星系群组合而成的星系团；</p><p>星系长城：由众多星系组成的长条状星系团，外观类似于长城，所以称之为星系长城，小说中的武仙北冕座星系长城为现实武仙北冕座星系长城！</p><p>星域:无限大的空间，由无数的不同的星系团组合而成。</p><p>宇宙：分为主域宇宙和分域宇宙，空间都是无限大（至少在三维纬度上是无限大的），每一个平行宇宙都有着无限多个星域，界壁是高纬度的界壁；</p><p>宇宙团：一个主域宇宙和无数的分域宇宙组合而成的一种称呼，例如人域宇宙宇宙团；</p><p>六域宇宙：包含神域，魔域，人域，仙域，妖域，鬼域六个主域宇宙和无数的主域宇宙统治的分域宇宙组成，合称诸天万界（不仅仅只有一万个宇宙哦）。</p><p>以太世界：六域宇宙和统治的诸天万界宇宙合称为一个以太世界，在六域宇宙之外，还有着无数个以太世界，犹如大海之中的岛屿一般，不同的以太世界之间由混沌隔开。</p><p>混沌世界:由一个混沌海和无限多个以太世界组合而成的广阔的世界。</p><p>源世界：无限层的空间最顶层，每一层空间都是无限多个上一层空间组成，以此类推叠无限层（无限大的宇宙为单体，无限多的单体为多元，以此类推无限层），源世界为无限空间的最顶层。</p><p>时间线世界：每一条时间线上面的时间点都有着无数的源世界组成，源世界内的每一个生物每一个时间点做出的不同选择，都会演化出一个不同的时间线；</p><p>时间面；时间体:无数的时间线组合而成时间面，无数的时间面组合而成为一个时间体；</p><p>时空世界：如同空间一般，时间也有无限层，最底层的时间点每一个都有着无限多个源世界组合而成的，无限层的时间和无限层的空间就是时空世界。</p><p>时空长河:无数的时空世界只是大道之花无数的花瓣上面的一片花瓣，无数多的大道之花开放在无限长的时空长河之中。</p><p>天道圣域：天道主宰的世界，居住着不同时空世界的主宰者（阿撒托斯就是其中之一哦），超越一切时间，空间，纬度的世外桃源，高高在上。</p><p>天道圣域，不可名状，不可言表，无法知道哪怕是亿万分之一的信息。是一切时间，空间，纬度，命运，世界，宇宙的起源和终结的地方。即是一切的起源，也是一切的终结。</p><p>无数的时空长河从天道圣域起源，蔓延不知道多么漫长的距离，最后又回到天道圣域。时空在这里起源，又在这里终结。</p><p>等级:人道领域；神道领域；圣道领域；天道领域四个大的分界。</p><p>势力分布:正常时空大宇宙（无数条时空长河）；黑暗倒影世界（一样拥有无数条时空长河）；天道圣域；诡异世界！</p><p>2时间划分:</p><p>纪元:正常的单体宇宙从诞生到毁灭为一个纪元，不同的纪元的时间不等，最短也有一万亿年的时间。</p><p>时代:指的是某一个辉煌的一段时期，数个乃至于数百个纪元的总称。例如，荒古大帝就是某一个辉煌时代的大人物。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

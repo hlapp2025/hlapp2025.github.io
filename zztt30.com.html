@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>zztt30.com</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《zztt30.com》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于zztt30.com</h2>
+<p>					zztt30.com<p>二人如此闲谈着。</p><p>自从来到西街的地界，路边的乞丐、流浪汉肉眼可见地多了起来。</p><p>崔府在城北，那里算是渝州城的富人区，各豪强大族大多居于此处，因此治安还算说得过去。东面靠着码头，靠着来来往往的船只，怎么都能有口饭吃。</p><p>可西城就不同了，赵缨二人一路走来，几乎每条街上赵缨都能找到几个无家可归的人，裹着勉强蔽体的破烂衣衫，靠在墙根上打着盹。</p><p>这还只是西城，若是更破败的南城呢？</p><p>“渝州城怎到了这个地步？”赵缨很是不解，此处比起北城那个觥筹交错的院子、歌舞升平的妙乐坊来，相差简直天上地下。</p><p>“恐怕这才是真正的渝州城。”沈川言道。</p><p>这还只是在明面上的，实际上若再往里面走去，找几处破败的院子，她当能找到更多的无家可归者。</p><p>这些人，大多都是附近山里的农户，因活不下去而来城中挣一口饭吃。</p><p>然而看他们这状态，这口饭估计都不够饱腹，更遑论其他。</p><p>“该死的崔江，这么多人他都视而不见吗？作为知府他这是失职！”</p><p>赵缨有些愤愤然，瞪大了眼睛，试图找出一个不那么麻木的面孔来。</p><p>“别费劲了，这种情形非止渝州城，但凡是个稍大一点的城里都是这副模样。荆襄那边更甚。”沈川似乎习以为常。</p><p>“那边凡是破了产的农户，要么到大户家里当佃农，要么也如这般在码头寻活计。无论哪种都免不了被盘剥的命运。”</p><p>然而近年来，由于世道越发地艰难，流民的数量竟也肉眼可见地增长着。</p><p>“都是被那平黎税给闹的。”他又叹。</p><p>他似乎被这些乞儿触及到了心事，忽然道：“我想不通。”</p><p>“嗯？”</p><p>赵缨没料到对方忽而发此感叹，好看的眸子里满是疑惑。</p><p>“有一件事我始终想不通。”沈川低着头道：</p><p>“从幼时起，夫子劝我读书、师傅教我习武时，都说我下得每一份苦功都会有收获。我也一直如此相信的，直到后来行走江湖多了，却发现不是这样。”</p><p>“夫子们错了！他们总说能吃得苦才能享得福，可若论吃苦，谁又能比得过田间的农夫、码头上的苦力、战场上的将士们！可为何家财万贯的却不是他们，而是那些不曾劳作过半分的贵人？”</p><p>他这几年见过太多的不平事，越是游历江湖却越发觉得无能为力。这等郁结之气早就闷在心头多时，此时此刻，忽而一股脑地宣泄了出来：</p><p>“这世间何其不公平！”</p><p>国内天灾不断，北面还有北黎鞑子不断叩关，当此内忧外患的时候，京城的那帮子士大夫们却偏偏内斗不休……</p><p>单说这平黎税，便是征了又征，有些地方已经收到了二十年以后，甚至还有继续加下去的趋势。然而边关将士们莫说军饷，便是兵甲都时时告缺。</p><p>这些税，到底收到了谁的手中？答案想必也是不言而喻。</p><p>兴、亡，皆是百姓苦。</p><p>赵缨前世背过很多诗句，当时囫囵吞枣，今日当此情景却是忽地全部理解了。</p><p>“这世间本就不公平！”</p><p>她不由叹道。</p><p>想她自己的前身，那个叫赵四娘的小丫头，不也同样是这等不公平的牺牲品吗？自己千方百计地复仇，可不就是为了反抗这种不公？</p><p>但这等不公，似乎才是世间常态。</p><p>倒是沈川……赵缨早知他心里藏着事，但看这家伙平日里嘻嘻哈哈的洒脱样子，也只道是他生性豁达，万物不萦于怀。</p><p>为此，她可不止一次地表达出羡慕来着。</p><p>可是细想起来，这等表面上的洒脱，或许只是为了掩盖内心的茫然与无力。</p><p>“你倒是胸怀天下。”</p><p>赵缨摇了摇头，笑得略微有些怜悯的意思：“可就是因为心太大了，明明是名门正派出身，前途无量，却沦落到如今这个田地……”</p><p>你不知我经历了什么，怎就敢说一句前途无量？沈川苦笑着想道。</p><p>他最终却也只是苦笑道：“大丈夫本就该胸怀天下。”</p><p>这句略有些迂腐的话，说的人多，真正能做到的人又有多少？也难为他一腔热血却处处碰壁。</p><p>这个世界，似乎也没有理想主义者生存的土壤。</p><p>只是……什么事都憋在心里、压在心里，当自己是铁人吗？</p><p>赵缨望着他略有些瘦削的肩膀，微不可查地摇了摇头。</p><p>就这么一双血肉肩膀，还真打算扛起这个天下不成？</p><p>“你若真有改换天地的大志向，我也可以帮你。” 赵缨忽而真挚地道。</p><p>说罢，她似又觉得容易惹人误会，于是又补充道：</p><p>“我和你不一样，是个自私的人，眼中可只有自己的一亩三分地儿。但是自私归自私，该有的义气还是有的。你就当是我投桃报李好了，你最近一直在帮我，我自然也要帮你。”</p><p>这句话一出，她忽地又觉得好笑。两个自身难保的可怜人，偏偏说着大话说要改变世界。</p><p>明明自己还是泥菩萨过河，她也不知为何就脱口做出了承诺。</p><p>也许是被沈川的理想主义所激，也许她本身便是热血未凉。</p><p>沈川一眨不眨地盯着她看了好久，忽而招牌性地一笑：</p><p>“你应该的。”</p><p>他笑得高深莫测，出口如炸响的春雷：“我的真气还在你那里，你要是不好好用，我自己都不答应！”</p><p>“！？什么？”赵缨的汗毛一下子竖了起来，就好像被老婆抓了现场的偷情汉一般。</p><p>“你什么时候知道的？”</p><p>“从你救我的时候。”沈川继续笑道：“那可是我的真气，我自己当然能够感受到的。”</p><p>他甚至不光知道这个，还早知她气海中已是真气充盈，却苦于没有运用之法，因而一直卡在三阶的瓶颈上。</p><p>若哪一天这个窗户纸被捅破，只怕她直接便能达到三阶的巅峰，甚至直入四阶五阶都有可能。</p><p>毕竟可是自己的真气，自己多少年寒暑才练出的真气，全便宜别人了……</p><p>赵缨无言以对。</p><p>那你一直不挑明说，害我一直悬着一颗心，生怕哪天被发现了……她心虚地腹诽着，却也不好意思说出口。</p><p>毕竟承了大造化，得了便宜可不能再卖乖了。</p><p>不过见沈川没有刨根问底地问下去，赵缨也稍稍安心。否则小蚕的事，她还真不知道怎么解释。</p><p>“好了，咱们该回去了。”</p><p>将心事宣泄出来后，沈川明显看着轻松多了，就连走路的步伐都加快了些许，一下子竟将赵缨落在了身后。</p><p>赵缨一直悬在心头的那块大石头，也终于落了地，她的脸上也不由带上了笑。</p><p>“你慢点！”</p><p>她小跑两步追赶了上去。</p><p>红轮西坠，将这两人的影子拉得老长。</p><p>两人步伐欢快，倒和坐卧在路边、眼神麻木的流浪汉们形成了鲜明对比。</p><p>“年轻真好啊……”</p><p>一个老乞丐忽然感叹。</p><p>他的衣衫虽然破旧，但浆洗得很是整洁，在一众乞丐中颇有种鹤立鸡群的感觉。</p><p>有小乞丐谄媚道：“帮主年轻时候也是条奢遮的汉子，比什么好汉都不输！”</p><p>“净瞎说！老汉我么子时候读过书？”</p><p>老乞丐扇着耳朵，好笑地摇了摇头，倒是让那拍马屁的小乞丐哑口无言了。</p><p>任谁也不会想到，这个耳背的老乞丐，竟也掌管着渝州城数一数二的地下帮派——城西乞儿帮。</p><p>天色愈发昏沉，又一个跛脚乞丐拄着根竹杖而来，颤颤巍巍地坐在群丐中间，靠着墙根，享受着仅存的夕阳。</p><p>跛脚乞丐略微行了个礼，压低了声音，朝着老帮主报告道：</p><p>“帮主，查清楚了，这男女来西街地界上，似乎只是为了追一个偷儿。”</p><p>老乞丐似乎没听到似的，浑浊的老眼中满是茫然。</p><p>跛脚乞丐只好靠近了些，扯着嗓子：</p><p>“一个偷儿，枇杷巷那小子！”</p><p>“哦哦！来偷琵琶的……”</p><p>老帮主偏偏这时候犯了耳背，跛脚乞丐张了张嘴，终究是无可奈何。</p><p>“偷么子不好，偏偷琵琶，这东西不能吃不能喝，就能出两声莲花落都不如的鬼动静，偷回家又有啥用？真是搞不懂、搞不懂……”</p><p>“帮主，不是琵琶，是枇杷巷……”</p><p>“我用你说？”老乞丐明显有些恼羞成怒了：“你管他来偷什么的？既然不是冲着咱们来的，那就不就搭理他们，更不用管他们是参将的人还是知府的人！”</p><p>跛脚乞丐表情很为难，似在思索这番话的有效程度。</p><p>他想了半天，终于又从怀中掏出一封请柬，试探似地问道：</p><p>“知府大人两天前才过了寿，今天又广邀宾客，大摆宴席。咱们去还是不去？”</p><p>老帮主吹胡子瞪眼：</p><p>“去什么去？老头子腿脚不好，走不了那么远的路。你们小辈想去，自去就好了！”</p><p>他的耳朵似是忽然好了，但眼神看上去却更加糊涂。</p><p>他接过请柬，正着看了看，发现看不懂后又将其倒了过来。</p><p>“什么破玩意，看不懂！”</p><p>他一甩手，这封信笺便被揉成了一团，而后飞回了跛脚乞丐的怀中。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

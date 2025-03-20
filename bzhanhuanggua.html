@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>b站黄瓜</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《b站黄瓜》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于b站黄瓜</h2>
+<p>					b站黄瓜<p>萧龙在推演，在演化过去发生的事情，想要扑捉到过去的层层的痕迹，捕捉到雪儿传过来的信息，定位雪儿的具体的位置。</p><p>那在过去发生的事情，都能够被捕捉到一丝丝的蛛丝马迹。一些至强者，也就可以依靠这些蛛丝马迹，推演出过去发生的事情，找到人的道路和痕迹。</p><p>很快，萧龙就是发现了雪儿传出来的信息，通向某一个黑暗牢笼。很显然，那就是雪儿给自己传递的信息，哪怕是黑暗物质也无法阻挡。</p><p>“雪儿，不要害怕，我来了！”萧龙在努力和雪儿进行沟通，同时也是跟随着信息和痕迹来到了关押着雪儿的黑暗牢笼之前。</p><p>雪儿内心的感应也是越发地强烈，雪儿知道萧龙已经找到了自己的位置，心里面也是非常的激动。</p><p>萧龙再三确认信息就是在这里之后，开始打算强行破碎黑暗牢笼，解救出雪儿。时空秘术发挥出来，再加上自身修行的圣天龙帝法！</p><p>“吼！”刹那间，这一片时间和空间之中，到处都是弥漫着浩瀚的龙威，一条条金色的神龙虚影在这一片天空之中飞舞盘旋。</p><p>那些都是萧龙作为龙神的带来的力量，金色的光辉化为一条奔腾时空长河虚影。这是时空秘术和龙神道法的结合，融合了时空法则符文和龙神道法的强大的技能。</p><p>强大的时空长河的虚影，掉落下千千万万的时空碎块，是无数的时空法则符文的体现。而且，这些时空碎块，最后都是变成了一条条金色的神龙虚影。</p><p>这是萧龙修行多年的龙神道法的极致体现，同时融合了时空秘术的法术。强大的法力能量融合，波及到了很广阔的范围。</p><p>“轰隆隆！”那种场景，不亚于是一个个宇宙掉落而下，有着无尽的星空在那些时空碎片之中闪烁，好像是真的宇宙碎块一般。</p><p>在做到这一步的时候，萧龙手中的斩龙剑再一次出现，强大的法力能量汇聚到了斩龙剑之上，要再一次发挥出来的能量攻击。</p><p>金色的光辉出现在了斩龙剑之上，斩龙剑有着一道道龙吼声传出来，那是萧龙内心的斗志的体会。</p><p>“圣帝龙皇斩！”萧龙大声呵斥道，那是萧龙的最强大的底牌，也是萧龙目前为止最强大的技能之一。</p><p>金色的巨大的人影，出现在了萧龙的背后，那人影有着无上的威压，仿佛是最强大的天地主宰一般。</p><p>那个金色的人影，手中也有着一把金色的神剑，有着一条条金色的神龙虚影在他的周身飞舞盘旋。</p><p>那好像是至高无上的初代龙神，有着无上的威严，是不容许任何的侵犯的主宰的风范。巨大的神剑挥舞起来，狠狠地打在了黑暗牢笼。</p><p>圣帝龙皇斩！这个萧龙最强大的攻击技能，再加上时空秘术和龙神道法融合的技能，这等威力已经大到无法想象了。</p><p>这要是放在外界，恐怕是能够轻易地毁灭数百万个平行宇宙的时空，威力大到无法想象。那等威力，已经不亚于是一个顶尖的神王全力一击的威力了。</p><p>“轰！”炽烈的金色的神光在这里炸开，恐怖的能量风暴炸响，就好像是好几个平行宇宙一起发生大爆炸一般。</p><p>恐怖的能量乱流，犹如一道道宇宙长城一般，横贯在天上地下，笼罩在了无穷无尽的光年内部。</p><p>附近的时间和空间都是被扭曲，出现了不同的时间和空间里面的画面。有着古代战场的场景，同时也有着未来的强者跨越而来，在这里窥探。</p><p>不同的时间和空间，都是在这一刻被创联在了一起，汇聚到了这么一个独立的小世界之中，覆盖了无数个宇宙之中的一切。</p><p>过去万亿个纪元，现在万亿个纪元，未来万亿个纪元，无数的平行宇宙，无数的以太世界都是被打通，形成了一个时空通道。</p><p>那个时空通道非常的不稳定，时不时地有着时空风暴从通道里面刮出来，波及到万亿光年内部的一切事物。</p><p>那个时空通道，是在可怕的破坏力的作用下贯通的，连接不同的以太世界。数以千万计的以太世界，被连通起来。</p><p>有的生灵从一个以太世界去到了另外一个以太世界，还不知道发生了什么，一脸茫然地看着自己身处的环境。</p><p>还有着其他的生灵，看到了遥远的未来发生的事情，看到了自己的生命行星进入到了科技文明。</p><p>那些古老的土著，看着那未来的繁杂绚烂的科技，仿佛是看到了高高在上的神祗一样，顶礼膜拜。</p><p>有不同宇宙之间的科技文明，互相发现了彼此的存在，发动了跨越宇宙之间的战争，打了几万年的时间。</p><p>巨大的如同山岳一般的宇宙飞船在宇宙星空之中穿梭，在连通的时空之中，来到了遥远的过去时空。</p><p>这样的事情，在不同的宇宙之间不断地上演，过去和未来都是连接到了一起。有的宇宙，来到了毁灭的时刻，在转瞬间又是恢复到了纪元开始的时刻。</p><p>时间和空间都是错乱了，连接到了一起，几十万上百万个纪元融合汇聚到了一起，形成了可怕的景象。</p><p>真的是太可怕了，古往今来发生的事情，在这一刻被串接到了一起。不同的宇宙，不同的时间和空间的人和事，都是在同一片时间和空间之中发生。</p><p>当然，他们都不知道这些事情都是因为萧龙导致的。因为他们的实力，还不足以了解到这种层次的信息。</p><p>而且，知道真相对于他们来说也未必会是一件好事情。萧龙和这些生灵之间的差距，那可是无限大的。</p><p>哪怕是一点点跟萧龙有关的信息，都会让的他们最先进的电脑的硬盘给撑爆。而他们的脑袋，也会因为无法承受海量的信息，而陷入疯狂。</p><p>也正是因为如此，无法了解萧龙，对于那些文明种族来说也算是一种幸运。萧龙继续发力，要打碎黑暗牢笼。</p><p>黑暗牢笼有着黑暗物质形成的黑雾笼罩，庇佑黑暗牢笼不会受到萧龙攻击的影响。而萧龙，眼睛绽放出金色的光辉，体内的法力能量不要命地发出来。</p><p>“咔擦！”黑暗牢笼的黑色的铁柱，出现了崩裂的声音。在萧龙巨大的能量攻击之下，出现了断裂的痕迹。</p><p>“还不够，我还需要更多的力量！”萧龙的额头上有着汗水冒出来，他在心里面默念口诀，施展出一气化三清！</p><p>顿时，有着三个萧龙从天外而来，穿越了重重时间和空间的阻拦，来到了这里，来到了这一片时空。</p><p>三个萧龙，那不就是三个绝顶神王，独步天下！“轰！”随后，又是三道可怕无比的攻击，狠狠地打在了黑暗牢笼之上。</p><p>一气化三清，可以说是萧龙最后的底牌了，也是萧龙压箱底的绝技。一气化三清，玄之又玄，乃是无上的大法术！</p><p>有传说，一气化三清是“圣”创造的道法，曾经在无尽的岁月前，功参造化，大战到诸天万界胆战心惊！</p><p>也有传说，一气化三清乃是禁忌的法术，拥有者最后都会下场凄惨。总之，一切的传说，都说明一气化三清不简单。</p><p>而萧龙获得一气化三清，只是最初的版本，后来的一切都是依靠萧龙自己摸索出来的。虽然是有着“圣人”的基础，但是已经是和萧龙融会贯通了。</p><p>一气化三清，分化出三个实力一模一样的分身，无论是法力等级还是战斗力，亦或者是拥有的神兵利器，都是一模一样。</p><p>能够在短时间之内提升四倍的战斗力，这等分身可以说是古往今来少有的存在。当然，如果仅仅是这样，一气化三清也不至于被称之为逆天的神技。</p><p>一气化三清化出来的分身，也可以施展一气化三清！而化出来的分身，还可以继续施展一气化三清！</p><p>也就是说，一气化三清可以无限的划分分身，每一个分身又可以无限的分化分身。着实是非常的恐惧，无限地提升自己的实力。</p><p>这才是一气化三清的恐怖之处，可以无限地提升，没有他的极限。无限的无限，永无止境，无穷无尽。</p><p>四倍的战斗力，一起发出自己最强大的攻击技能，爆发出恐怖的能量，整个世界都是被毁灭，湮灭了无尽的时空。</p><p>更多的时间和空间，更加广阔的时间和空间都是在这里浮现，甚至出现了一些神祗，在这里窥探着一切。</p><p>然而，在萧龙恐怖的威压之下，那些神祗也不敢过多的窥探，害怕被萧龙强大的实力波及到。</p><p>作为神祗，能够活到现在，哪一个不是经历了漫长的岁月？可以说是人老成精了，有了一定的判断能力。</p><p>他们能够知道，未来可能发生的危机，会趋利避害，躲避可能发生的危险。“给我开！”萧龙大喝道。</p><p>四个萧龙发出强大的法力能量，眼睛的瞳孔变成了金色的光辉，若两颗太阳一般，照亮了无边无际的黑暗。</p><p>“轰隆隆！”时间和空间发出嗡鸣，承受到了极限，发出了悲鸣。那是整个世界的时空的悲鸣！</p><p>“咔擦！咔擦！”黑暗牢笼的黑暗铁柱断裂，承受不住四个绝顶神王的全力攻击，即将要崩溃，到达了极限。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

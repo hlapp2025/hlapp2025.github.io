@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>川渝绿帽社区</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《川渝绿帽社区》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于川渝绿帽社区</h2>
+<p>					川渝绿帽社区<p>漆黑的坑洞之中，萧龙也不知道下降了多少的距离，那底部仿佛是没有尽头一般，看不到任何的有关于底部的信息，有的只有伸手不见五指的黑暗。在这里，在这个坑洞中，黑暗似乎是永恒的主题。</p><p>无尽的黑暗风暴还在吹拂，那可以轻易毁灭真神的风暴，似乎也是没有尽头。时不时能够在黑暗风暴之中，看到一些属于至强者的尸体，即便是过去了漫长的岁月，他们依然在发出淡淡的微光。</p><p>这里似乎是时间与空间的尽头，无尽的空间在这里终结，无尽的时间在这里停止。一切似乎都不复存在了，只有耳边呼啸而过的狂风还在宣告着，这里有着何等的可怕。</p><p>“放弃吧，再往下你会迷失，踏入轮回，永生永世不得回转！”萧龙手里面，不朽冥王的神魂发出声音，在看不起萧龙的行为。</p><p>“呵！你说你自己为冥帝，是地府轮回的主宰，那你可知这坑洞底部有什么？”萧龙极为不屑地说道，“说到底，你也只是一个可怜人罢了。”</p><p>“本座当然知道底下有什么，那里面有着不可言说，不可名状的存在！”不朽冥王的神魂颤抖，显得有一些激动。</p><p>“要知道，当年发生了太多太多的事情，莫要以为自己真的可以逆天而行！纵然是曾经的天帝，也曾经在这里折戟沉沙！”</p><p>“这里是地府轮回路，在往下一步，便是万劫不复！”不朽冥王的神魂还在恐吓，在吓唬萧龙，害怕萧龙下到坑洞底部，发现一些了不得的事情。</p><p>“你在害怕？底下到底有什么？不会是有了不得的宝藏吧？亦或者是某个黑暗古祖受了重伤，在底下养伤？！”萧龙猜测道。</p><p>“慎言！你这是在玩火！”不朽冥王神魂一阵躁动，内心似乎真的有着什么不能说的秘密，因此一直在恐吓。</p><p>“呵，你的语气暴露了！”萧龙冷笑一声，便是没有再多问什么，任凭不朽冥王在那里巧舌如簧，都是不闻不问。</p><p>萧龙的眼神如冰，似乎是要穿透那无尽的黑暗，深邃而坚定。他踏前一步，身形化作一道闪电，直冲坑洞深处，仿佛要与这无边的黑暗一较高下。</p><p>“轰！”就在萧龙下到坑洞不知道多遥远的距离的时候，整个坑洞都是震动了起来，从坑洞的底部，传来阵阵雷鸣一般的声音。</p><p>“看来，有超级大个的要出来了！”萧龙目光如炬，在漆黑的空间中，如同两颗璀璨炽烈的太阳，照亮无边的黑暗。</p><p>附近的黑暗物质涌动，更有一些石壁之上的洞窟炸开，有浩瀚的能量在这一片地带肆虐，形成了一股可怕的风暴。</p><p>在坑洞的底部，有着一个恐怖的黑暗怪物，要从坑洞底部爬出来。很显然，这个怪物不简单，至少气息上不输给现在的萧龙。</p><p>很难想象，在外界千万个纪元都未必能够见到一个的超脱境界强者，在这里，在生死路之上，居然是连续出现了两个。</p><p>“轰！轰！”整个坑洞之中有着一道道粗壮的雷霆在闪耀，那些雷霆凭空产生，不知道来自于哪里，是天地意志的体现。</p><p>那些雷霆不简单，每一道都是比星河还要广阔，有着几百万光年的直径，大到吓人。随便一道放在外界，那都是足以覆盖一整个星系的巨大雷霆。</p><p>“滚开！”萧龙呵斥一声，那些代表着天地意志的雷霆，根本不敢靠近萧龙。</p><p>这就是超脱境界强者的实力，仅仅是一声呵斥，就能够令的代表天罚的雷霆退却，令的亿万大世界法则臣服。</p><p>“杀！”萧龙挥拳向着下方轰击而去，璀璨的金光将附近的雷霆都是尽数聚拢到了自己的身上，携带着无尽的天劫落下。</p><p>萧龙本身的力量，再加上那从虚无之中诞生的天雷，威力得到了极大的增幅，那种威力说是可以毁天灭地也毫不为过。</p><p>“嗡！”一只巨大的手掌从无尽的黑暗之中伸出来，巨大的体型令的附近的空间都是尽数被撕裂，那些雷霆大部分都被空间裂缝给吞噬。</p><p>那手掌大若星河，随便一根手指都是有着几千万光年的大小，如同创生之柱，横贯广阔的大小，带动无边无际的黑暗物质。</p><p>“轰！”二者相互碰撞，不知道多么广阔的时空被搅碎，有着无数的日月星辰浮现在这里，被破裂的时空给带到了这里。</p><p>那些日月星辰仅仅是一出现，就是在刹那间炸开，化为了最为璀璨的烟花，在这无尽的黑暗之中一道微弱的光芒。</p><p>“吼！”巨大的响声从坑洞底部传上来，令的坑洞石壁之上无数的折叠空间尽数炸裂，很多洞窟有着宇宙大小，也是在瞬间毁灭。</p><p>有着一个巨大的不可名状的生物踏着黑暗而来，在它的脚下，是数不清大世界的进化路，缠绕着秩序神链。</p><p>那些进化路，有的已经消失，淹没在过去的岁月里面。有的还没有诞生，属于未来的某个大世界的进化路。</p><p>“轰！”那个生物八只巨大的脚掌踏在某条进化道路之上，无数的秩序神链在它面前崩断，无尽的大道法则被它踩在脚下。</p><p>八只巨大的脚掌有的属于人类，是人族的脚掌，有的是类似于爪子一般的脚掌，有的是偶蹄目的脚掌。</p><p>这是一头怎么样的怪物呢，像是很多不同的生物的糅合在了一起，血与肉的器官都是很奇怪，犹如畸形的器官糅合在一起。</p><p>真正的不可名状，不可言说用在眼前的这一头生物身上，那是最为合适的一次。萧龙几乎都无法用已知的语言来形容对方，实在是太过于恐怖可怕了。</p><p>千万条手臂混合在这头怪物的四面八方，腹部有着几万条各式各样的不同的生物的手臂，有人族的，有锋利的爪子，更是也有其他的种族的手臂。</p><p>这一头怪物，肉身身上有的地方长满了浓密的毛发，那些毛发根根带着日月星辰的残骸，也有的地方是腐烂的血与肉。</p><p>这种怪物身上带着恶臭的气味，血与肉都是腐烂了，滴着粘稠的液体，像是血液和一些莫名的粘液的混合物，看了让人很恶心，光是看一看都觉得想呕吐。</p><p>说实话，如果可以的话，萧龙真的很不想跟对方有着肢体上面的接触，光是看上一眼，内心都一阵阵的恶心和反胃。</p><p>“擅闯生死路者，杀无赦！”那个怪物浑身上下的各个嘴巴都在异口同声地说道。有的嘴巴之中，牙齿如同一把把锋利的匕首。</p><p>“你好意思说自己是冥帝吗？人家似乎比你强啊！”萧龙略带调侃的意味，对着手掌间的不朽冥王的神魂传音道。</p><p>“呵，本座不想跟死人说话！”不朽冥王的神魂火焰一阵跳动，看起来似乎不在乎，但是内心的情绪波动非常的剧烈。</p><p>“速速退去，饶尔不死！”那个怪物一双眼睛如同日月一般大小，血红色的光芒之中，有着无尽的杀意涌出来。</p><p>“就凭你？还不配！”萧龙挥拳向着怪物而去，要以最快的速度决出胜负，然后继续探索坑洞的更深处到底有什么。</p><p>“那就杀！”怪物也是挥动巨大的爪子，遮天蔽日的压迫下来，那爪子很巨大，有着宇宙星空在手指之间旋转。</p><p>“轰！”拳头和对方的爪子碰撞，恐怖的能量风暴化为一道道能量乱流向着四面八方扩散而去，坚固的石壁都是被震碎。</p><p>怪物其他的爪子向着萧龙抓去，那爪子之上根根锋利，就连附近的空间都是被划出了一道道空间裂缝。</p><p>“碰！”萧龙另外一只手跟对方的爪子碰撞，除此以外还是幻化出不同的手臂，在跟对方其他的手臂互相对碰。</p><p>“创世之眼！”那头怪物眼睛之中有着璀璨的光华释放而出，如同开天辟地的创世神的目光，可以一念之间创造世间万物。</p><p>那是来自于元神的攻击，无影无形，普通的修士若是碰上，只怕会吃上一个大亏，严重的人更是会因此而倒大霉。</p><p>萧龙头顶的三朵金色莲花盘坐的一个金色的小人起身，化为一把神剑，带着凌厉的剑气，向着对方的眼睛之中而去。</p><p>“毁灭！”怪物眼睛之中的光芒发生了变化，跟萧龙的元神小人变化出来的神剑碰撞在了一起，萧龙的元神小人并没有有什么伤害。</p><p>要知道，萧龙的元神小人经历过千锤百炼，还修炼许多不同的元神法术，早就已经是金刚不坏，普通的修士很难打得动。</p><p>反而是对方的眼睛直接炸开，眼眶之中有着黑色的魔血流出来，样子看起来很可怕，若地狱的恶鬼一般。</p><p>不过，对方根本不在乎，因为对方的眼睛不止这一对，还有着其他的几十对眼睛，根本使用不完，还有很多。</p><p>“斩！”萧龙头顶又有着一个元神小人站起身来，手持一把神剑，带着凌厉的气息而降，那是属于元神的攻击。</p><p>“吼！”怪物咆哮，恐怖的声波震动无穷无尽的天地。这种声波很可怕，若是被命中，只怕就算是神道领域顶峰的强者，也会被瞬间湮灭。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

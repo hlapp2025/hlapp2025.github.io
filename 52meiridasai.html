@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>52每日大赛</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《52每日大赛》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于52每日大赛</h2>
+<p>					52每日大赛<p>就在乞儿帮老帮主收到请柬的同一时间，血蛟帮的薛帮主也拿到了同样的请柬。</p><p>“本月十五府上一聚，邀我们共同赏月？”</p><p>他一头雾水。</p><p>拉着狗头军师潘怀德商量了半天，他们终于做出了决定——先找吴参将商量再说。</p><p>他脚步匆匆地赶向校场街，迈入卢氏医馆时已经彻底入夜。</p><p>正遇上赵缨二人自西街返回。</p><p>“薛帮主？”</p><p>“沈校尉、赵姑娘，你们都在，太好了！”薛帮主如同见了亲爹亲妈：“不知可否联系到吴大人？”</p><p>二人对视一眼，纷纷摇头：“天色已晚，恐怕不太合适。”</p><p>“无妨无妨。”薛帮主连连摆手：“那还请转告吴大人，薛某有事相商。”</p><p>此刻“吴大人”焦黑的尸体还在知府的花园中，这个“死讯”还没有传开。薛帮主自是不知道这个“消息”的，还依然神情振奋，自以为同时傍上了知府和参将这两个靠山。</p><p>赵缨思索再三，还是将正准备离去的薛帮主拦住：</p><p>“帮主有事也可与我们相商，我们可以全权代表参将大人的。”</p><p>薛帮主考虑到对方是参将心腹，犹豫了一阵儿，还是重新落座，一抬手递出一张大红色的请柬来。</p><p>二人接过来一看，同时皱眉：“知府大人又要摆宴？”</p><p>“谁说不是呢，小人实在是不知道如何是好。这份请柬中也未写明缘由，只说是宴请诸位豪杰，美酒管够……”薛帮主一脸为难地道。</p><p>美酒管够……想必便是蛭仙酒了。</p><p>赵缨再联想到昨日晚间在邀月楼上听到的消息，两相对比……想必知府大人又要拿蛭仙酒来掌控渝州豪强了。</p><p>“唔……半个月以后是吧！”</p><p>“是、是，这回小人还该赴宴吗？”薛帮主又问道。</p><p>“你去就是！崔大人邀请，咱们还有拒绝的余地吗？”赵缨嗤笑道。</p><p>得了指示，薛帮主连连点头。</p><p>“上次酒宴之后，你有没有什么特别的感受？”赵缨试探性地问道。</p><p>那次薛帮主可喝了不少酒，全是珍贵的蛭仙酒。</p><p>那酒里面，密密麻麻的全是蛊虫，她很是好奇饮下之后会发生什么。</p><p>薛帮主只道：“畅快！”</p><p>“畅快？”</p><p>“自是畅快！多少年的死对头终于进了大狱，某家畅快得真想再喝几晚上。”薛帮主露出振奋的神情，又有些怀念：</p><p>“若是能再喝些蛭仙酒就最好不过了，上次喝完之后老想着那味儿，喝别的酒就总觉得差点儿……”</p><p>“那酒就这么好？”赵缨失笑。</p><p>“当然，男人如何能离得了好酒？这酒一时不饮，就总觉得身上有虫子在爬，挠得人心痒痒，这种感觉姑娘是不懂的！”</p><p>薛帮主砸吧着嘴，言语已经有点不着调了。</p><p>赵缨强忍着才没笑出声来，很想说你身上真的有虫子……</p><p>送走了薛帮主，沈川摸着下巴，边思索边摇着头：</p><p>“这蛭仙酒……呵，京城里的权贵们，也多有服食五石散的，这类物品倒也并不鲜见。”</p><p>京城人玩得可真够花的……赵缨略微有些咋舌。</p><p>她忽然厉声提醒道：“我警告你，你可千万别碰这种东西！”</p><p>“我当然知晓。”沈川摇了摇头：“其实家父也多次上书要禁止这些东西，可每回都被那些该死的言官们拦了回去。”</p><p>言官？那不该是群铁骨铮铮的直谏之臣么？</p><p>她也没在这个话题上多做纠缠，只道：</p><p>“渝州地僻，这里的人还都不知此类东西的危害性，因此这酒估计会风靡一时。”</p><p>沾了这种东西的，没有一个不家破人亡的。赵缨仿佛已经看到了渝州大户们的悲惨结局。</p><p>借着这东西掌控渝州……这位知府大人可真是缺德到冒烟了！</p><p>“还好这次没请我们。”赵缨有些庆幸。</p><p>话音一落却忽觉地不对……</p><p>“对呀，为什么这次没有请我们？”</p><p>二人对视一眼，都意识到了这个问题。</p><p>以参将这等官职，什么宴会能跳过他去？</p><p>除非……知府大人已经知晓参将大人已死。</p><p>沈川一下子想到了什么：“是不是巫山派的莫长老？”</p><p>经他一提醒，赵缨也想到了自己在宴席上做出的误导——</p><p>她越想越觉得有可能，定然是知府大人找到那处小院儿，发现了焦黑的莫长老的尸体，得出了参将大人已死的结论。</p><p>效率这么快的吗？她有些惋惜。</p><p>虽然那日她如此误导，是为了摆脱吴参将的身份绑定，免得有一天狐假虎威露了馅。但这么快就失去这么好用的名头，她还真有些舍不得。</p><p>“也好，也算是消除了一个后患，免得扮演越多破绽越多。”她这么宽慰着，又放下一块大石头。</p><p>哼着小曲儿踏进医馆里面，她不由吸了吸鼻子，敏锐的嗅觉从浓郁的药味里又辨别出一丝饭菜的香味。</p><p>循着味道来到后厨，果见秋月姐忙前忙后，满头满脸都是汗水。</p><p>这两天何二告假，前堂后院都是她在忙活，倒是颇为辛苦。</p><p>见到赵缨进来，卢秋月展颜一笑：“快出去坐着吧，饭菜马上做好。”</p><p>“嗯！”</p><p>赵缨笑着应道，只觉浑身轻松。</p><p>不必躲躲藏藏生怕被仇家发现，也不必提心吊胆地唯恐假身份被识破。这还是她自打到这个世界以来，最为轻松的时候。</p><p>在上层勾心斗角、底层朝不保夕的世道里，这份轻松颇为难得。</p><p>心神一旦放松下来，这两日积攒下来的疲惫便一并爆发出来。她几乎是本能地摸进卧房，一股脑地将自己丢到了床上。</p><p>“嗷呜~”</p><p>感受到熟悉的床榻，闻着安心的味道，她舒服地发出一声意义不明的呻吟。</p><p>也不知是不是错觉，她感到体内的真气壁垒似乎都松动了一些……</p><p>眼皮越来越重，意识也越来越模糊。</p><p>扔在房间角落里的那杆血矛却隐隐地发出血光。</p><p>那血光越来越浓，即使在昏暗的房间中也渐渐变得现眼。那朴素的矛身也开始轻轻地颤动，发出逐渐尖锐的铮鸣声——</p><p>“嗡——”</p><p>这铮鸣声，带动着蚕神也鼓动了起来，赵缨一下子睡意全无。</p><p>“这是……”她稍一辨别。</p><p>这是血矛和蚕神在共同预警！</p><p>忽有一事直直地涌上她的心头，那是她一直以来忽略的事，越想越觉得后患无穷。</p><p>顷刻间，她的身上汗出如浆。</p><p>她整个身子一下子弹起来，顾不得穿鞋，光着脚就往后厨奔去：</p><p>“秋月姐，咱们得离开这里，越快越好！”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

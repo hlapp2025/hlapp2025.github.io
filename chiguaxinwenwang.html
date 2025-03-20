@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>吃瓜新闻网</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《吃瓜新闻网》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于吃瓜新闻网</h2>
+<p>					吃瓜新闻网<p>萧龙依然有一步没一步地走着，时不时地跟变化出来的龙翔说话，显得非常的自然。一座仙山，被一个宗门占据，所能够孕育出来的资源和天材地宝，数量那会是何等的庞大。</p><p>长年累月积累下来，太乙玄门的资源，无论是天材地宝，还是古代先贤大能留下来的宝物，那数量绝对都是天文数字级别。只要偷走一部分，哪怕是万分之一，也足够监天司一夜暴富了。</p><p>监天司刚刚成立不久，正是处于资源，人才都是非常匮乏的时期。如果能够获得太乙玄门的一部分资源，对于刚刚起步的监天司，无疑是最好的。</p><p>“啊呀呀，说起来，司主也是第一次来到我们太乙玄门吧？那可一定要品尝品尝我们太乙玄门的悟道茶！”那个太乙玄门的长老谄媚地说道。</p><p>“这位长老，怎么称呼？”萧龙也是笑脸相迎，毕竟伸手不打笑脸人这句话，萧龙也是比较赞同和认可的。</p><p>别管对方是什么心理，既然对方笑脸相迎，那自己也没有理由以不好的情绪面对对方吧？哪怕对方是个笑面虎。</p><p>“啊，司主客气了，小的姓刘，您可以叫我小刘就行了！”刘长老笑脸相迎，萧龙也不好过多的指责对方。</p><p>“刘长老客气了，我这次来，代表的是帝国，是大翔帝国！袁天师触犯了帝国法律，我是来抓捕他归案的。”萧龙说道。</p><p>说出这句话的时候，萧龙已经是做好了冷场的准备，倒是没有想到对方在听到萧龙的这句话之后，并没有过多的反应。</p><p>“没问题没问题，袁天师他作恶多端，我们早就已经是对他很不满了！门主说了，只要能够让的司主息怒，一切好说。”刘长老说道。</p><p>“司主跟我来，门主早就已经在门内等待司主了！”刘长老微笑的引路，带着萧龙向着仙山的山顶慢悠悠地走去。</p><p>山顶就在眼前，一路上两个人并没有发生什么冲突，而是一直在交谈。以至于萧龙都有一些怀疑，太乙玄门是不是服软了？</p><p>太乙玄门的山顶，有着一座宏伟巨大的宫殿，气势恢宏，有一种气吞山河，威震天下的气势在里面。</p><p>“司主，之前有眼不识泰山，多有得罪，还望海涵！”太乙玄门的门主：丹陈子一脸笑容地欢迎萧龙，脸上的笑容让人生不出一丝一毫的敌意。</p><p>“门主说笑了，我这一次来，只为了公务，其他的一切免谈。”萧龙不会忘记自己这一次来的最重要的目的。</p><p>“哈哈，好说好说！进殿再说，进殿再说！”丹陈子停了一会，这才是脸上重新挤出几分笑容，招呼着让萧龙进殿。</p><p>踏入宫殿大门的那一刻，萧龙就是发现，整个世界都是直接发生了变化。一个巨大的法阵出现在了萧龙的脚底下，整个宫殿变成了宇宙星空。</p><p>而那些太乙玄门的长老，都是已经消失不见了。“呵呵，想要审判我？可笑！你就在这个法阵里面，困到死吧！”袁天师从暗处走出来，冷冷地看着萧龙。</p><p>“哦？太乙玄门真的要与帝国为敌？！”萧龙眉毛一挑，看向袁天师身边的太乙玄门的门主丹陈子，开口问道。</p><p>“哼！小小监天司，也敢来审判我们太乙玄门，真是可笑！”太乙玄门门主丹陈子冷漠地说道，“就算你是仙人，今天也难逃一死！”</p><p>“哦？这么说，之前的态度都是假的喽？我还以为，你们要改邪归正呢？”萧龙平淡地说道，“现在也还有机会！”</p><p>“可笑！若不是我太乙玄门几位老祖外出，我又何须如此跟你虚与委蛇！今天，这诛仙阵就要诛杀你这狂妄之辈！”丹陈子冷冷地说道。</p><p>“诛仙阵？就凭这个法阵？也配叫做诛仙阵？！可笑！”萧龙平淡地说道，显得有着十足的把握，对于眼下的这个法阵，没有丝毫的在意。</p><p>“如果这就是你们的仪仗，那么很不好意思！今天，太乙玄门就要灭亡！”萧龙眼露杀机，身上的法力能量正在酝酿。</p><p>强大的气息释放出来，一条淡金色的仙气环绕萧龙的周身，庇佑萧龙的本体。那是萧龙的仙气，也是萧龙作为仙人的底蕴。</p><p>“轰隆隆！”法阵运行，顿时周围出现一道道星辰，一个个星系，那是真正的天上的宇宙星空显化和投影。</p><p>不得不说，太乙玄门作为排名第五的仙道宗门，底蕴果然是强大。不仅仅是将一个个宇宙，炼化成为洞府。</p><p>更是截取了一个大宇宙的时空，炼化成为了这个所谓的诛仙阵！萧龙能够感觉到，这个法阵，真的有着弑杀仙人的能力。</p><p>不过，那只是对于一般的仙道领域境界的修士来说，萧龙很显然并不在这些行列之中。那法阵变化，有着日月星辰在排列。</p><p>“轰！”距离萧龙最近的几颗星辰，立刻爆炸，狂暴的能量化为风暴，席卷萧龙所在的位置，时空大崩塌。</p><p>那能量很可怕，不亚于是好几个宇宙同时引爆的威力，在这个法阵的加持之下，即便是星辰，也有着不亚于宇宙的力量。</p><p>萧龙施展法术，强大的法力能量形成了一道防护结界，抵挡那些星辰的轰炸。无尽的宇宙碎片，化为了茫茫的能量的海洋，在这一片时空之中翻涌。</p><p>“大！”萧龙施展法天象地技能，全身都是变化成为了顶天立地的巨人。巨大的法身，在这一片时空之中行走着。</p><p>强大的神魂力量释放而出，笼罩了整个法阵覆盖的范围，想要探测出法阵薄弱的部位，从而一举破开这一个法阵。</p><p>一个个法阵节点被萧龙发现，然后一一破除，一个个广阔的星系，直接被萧龙捏爆，哪怕是宇宙构成的星辰，也是如此。</p><p>在仙道领域境界的萧龙面前，所谓的宇宙还是星辰，都是无关紧要的，随手就可以毁灭无数的宇宙和星辰。</p><p>“门主，他快要破开法阵了！怎么办？！”袁天师看到那无数的星辰引爆的力量，都是无法阻拦萧龙的前进，顿时有一些慌张。</p><p>“不要慌，待我入阵与他一决雌雄！”丹陈子非常的果断，进入到了法阵之中，顿时无数的星辰都是被引动了起来。</p><p>无数的星辰汇聚一道道能量，形成了一道道广阔的光河，覆盖了几百万光年的范围，向着丹陈子所在的位置极速而去。</p><p>很快，丹陈子的气息就是在极速攀升，便是成为了跟萧龙一模一样的气息，他也成为了仙人！也是仙道领域境界的强者，有了护体仙气。</p><p>“只是依靠外力获得的力量，并不长久！”萧龙一眼就是看出了对方的底细，只是依靠法阵的力量，成为了仙人。</p><p>“对付你，足够了！”丹陈子对于萧龙看出自己的底细，并没有感觉到惊讶和意外，毕竟对方的实力可是货真价实的仙人。</p><p>“来吧，也让老夫看看，你这个毛头小子有着何等的实力！敢来我太乙玄门撒野！”丹陈子也是施展法天象地，一举一动都是带着巨大的破坏力。</p><p>那些星辰也不在攻击萧龙，而是主动移动到了广阔的时空之中去，给两个人的战斗腾出了广阔的空间。</p><p>“轰！”两个巨大的法身碰撞到了一起，每一次的攻击，每一下的碰撞，都会带来可怕的后果，造成无尽的时空的大崩塌。</p><p>丹陈子背后，有着雷霆在闪耀，那是太乙玄门的功法，乃是天庭雷部正法，有着无尽的杀伐的力量，威力惊人。</p><p>当然，萧龙也是不害怕，以圣天龙帝法之中的天雷道法对敌，以雷霆对抗雷霆，打的那叫一个难舍难分。</p><p>一道道雷霆闪耀，千万雷霆在这一片宇宙咆哮，化为了各种各样的雷霆组合而成的神兽，在对抗，在争锋。</p><p>这一边，萧龙以雷霆演化真龙，演化凤凰，带着无尽的龙威，似乎是要威震整个宇宙和时空一般，威力大的吓人。</p><p>而另外一边，太乙玄门的门主或者说是掌门人丹陈子，则是以雷霆演化千军万马，有一种要气吞山河的气势。</p><p>双方都是各自施展自身最强大的法术，演化世界上的万事万物，在进行交锋。一时间，各种各样的异象，都是出现。</p><p>这是法术的对碰，也是道法的碰撞，谁胜谁负，一时间居然是无法分辨，双方都有着胜利的可能性存在。</p><p>“鸿蒙旗，杀！”丹陈子手中祭出太乙玄门的法宝，乃是一面旗帜，小巧玲珑，却是有着无边的威力。</p><p>只见那鸿蒙旗之中，顿时有着千万雷霆释放而出，带着无尽的天威，轰然攻击向萧龙的法身，要将萧龙彻底的灭杀。</p><p>萧龙赶紧施展护体仙气，仙气发出朦胧的光芒，庇佑萧龙的本体。随后，那些可怕的雷霆，就是劈落到了萧龙的法身之上。</p><p>萧龙被打的连连后退，踩碎了一大片的星空，若不是有着仙气护体，只怕这一击，他就是凶多吉少了。</p><p>“不愧是太乙玄门，果然是不同凡响！”萧龙捂着自己的胸口，刚才那一击即便是他，也是不好受的。“厉害的还在后头呢！”丹陈子冷冷地说道，“不知道天高地厚的小子，受死！”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

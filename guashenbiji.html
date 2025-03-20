@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瓜神笔记</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《瓜神笔记》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于瓜神笔记</h2>
+<p>					瓜神笔记<p>望着眼前堆积的水泥块，我差点没晕倒，合着我辛辛苦苦走了半天，到头来还要原路返回另辟蹊径么？</p><p>不管怎么样，我决定再试试摇醒背上的娜塔莉，如果这妮子不醒的话，那我也没有力气背着她出去了。</p><p>“月月姐身上的味道好好闻……”</p><p>娜塔莉？</p><p>“滋溜～咸咸的，是海的味道！”</p><p>咸你妹啊，海的味道那我岂不是咸鱼了！还有你早就醒了对不对，又来消遣我是吧，可恶！</p><p>我啊啊地发声，故作松手般要将娜塔莉放下来。</p><p>“好姐姐，我错啦，别松手哇。”</p><p>切，刚刚你可是超级无敌的娜塔莉诶，怎么这会跟个娇滴滴的深闺大小姐一样啦？</p><p>心底里吐槽着娜塔莉的同时，我回头看向少女，娜塔莉像树袋熊般攀在我的后背上，棕马尾长发俏皮地披散开来。我无奈地扭头回望，一眼瞟到她那紧蹙的眉头，在一个对视的功夫便松开来，紧接着吐出舌头露出可爱的虎牙。想来少女是吃定了我逃不脱卖萌的关卡，又在对我重施故伎，借此来薅我这个人形座驾了。</p><p>那还是给我下去吧，你这个故意偷懒的小妮子。</p><p>“诶——啊啊啊啊！！！”</p><p>感受到我松懈开的双手，娜塔莉夸张地发出了惊恐的呼喊，双手胡乱在我身上一顿爬，似乎是无论如何也不想离开我这个会走路的桉树上。</p><p>“月月姐怎么这样！说好的不要随便松开啊。”</p><p>娜塔莉一边埋怨一边努力扒着我的肩膀，在少女如调皮捣蛋鬼式的不断攀爬下，脱掉外套只剩下贴身内衬的我很不自然地感受到了后背上那一丝若有若无的柔软触感。</p><p>自恶土苏醒以来，我的所有感官都超乎寻常的强，不仅听得清看得远，连皮肤上的触觉也无比敏感。现在，我后背上那清晰的柔软蹭得我全身皮肤麻麻的，一股奇怪的触电感直冲天灵盖。</p><p>仅仅是隔着两层内衬，就可以感受到如此清晰的丝滑么？到底是这具身体原本就是这么敏感，还是说我没有完全适应这具异性的躯体呢，也许女孩子的身体确实要比男孩子敏感许多吧。</p><p>再次望着前方堵得严严实实的塌陷，我的心底里突然冒出了十分憋屈的枯燥。到底是谁把这么完美的通道炸成了碎渣，众多路线里我为什么刚好就选中了这条死胡同岔口啊！</p><p>现在居然还要再背着娜塔莉转道回头，一想到辛辛苦苦一路过来都是徒劳无益，我甚至产生了想要一拳打爆这堆废物清空通道的无厘头幻象，又为自己的无能为力和毫无意义的自我幻想而感到悲哀和绝望。</p><p>总之是这样的，尽管我已经知道要再走一遍甚至假装安慰自己接受这一切，但一股莫名其妙的烦躁还是残留在不受控制的思绪海洋里，我现在的心情几乎可以用杂乱无章来形容。</p><p>娜塔莉扒拉得让已经疲惫的我很不耐烦，再怎么也不能这样过度宠溺这个小妮子了。我正想一把卸下娜塔莉时突然注意到，即使是走了这么远却始终有一股若隐若现的血腥味。</p><p>我瞬间紧张起来。</p><p>传说古代侠客能够从周围环境中嗅出杀气，根据后现代读者的弹幕锐评，有一种说法是杀气就是杀手侧漏的刀光剑影及其身上杀人如麻沾染的血腥味。</p><p>娜塔莉胡乱地扒拉在我看来像是毫无意识的胡闹，也许利刃华尔兹过后的娜塔莉功力不比先前了，居然没有意识到危险逐步逼近。在我的脑内剧场里，此刻的我就是一个嗅觉灵敏的侠客。寂静的走廊里正潜伏着一群黑衣杀手，即使他们把自己隐藏在黑暗里，也没有发出一点声音，但他们还是毫无保留地暴露了身上那股洗不干净的杀气，并且这股血腥味随着我在原地停留时长而愈发明显起来，我甚至能够听到血刃上死亡之泪落地的滴答。</p><p>娜塔莉，危险！</p><p>右脚微微弯曲抓在地板上，趁着敌人还没有反应过来的瞬间，我猛的一个圆弧转身，却没有看到任何清理者和他们的杀戮机械。</p><p>奇怪，没有任何身影，也没有想象中急促躲闪的动静。</p><p>我不敢掉以轻心，也许对方是全新隐形的第五代超级清理者呢？</p><p>“月月姐……你再这么摇晃娜塔莉可要被你晃晕了……我错了嘛，别再取闹我啦……”</p><p>娜塔莉是中招了吗？她气丝游离的语气完全不像平日里那个活泼可爱的样子。我缓慢地半蹲下来，朝背后努力伸长右手环绕住她的腰肢。我最担心的事情还没有发生，娜塔莉的后背上没有什么透心的箭矢之类的玩意，完整的衣物也不像是被电磁脉冲弹命中的痕迹，但她发白的唇色和涣散的眼神完全不像是少女的恶作剧。</p><p>娜塔莉……你？</p><p>当我要卸下这诛“人形树懒”时，鞋底突然传来粘稠触感。直到这时我才注意到她脚踝处鲜红的裤脚正缓慢地滴答着血水，沿着一路零星洒落点点滴滴。那股所谓的“杀气”并不是什么清除者的气味，而是伴随利刃华尔兹谢幕时那一声清脆骨裂撕开的伤口血水。</p><p>该死！</p><p>我赶紧放下娜塔莉，左手捏住自己的内衬，右手沿着袖口与衣领缝合处使劲，一条还算得上是匀称的布条就这么做好了。</p><p>娜塔莉，你可要忍着点啊，我帮你清理伤口包扎。</p><p>——我是这么想的，看着娜塔莉迷迷糊糊的样子，也不知道她这次能不能懂我的意思，可现在我要怎么清理伤口呢？</p><p>轻轻捧起少女的小脚，我捏着短袜的袜头将其缓慢褪下，血色沾染在白皙的肌肤上显得格外妖艳，但这并不是所谓的凄美，我看到了娜塔莉脚踝处露骨的一幕，即使只是看着我也感到一阵幻痛。</p><p>随着短袜褪落，娜塔莉的睫毛颤抖地随着眼皮微微展开，少女带着虚弱的气息缓缓张口：</p><p>“月月姐，不要担心，我不会有事的。”</p><p>够了啊，怎么好像我才是那个受伤的，然后队友安慰我说“不要紧张，一点小伤，你不会有事”之类的。娜塔莉你是有多心大，现在这个样子居然还要反过来安慰我，你月月姐才不是那种见血大惊的小女生！</p><p>不对，我又不是女生，哎算啦，总之我的意思是不要紧就是了。</p><p>我伸出手来抚摸娜塔莉的脸颊，另一只手捏起折叠的布条在她眼前晃了晃，做出一副包扎的动作。</p><p>在得到娜塔莉点头后，我开始了清洗伤口的步骤。要做到在毫无资源的情况下清理伤口，我也只能用最粗鲁的方式，学习猫咪舔舐伤口的方式将娜塔莉脚踝周围的污垢用备用布条擦拭干净后用口水又擦拭了一圈。</p><p>当然我还没有那么恐怖直接把口水当消毒水用往伤口上撒，毕竟人的唾液里虽然有不少杀菌酶但也有不少的口腔细菌，就算是美少女的口腔也要讲究科学依据，不可能什么细菌都没有是吧。</p><p>好在裸露的脚踝伤口上并没有污垢，在小心翼翼的擦拭后，我将布条的一端按在脚跟前，接着轻轻地缠绕上了第一圈。</p><p>娜塔莉口中传出了一声轻哼，我看着她皱起的眉头，想来刚才是咬着牙关闭嘴发出的声音，因而听起来有些沉闷。</p><p>缠绕的过程相当漫长，我不记得到底过了多久，但最后布条成功的裹住了裸露的伤口，并且娜塔莉的状态也没有再恶化。</p><p>坐在地板上，娜塔莉和我相互依偎着抱团取暖。良久，在感觉到少女体温稍有上升后，我决定继续起身离开，在我看来留在原地的话只会无端消耗体力等死，只有不断向前才有一线生机。</p><p>“月月姐，你好美。”</p><p>刚想抱起娜塔莉，少女却久违地像是开起了玩笑，又对我说起了以前夜晚睡觉前的老话。</p><p>“月月姐，最好看了。”</p><p>好看，哪里好看？</p><p>喂，你在看哪里啊！</p><p>少女盯着我略显清凉的上半身发出了花痴般的呢喃，在将外套披在娜塔莉身上，又撕碎了一件内衬当做包扎布后，我的上半身彻底只剩下了唯一完好无损的贴身内衣。</p><p>所以好看就是指裸露得更多是吧！</p><p>想吐槽些什么，望着寂静的通道，却又如同无法张口说话一样生不出一点情绪来，我再度回想起目前的经过。</p><p>从刚开始的信誓旦旦，到中途险象环生，现在只留下娜塔莉和我孤零零的在这寂静的通道里，我好像什么也没干成，只能看着大家不断地远去和消失。从头到尾我不是在做奇怪的事情就是无意义的意淫，连娜塔莉在战斗中受到伤害也搞不清还在胡乱想着侠客杀气之类的，反而一开始没注意在更衣室松懈下来差点被敌人偷袭。</p><p>挫折和无尽的空虚包围了我。</p><p>我很快释然下来，比起脑内无意义的吐槽，只要娜塔莉能借此保持清醒，那比什么都重要不是吗？</p><p>我们现在这个样子要什么没什么，全身上下只剩下了通话机和一块电池，干巴巴的嘴泛起白色，肚子早已饥肠辘辘。娜塔莉嘟囔着说自己的耳朵边上有蚊子——嗡嗡响，不过这种地方怎么可能会有蚊子，我觉得那应该是饥渴难耐产生的耳鸣吧。说起来我好像也有点耳鸣，我也听到了鞥鞥的声音，难道是地下18层电离辐射太强产生了变异的蚊子，连叫声都低沉了许多吗？</p><p>等等，这种声音怎么似曾相识，我好像在一个月前的那个雨夜，从恶土废墟爬出来时……</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

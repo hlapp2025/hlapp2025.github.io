@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>红领巾报电子版</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《红领巾报电子版》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于红领巾报电子版</h2>
+<p>					红领巾报电子版<p>“冷静点大爷！怪人已经落网了，我们会尽全力为你们挽回损失的！”</p><p>一名特警注意到了大爷的意图，他赶紧拦住了眼前气愤的老人。</p><p>“呜哇哇！老伴诶！俺没本事，保护不了你啊...你怎么挽回！难道我老伴能回来吗！”</p><p>大爷被拦下，他将砖头扔在地上，跪在地上磕头痛哭，紧随其后的警察紧忙将他扶起，大爷打开手机抹起了眼泪，屏保是一个老妇人的黑白照。</p><p>“素芬啊...老头子对不起你啊...”</p><p>特警看着这一幕，他们也顿感无地自容，怪人实在过于狡猾，虽然大部分人都没什么威胁，但也会有这种联合作案的，造成严重的后果。</p><p>怪人不仅犯罪容易，且极其难抓，即使出动特警，也仅仅是能够阻止犯罪，人总是会轻松突破包围圈逃脱。</p><p>以至于总部的考核都只是“阻止怪人犯罪”，抓捕怪人则是获得奖赏与晋升机会。</p><p>住户们也在聚集着，彼此间交头接耳。</p><p>他们基本都是在庆祝怪人终于落网，看着胖男人已经折地不成样子的右手，许多人更是拍手叫好。</p><p>“就是这个该死的畜生！”</p><p>尖锐的声音来自一个不到四十的女人，半个月前她的女儿对她哭诉，说自己在电梯里被一个叔叔...现在人还在接受心理治疗，物业监控里那张脸和此时倒在地上的瘦弱男一模一样，直到今天才看到他昏死在地。</p><p>“求求你了警察大人！我想要亲自为女儿报仇！”</p><p>她恶狠狠地盯着男人的裆部，咬牙切齿，弄的特警都心里直发毛。</p><p>因为怪人的关系，特警的出动频率也变得相当高，所以和市民们也无形间拉近了距离...</p><p>“警...警官啊...”</p><p>特警赶紧扶住了这个白发苍苍的老妇人。</p><p>“哎哟奶奶！您可别慌，有什么事啊咱慢慢说，无论怎样，我们都会严惩怪人，给你们一个交代的！”</p><p>“啊不是的，俺害好...就是俺楼下那户啊，真丧门炫儿！大晚上的改屋里放炮！哎哟俺这把老骨头可受不了刺激...恁能管管吗？”</p><p>“这...阿姨，扰民这种事情您可以呼叫民警来解决，我们要处理犯罪现场，管不了太多。”</p><p>“那...唉，好吧。”</p><p>老人准备拨打电话，突然她好像想到了什么。</p><p>“对了，俺那乖孙好像说什么，刚刚那炮声听着像...飒硬！飒硬似僧么硬啊（沙鹰是什么鹰啊）？”</p><p>飒...沙鹰？</p><p>一位年轻的特警想了想，应该是谁家孩子打游戏声开太大了吧。</p><p>“你俩跟着去看看情况，这附近确实有点令人在意的味道。”</p><p>难道要直面GO学长吗...不过，既然队长有令。</p><p>“是。”</p><p>两名年轻特警，跟随着老妇人，谨慎地经过那道已经倒塌的单元门。</p><p>......</p><p>僵住了...这下该怎么整？</p><p>眼前的银发少女浑身瘫软，眼神迷离，嘴里还一直呜呜咽咽...也就是此时自己用魔法棒撑着她的身子，少女这才能勉强不摔倒在地上。</p><p>但也正是如此，两个人都完全动不了...在完全不互相接触的前提下。</p><p>这个距离...Limit毕竟也是个美少女，好大的辫子...不对不对！总不能就这么僵持一天吧。</p><p>门外逐渐变得吵闹了起来，刚刚楚致远还听到了大爷的哭声...似乎是隔壁楼住的一个独居老头。</p><p>楚致远从这里正好可以看到，窗外的特警，还有他能看到的群众，都在看着地上的什么东西，同时远处响起了鸣笛...听上去像是救护车的声音。</p><p>有人受伤了吗？说起来，刚刚自己拨打了怪人举报专线来着，难道刚刚跑出去的怪人被抓到了吗？</p><p>只不过，即使怪人被抓了，现场人多嘴碎，总会有人和警察说他听到了枪声的。</p><p>即使没人举报，到时候怪人被审讯时，也会把这件事供出来的。</p><p>事态还远没有结束，倒不如说现在才是最危急的时刻。</p><p>“喂Limit，振作点！”</p><p>眼前的少女反应微弱，再这么耗下去绝对不行，实在不行...先慢慢把她放在地上吧。</p><p>楚致远尽可能放慢了动作，然而...魔法棒的尖端侧面刚碰到地板，少女再一次哀嚎了起来，他不得不重新将她撑起来，瓷砖地板上留下了一个肉眼可查的小坑，男生这一来一回，白白浪费了体力。</p><p>浑身激起的酸楚令Limit稍微恢复了一点精神，怎么楚致远还是这副姿势...</p><p>“我说...难道你要就这么撑到明天早上吗？特警还在外面呢，指不定啥时候就会进来。”</p><p>“额...你现在完全没有力气吗？”</p><p>“没有了，一动都动不了...喂，致...至少，看在我把那群怪人干倒的份上，可以帮我一个忙吗？”</p><p>“干倒？你和他们不是一伙的吗？”</p><p>“靠！别拿那种人和我相提并论...算了懒得和你掰扯...果然到哪你都这么无趣...”</p><p>最后一句显得极为小声。</p><p>“果然？”</p><p>“没什么，怪人被我打倒了，这样...瘦的那个，裤裆...胖的，右手...你在这俩部位附近的空气抓一把，带回来...”</p><p>楚致远比较迷惑，Limit这样做的意义是什么？想不出来。</p><p>不过，原来外面的怪人是她打倒的吗？明明她是海洲区的怪人之首来着。</p><p>“那个，要不你先起来？沙发就在那边。”</p><p>“我使不上劲，你带着我去。”</p><p>“但是这样...你看，咱俩谁也动不了。”</p><p>“我身上又没毒！”</p><p>“不是这方面的问题，我的意思是...”</p><p>虽然听她一说，楚致远确实能够感觉出来，少女身上什么味道都有...如果要总结一下，那就是“荒郊野岭，桥洞暗巷”。</p><p>“你看，毕竟你也是女孩子，不能就这么随随便便...”</p><p>“都死到临头了...还在意性别？赶紧的，我压根就无所谓，再不行动咱俩都得死在大牢里...呼...”</p><p>手边的压力加重了一分，少女说完最后一句话后，便已经失去了意识。</p><p>Limit说的没错...自己与她仅仅是萍水相逢，但是无论怎样，今晚好歹也算构成了要死一起死的关系。</p><p>而且...她似乎有些难言之隐，虽然不知道是否属实，但是她和其他怪人似乎是敌对关系。</p><p>楚致远将魔法棒往身上抬，彻底昏迷的魔法少女Limit很快倒在了他的肩膀一侧。</p><p>“不行不行...色即是空空即是色...”</p><p>洁白的银色发丝抓挠着少年敏感的内心，楚致远隐约能够感受到身边流浪已久的少女芳香。</p><p>在尽可能只碰一点点的情况下，楚致远将她扶到沙发上，至于这跟魔法棒...似乎和自己的体质一样，都有着特殊的身世。</p><p>总之似乎尖端不能碰东西，他将魔法棒直接插在了沙发缝。</p><p>“...真丧门炫儿！大晚上的改屋里放炮！...”</p><p>和楚致远所想的一样，有人已经在怀疑自己有枪了！刚刚和Limit掰扯半天，白白浪费了时间。</p><p>警察大概只是会随便应付一下，但一旦真的发现了什么，绝对会不遗余力地搜索，那样的话手枪与少女一个都保不住！</p><p>老登你管那么多干啥！可恶...</p><p>事到如今，只能赌一把了。</p><p>作为一个“不再是普通人的人”，楚致远对于自己的身世，愈发感到扑朔迷离。</p><p>为什么在让自己厄运缠身的同时，还要给予自己极端的反击能力，两件事是否来自同一个存在？</p><p>无论怎样，现在已经是生死一线了。除此之外，大抵是没有活路的。</p><p>楚致远把最后一颗子弹退了出来，随后...他抱着件外套，将枪塞进裤兜里，直接冲出了大门！</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>animegarden.com</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《animegarden.com》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于animegarden.com</h2>
+<p>					animegarden.com<p>天坑周围，无尽的黑暗物质化为黑雾，在天坑附近翻涌。无数的怪物，咆哮着，向着萧龙所在的位置而来。那些带着浓郁黑暗物质，肉身接近腐烂的，犹如地下沉眠了不知道多少纪元的尸体。</p><p>天空在滴血，黑色的液体如同血液一般，带着令人作呕的气味，各种血淋淋的异象浮现，在天穹之上上演。那种景象，真的好像是末世拉开了序幕，流血的动乱揭开了一角。</p><p>“轰隆隆！”一道道粗壮的血红色的雷霆在天坑周围闪耀，亿万大道秩序神链崩断，在天坑的黑暗物质倾泻之下，世间没有什么事物能够承受。那黑暗，带着灭世的力量而来，无人可当。</p><p>“灭！”萧龙手掌一挥，巨大的金色的能量浪涛就是冲天而起，直奔着那无尽的天坑而去。数不清的怪物，在萧龙这随手一击之下炸开。</p><p>那些怪物，看起来很吓人，但是真实的实力并不算很强，还处于人道领域，但是架不住数量实在是太多太多了。</p><p>“圣龙之雷！”萧龙怒喝，掌心发光，天龙八卦掌震雷卦象发出亿万道金色的雷霆，链接天上地下所有的怪物。</p><p>这还是萧龙成为超脱境界强者以来，第一次施展天龙八卦掌！这个跟随着萧龙征战多年的神技，在这里再一次发光发热。</p><p>“吼！”在萧龙身边，几条金色的神龙虚影咆哮，浩瀚龙威释放。这是大秦帝国的龙脉，也是神州大陆的气运源头。</p><p>“封印！”萧龙手指在虚空刻画符文，璀璨的金光在无边的黑暗之中绽放。金色的龙气带着无边的法则符文汇聚而来，帮助萧龙封印天坑。</p><p>“哗啦啦！”一道道由法则符文构建而成的秩序神链汇聚而来，随着萧龙的指挥，凝聚出一道道金色的结界，封锁天坑中的黑暗物质。</p><p>现在的萧龙，在龙脉的加持之下，真正的在行使天道的权能，封印时空维度的裂缝，阻挡黑暗物质的入侵。</p><p>龙脉身上海量的龙气，在萧龙的手里面，成为了缝补的针线，在缝合那裂开的界壁，在修复破损的时空。</p><p>“轰！”界壁之外，无数的源世界冲撞而来，无限多的大宇宙在碰撞的过程中毁灭。那些源世界要进入神州之中，和神州融合在一起。</p><p>每一次的撞击，都是让的萧龙刚刚修复好的部分时空，再一次崩裂，出现了广阔的裂痕。无奈，萧龙只能够继续选择修复，以浩瀚的龙气来修复界壁。</p><p>“嗷吼！”天坑中，有着浓郁的黑暗物质倾泻而出，更是有着不可名状的怪物向外爬。那些怪物，发出咆哮，向着萧龙而来。</p><p>“轰！”一个个怪物带着腐烂的肉体，狠狠的撞击在萧龙修复法阵上面，让的法阵出现了一道道巨大的裂痕。</p><p>萧龙双手法印变化，瞳孔中有着金色的光焰喷涌而出，自己千辛万苦创造出来的修复法阵，可不能够被这些畜生给毁灭了。</p><p>法阵变化，刹那间金色的光焰在法阵之上燃烧。那是天地之间气运的汇聚，是龙脉之力的体现，可以斩杀来犯之敌。</p><p>然而，那些怪物却像是不惧怕死亡一般，狠狠的撞击在法阵之上，然后在金色光焰的焚烧之下，化为飞灰。</p><p>即便是这样，那些怪物依然没有丝毫的恐惧，如同飞蛾扑火一般，一重接着一重，无穷无尽的从天坑之中涌出来。</p><p>“这些怪物，交给我！”天后出手，一掌拍出，一道强大的能量洪流席卷而出，将附近的所有的怪物，尽数覆盖在了当中。</p><p>天后出手，情况瞬间得到了逆转。萧龙面前的修复法阵，越发的璀璨，若一轮烈日横空，在无边的黑暗中，成为唯一的光源。</p><p>无数的天地法则符文被萧龙拘禁而来，一巴掌拍在了法阵之上，天坑周围的黑暗，也是终于出现了消失的迹象。</p><p>天后不断出手，一道道能量洪流从她的手中发出。此时此刻的天后，有一种无上女帝的气势，能够镇压古今未来一切敌手。</p><p>那些不可名状的怪物数量虽然庞大，一眼看不到尽头，但是在天后面前，却是如同纸糊的一般，一碰就碎。</p><p>怪物悍不畏死的向外冲锋，但是却是无法靠近天后身边百里。天后身边百里似乎有着一道无形的深渊，任何生灵接触只会被无尽的时空吞噬。</p><p>“快了，再来几天的时间就足够了！”萧龙不断的变化法印，体内的法力能量源源不断的释放而出，跟随着龙脉一起修复天坑。</p><p>若是没有意外的话，哪怕眼前的天坑大到无边无际，也只需要几天的时间就能够完全修复，黑暗正在散去。</p><p>当然，也只是没有意外。意外始终是发生了，一道黑色的浪涛从天坑中打出，广阔到无法想象，仿佛是一个源世界冲撞而来。</p><p>事实上，那一道浪涛之中，也确实是有着一个残破的源世界，有着无尽的大宇宙时空在浪涛之间沉浮。</p><p>那一道浪涛，带着无穷无尽的时空轰击而来，即便是超脱境界强者，若是一个不小心，也有可能被瞬间击杀。</p><p>黑暗浪涛击破天后周身的领域，狠狠的撞击在天后的身上。让的天后倒飞而出，撞碎了天上一颗颗的星辰。</p><p>这一道黑暗浪涛很可怕，丝毫不亚于之前萧龙遇到的畸形的“龙”发出的攻击，甚至要更加的强大，真的可以称得上是灭世的一击。</p><p>“轰！”黑暗浪涛击退天后之后，也是直奔着萧龙所在位置而来。那黑色浪涛，汹涌澎湃，浪涛无穷无尽。</p><p>“咫尺天涯！”萧龙运用时空法则，瞬间将他自己和黑暗浪涛之间的时空隔开，仿佛有着亿万重时空阻拦一般。</p><p>然而没有用，黑色的浪涛无物不破，哪怕是亿万重时空阻拦，也是瞬间破灭，来到了萧龙的近前，狠狠的撞在了法阵之上。</p><p>“噗嗤！”法阵瞬间破碎，连带着萧龙也是一口金色的神血喷出。那黑色的浪涛太可怕了，攻击力大的吓人。</p><p>“吼！”狂暴的龙吼声从天坑之中传来，一头跟之前变异祖龙脉一模一样的畸形的“龙”从天坑之中飞出。</p><p>那巨大的龙身之上，还缠绕着粗大的锁链，一些腐烂的血肉，还在向着外界滴落着黑色的血液，带着浓郁的黑暗物质。</p><p>又是一头变异的祖龙脉！而且，这一条变异祖龙脉身上的气息，比起之前那条变异祖龙脉更加的强大。</p><p>“吼！”这条变异祖龙脉发出怒吼，身上的锁链叮当响，仔细看的话会看到，那些锁链了不得，乃是一条条不同的进化道路。</p><p>可以看到，那些进化路有着大道符文环绕，更是有着天地法则在沉浮，可以想象这些进化道路曾经也很辉煌。</p><p>在遥远的过去或者是未来，这些进化道路都是创造出过辉煌的修行文明，诞生过不可想象的至高无上的存在。</p><p>但是现在，这些很辉煌，创造过辉煌大世的修行道路却是成为了锁链，成为了变异祖龙脉身上的一种“束缚”！</p><p>刚刚的黑暗浪涛，正是从这一条变异祖龙脉之中发出来的，是变异祖龙脉的龙息。仅仅是龙息，就是击退天后，更是差点击杀萧龙。</p><p>“又一条变异祖龙脉！”天后拍了拍身上的灰尘，来到了萧龙的身边，面色凝重地说道，“黑暗世界可还真舍得下血本啊！”</p><p>“不，不止一条！”萧龙眉头紧锁，在天坑之中，还有着可怕的气息存在，萧龙感应到了，而且气息还不弱于眼前的变异祖龙脉。</p><p>“轰隆隆！”果不其然，天坑之中还有着几条变异祖龙脉陆陆续续的探出头来，足足有着九条！也就是说，有着九条变异祖龙脉！</p><p>九条变异祖龙脉从天坑之中出来，每一条畸形的“龙”身上都是有着进化路化成的锁链，似乎是拉着什么物体。</p><p>“九龙拉棺？！”萧龙看着那九条畸形的“龙”或者说是变异祖龙脉，内心之中不由得冒出这么一个词语。</p><p>在自己的前世，就是有着这么一部小说，描述了九龙拉棺这么一个景象，这在这里不会也要出现九龙拉棺这么一个景象吧？</p><p>九龙拉棺，这么一个景象要是出现的话，萧龙可真的要怀疑自己所在的这个世界是不是真实的了，因为实在是太过于巧合了。</p><p>棺材中不会有诡异始祖吧？那样的话，就真的太过于巧合了，萧龙会怀疑自己穿越成为小说世界中的一员。</p><p>可是，变异祖龙脉身后，并不是什么棺材，而是一辆古老的战车，带着无尽古老的气息，不属于这一片时空。</p><p>战车斑驳，有着无尽的岁月的痕迹，似乎刚刚从古战场之上拉下来一般，看起来随时有可能散架，归于历史的尘埃。</p><p>但是，萧龙和天后却是如临大敌。不为别的，这辆战车拉车的居然是九条真龙，而且还是代表着源世界的祖龙脉！</p><p>祖龙脉代表着什么，不用多说，那是一个大世界气运汇聚之处。用祖龙脉来拉车，真可谓是大手笔。</p><p>更不要说变异祖龙脉身上那些锁链，都是一条条的进化道路，是曾经诞生过至强者的进化路，很辉煌很灿烂。</p><p>能够以如此大阵仗的战车，哪怕是残破不堪，那也是不简单的。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

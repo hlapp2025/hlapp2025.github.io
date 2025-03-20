@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>今日热卖网页版</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《今日热卖网页版》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于今日热卖网页版</h2>
+<p>					今日热卖网页版<p>必须要好好读书，这是她从小就知道的事。</p><p>望着父母面朝土地背朝天的身影，她几乎整天只能跟在年迈的爷爷奶奶身边，她恨自己什么都做不了，于是她学习越发认真。</p><p>爷爷奶奶把她养的很好，很少让她干活， 她好好读书就行了，可她总是抢着干，就算这样，她也越发水灵，漂亮，像一朵墙角的梅花。</p><p>众所周知，考试能筛选人才，但筛选不了人渣。</p><p>明明她只是不爱说话，自尊心强，性格内向，认真学习，凭什么就要受到欺负？</p><p>为什么他们要把她的忍让当成怯懦，随意嘲弄辱骂，把眼泪当做用以取悦她们的玩具，就像玻璃球一样，滚到哪都可以 。</p><p>她只是一个爱哭的女孩罢了，她只是不想让父母失望，不想让父母担心罢了。</p><p>她永远也忘不了冰冷潮湿的床单睡起来是什么感觉，永远也忘不了被扇到地上的自尊心还要被踩碎的感觉，为什么她必须要扯出笑脸，装作嘻嘻哈哈，若无其事的样子，凭什么？！</p><p>黑暗的情绪不停的酝酿，伤口不断地加速溃烂着，以至于她甚至逐渐生出厌学情绪，可这样不行。</p><p>不在沉默中灭亡，就在沉默中爆发。</p><p>有一天，她忍不了了，狠狠的把那人推到墙上，上去就是一巴掌，她感到些许快意，溃烂的伤口被撒上了止疼药。</p><p>后来事情闹大了，学校请来了所有涉事学生的家长，严肃处理。</p><p>当她看到父亲的那一刻，她还是忍不住泪流满面，明明就想好不能再哭了的，可就是忍不住。</p><p>所有认识她的老师都来关心她，鼓励她努力学习，学习可以改变命运。</p><p>学习却弥补不了破碎一地的心，她明显感受到自己变了。</p><p>后来她了解到了相关的法律，她想法律或许会比暴力更有用，暴力只是一时的，还是把双刃剑，可法律是一世的。</p><p>她想或许学好法律就能治好自己，还能帮助那些和自己同病相怜的人。</p><p>转学后的她学习比以往更加努力，认真，尽管她已经不喜欢学校了。</p><p>更重要的是她学会了伪装。</p><p>她把自己伪装的足够的冰冷，对任何外人永远带着一张一成不变的面具，理性、坚强、倔强、高冷仿佛已经成为了她的代名词。</p><p>这样就算后来的人再怎么奚弄嘲笑她  她也再不会露出软弱的样子，再也不会哭了。</p><p>可面具戴久了万一自己都忘记自己原来长什么样子了怎么办？万一为了撕下面具，把自己弄得面目全非，又该怎么办？</p><p>她荆棘缠身，哪怕勒的自己遍体鳞伤，满身是血，也要把刺对向外面。</p><p>从贫瘠之地生出的美丽的花，凡是没毒的，必荆棘缠身，长满倒刺。</p><p>这是她的故事，希望不是我们的故事。</p><p>她叫林婉秋。</p><p>看着已经吃完药在床上躺着的林婉秋，沐夜不禁一口气。</p><p>被子盖住了她的半张脸，现在的林婉秋莫名有些可爱，就像一个小孩子一样。</p><p>原来再怎么高冷威严的人都会有着不为人知的另一面。沐夜看着眼前恬静可爱的学姐的睡颜，想到。</p><p>“不要，你们快滚开，离我远点，我现在有可以让你们付出惨痛代价的能力了。”睡梦中的林婉秋眉头紧紧的皱在了一起，身体颤抖着。</p><p>“这是怎么了？该不会是做噩梦了吧？”沐夜一时间竟有些手足无措。</p><p>见林婉秋的手直接开始乱动了，沐夜也来不及想那么多了。</p><p>他伸手轻轻握住她微微颤抖的手，感受到她手心是都是冷汗，沐夜感觉有些麻烦了。</p><p>“学姐，你现在已经有足够的能力了，不用怕了，现在该他们怕你了。”根据林婉秋刚才说的梦话，沐夜尽可能的安慰着。</p><p>她握住她的手，尽量让她知道自己身边还有人。</p><p>那熟悉的，令人安心的热量从手掌中不断传来，处在噩梦中的林婉秋好像感受到了什么，逐渐平稳下来。</p><p>“太好了，看来是缓过来了。”沐夜想松开手，却意外的发现自己的手被林婉秋紧紧抓住了。</p><p>他尽量用着最轻微的动作，慢慢的把手从林婉秋的手中弄出来，在留了一张字条后他蹑手蹑脚的离开，轻轻关上了房门。</p><p>“”唔～，怎么回事？我怎么在床上躺着了？”林婉秋揉着自己昏昏沉沉的脑袋。</p><p>忽然，她看到床头柜上贴着一张纸。</p><p>“学姐，醒了给我发消息，我给你送点吃的过来。”</p><p>一瞬间，那些记忆就如同潮水一般涌了上来，林婉秋一下就呆住了。</p><p>她被一个比她还小的男孩公主抱到了床上，还被他伺候着把药吃了，最后再在对方的注视下睡觉了。也幸好沐夜学弟是个好人，换作其他人，她想都不敢想会发生什么。</p><p>至于关于做噩梦的事情，林婉秋一点印象都没有，毕竟有时候梦很难被记住。</p><p>“我怎么能再麻烦你呢，明明你已经帮了我这么多了，学弟。”林婉秋想着，把那张纸放进了抽屉中。</p><p>在给沐夜发了一条不用再麻烦他的消息后，（沐夜还想要说些什么，但奈何林婉秋态度强硬，也只好作罢）</p><p>林婉秋点好外卖之后，就又把手机切回了和沐夜的聊天画面，她缓慢的翻着聊天记录，仔细看着，就好像在透过来它们偷看某个人。</p><p>“学弟，你到底是怎样的一个人呢……”</p><p>看着林婉秋倔强的态度，沐夜很难把学姐与病床上的那个害怕又脆弱的人联想到一起。</p><p>不过沐夜还是打算等会儿给学姐送点白粥过去。</p><p>其实沐夜本不会对一个陌生的人这么上心，哪怕对面是个美女，但林婉秋刚刚在床上的神态真的很像小时候刚来的白向晚不停做噩梦的样子。</p><p>他一下就心软了。</p><p>粥已经好了，沐夜正打算给林婉秋送去然后就去叫白向晚吃饭，然后就听到了对面的敲门声，他看到外卖小哥把外卖放到门口就下去了。</p><p>“真是倔强的学姐啊，不过有好好吃饭就行了，至于吃谁做的，那不重要。”沐夜想着，并没有把这件事放到心上。</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

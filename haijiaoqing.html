@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海角情</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《海角情》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于海角情</h2>
+<p>					海角情<p>演都不演了！</p><p>哈哈...这个世界可真是魔幻呢，那个所谓的魔法棒，本来以为是有点能力就乱来的少女怪人力量来源，原来不过是魔法少女Limit区区随手搞来的一把玩具罢了。</p><p>Limit将路灯对准了眼前的肥胖男，只不过...</p><p>“本来我是想直接把你送走的，怎么说呢？毕竟你们怪人的力量来源，那东西对我而言可是类似死敌一样的存在。”</p><p>“你应该感谢寄宿在你身上的那份力量，毕竟这路灯比我想象中的要沉那么一点点，应该足以一下把你砸烂了。”</p><p>“但是这个可解决不掉我真正想要格杀的存在。”</p><p>成吨重的路灯在少女手中，就像一根晾衣杆一样被肆意玩耍着，肥胖男心惊胆战，因为路灯上那根尖好几次掠过了他的脑袋！</p><p>路灯在肆意乱甩之下，逐渐变形。</p><p>“喂大叔，即使是怪人，我也没有随意杀人的爱好，但是你老乱动的话，那死了我可一点愧疚感都没有哦。”</p><p>“你究竟想怎么样！这样耍我你很开心吗！”</p><p>“啊~~！都说了让你给我老实一下了！”</p><p>原本她只是想让对面的男人失去战斗力，但是他一直在躲！</p><p>最终，Limit彻底失去了耐心，她把路灯甩出灯花，残影卷飞了肥胖男，男人倒地后便开始剧烈哀嚎。</p><p>“啊啊啊！我，我的手！”</p><p>右手被那个路灯顶到了，一瞬间就折地彻底没了正常的样子。</p><p>“都说了我是不会有愧疚感的，这回可真别动了哦~”</p><p>少女丢掉路灯，捡起魔法棒，稍微读了一点魔法后，上面被肥胖男留下的痕迹瞬间消失不见。</p><p>“真恶心，说你是猪油男都是赞赏你了，心理变态的玩意，居然对着我的魔法棒摸来摸去的...你可比那个猴子男恶心多了，曾经我还挺爱吃青椒炒肉的，呕...再也吃不下这种东西了。”</p><p>Limit对准男人的右手，戳！</p><p>......</p><p>楚致远开了第一枪后，足足用了三四分钟的时间，才终于理清了他刚刚数分钟内的遭遇与所作所为。</p><p>家里招了贼，而且对方的身份是怪人，轻易打开了自家的保险柜。</p><p>不仅如此，自己还被恼羞成怒的窃贼威胁，却丝毫没有反击的力量，只有窝囊地选择报警。</p><p>后来，恐怖的暴戾念头在脑海中蔓延，窃贼被施以酷刑，就连市民都在疯狂啃食他们的血肉。</p><p>最后，也就是自己手里的...</p><p>“哇啊啊啊！”</p><p>一切都不是噩梦。</p><p>彻底清醒过来后，原本嗜血的想法如潮水般退去，楚致远深深吐了一口浊气。</p><p>然而，伴随刚刚的思维一同而来的...也就是手里这把巨大的手枪，只是掂量一下，重量没4斤也相当接近了。</p><p>虽然造型看上去相当帅气，但这确实是能轻取人命的，真正意义上的枪支，刚刚那一声枪响，不仅差点令自己手腕脱臼，就连耳朵也失灵了好一会，那些窃贼逃跑了自己都不知道。</p><p>此时，客厅中仍然弥漫着丝丝射击后的枪药味，保险箱也被自己打出了一个坑。</p><p>但也许是因为夏国禁枪严格，刚刚那一声枪响似乎并没有引起邻居恐慌，倒是听到了楼上大妈的叫骂声...哪个没素质的搁家里玩黑蜘蛛。</p><p>要怎么办？是上交给警察吗？但是枪上面大概也是有自己的指纹的。</p><p>区区初中二年级的年级第一，哪怕加上拿过各种大奖的身份，在非法持枪的面前那也是不值一提的。</p><p>他的手指完全不敢靠近这把枪支的扳机，生怕一不小心又开一枪，但又不敢把它放下，楚致远此时忘了可以直接退膛...世界已经不正常了，退膛有没有用还真不好说。</p><p>哈哈...这下可真是玩完了，就算没有杀人，自己的前途其实也已经毁了个干净...到时候怎么和警察解释？难道就说这把枪是凭空变出来的吗？</p><p>不行，不能这样！自家就在一楼，虽然刚刚浪费了不少时间，但是现在赶紧冲到后院把它埋起来的话...</p><p>刚刚因为耳朵临时报销，户外的打斗声他是一点都没听到。</p><p>缓和过来后，楚致远才终于听见，有脚步声...难道警察已经来了吗？不对...脚步很轻。</p><p>他此时正用双手，各自扶着手里这把沙漠之鹰的两端，眼睛则是直视前方——一个身高一米五五左右，银色麻花辫搭配海蓝色瞳孔，手持名为“魔法棒”的银色长枪，身穿一整套黑白配色男装的美少女走进了房门。</p><p>恶...等一下！是...魔法少女Limit！她为什么要找上自己家门来？</p><p>刚刚才被窃贼折腾地足够惨了，自己临近午饭那会才对陆洪海说过，绝对不要招惹魔法少女Limit，否则会死的很惨。</p><p>这算什么？算自己以身作则吗？</p><p>楚致远感受着手里这把沉甸甸的沙鹰，这摆明了是直接敌对的样子。</p><p>“你！你别过来！这把枪是真枪，我...我可不怕你！”</p><p>这把枪里面还有一发子弹...不管怎样，特警马上就会来到这里，就算被警察以非法持枪罪抓起来，那也比被Limit这个暴力狂把家拆掉强...</p><p>“魔法少女Limit！我自诩这辈子都没招你惹你，我甚至以前都没见到过你你一次！”</p><p>“就算你要把这里拆干净，至少也要告诉我一下原因吧！”</p><p>然而，眼前的少女似乎有什么顾虑，从见到自己这一刻，她就只是一直端着长枪，神色简直严肃到了极点。</p><p>就在一分钟前。</p><p>终于解决掉了两个怪人，同时知晓了怪人本质为何物的魔法少女Limit，重新开始紧张了起来。</p><p>来到楚致远所在的小区开始直到现在，自己心底那种未知的恐惧感从未散去，不过是刚刚战斗爽的感觉临时将其压制住了而已。</p><p>她并不知道这种感觉为何而存在，但是目前，仍然有重要的事要做。</p><p>那把“枪”，究竟在谁的手里？</p><p>这边是一股油腻味...那边则是一股发酵了的骚味，莫非...不会真的..</p><p>.突然意识到了什么，少女拔腿冲向了楚致远家的方向。</p><p>跑进门的一瞬间，她的身体优于意识率先反应，当场对准某个方向，举起了银色长枪——全身所有魔法回路自动全开，摆出了下一秒就要生死决战的架势。</p><p>是怪人...不。</p><p>这，这究竟是什么！</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

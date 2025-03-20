@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瓜生太郎展览</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《瓜生太郎展览》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于瓜生太郎展览</h2>
+<p>					瓜生太郎展览<p>晚上八点半，海州市公安局。</p><p>赵海峰正焦头烂额地应付着七八个对讲机，里面简直可以说，完全就是败报频传，惨不忍睹...</p><p>偶尔也会有这种情况发生，怪人的犯罪体质导致他们出警无端受阻，但最多也就是遭遇堵车，或者小区栏杆莫名其妙升不起来什么的。</p><p>但是这一次，警车前往报警人所在小区的路上，几乎就是走一两百米就抛一次锚！</p><p>“报告！车辆熄火了，技术员现在正在排障！”</p><p>“报告！我们的车爆胎了，现在正在更换备胎！”</p><p>“报告！前方发生了交通事故，现在暂时无法通行！”</p><p>赵海峰钢牙紧咬...这次的怪人有些过于难缠了！</p><p>他猛敲茶桌，一次性打开了全部的对讲机，扯着嗓子大声下令：</p><p>“全员下车！跑步前进！”</p><p>“是！”</p><p>对讲机只剩下整齐划一的步伐声，赵海峰关掉了对讲机，无力地瘫坐在椅子上。</p><p>今天那个魔法少女Limit不知道发什么病，满大街地乱砸地砖，本来他都已经准备好写辞职信了，现在因为针对怪人出警，他必须继续留存在岗位上。</p><p>他一口气喝掉了一整杯枸杞茶，深深叹了口气，今晚的任务无论成不成功，这个位置他都没法坐下去了。</p><p>特警队伍距离报警人2公里，驱车3分钟，剩余路程预计9分钟到达。</p><p>......</p><p>魔法少女Limit稍微抓了抓空空如也的右手，又看了看眼前正在挥舞着自己的魔法棒，耀武扬威的黝黑大汉。</p><p>“小鬼，这就是差距，你太过于自满了，既然身为怪人，就应该清楚吃饭的家伙不能随意张扬。”</p><p>“那只猴子可以用他的铁丝与公交卡，随便打开任何一把锁，而我右手上的指虎，一靠近价值连城的财宝就会吱呀作响...”</p><p>“不过你很幸运，你的怪人体质似乎是直接给予你力量，但是没了这东西，你就只是个可以任人宰割的丫头片子而已。”</p><p>“和那帮废物条子的过家家游戏好玩吗？哼，最强怪人也不过如此罢了。”</p><p>“啊~好了好了，打住吧大叔，我觉得你刚刚说的话，似乎有一点问题呢。”</p><p>Limit只是随便打发人地甩了甩手，刚刚一直挥棒子确实稍微有那么一丁点手酸。</p><p>“想拖延时间？”</p><p>肥胖男摆出了架势，眼前的少女似乎不太对劲。</p><p>“哎呀，别紧张嘛，我只是突然想到，你刚刚又是要我的身体，又是要我的武器和赏金，有没有这么一种可能，我得先蹲大牢，并且魔法棒被收缴后，你才能拿到这笔钱呢？”</p><p>“妈的，死鸭子嘴硬！你就带着你那点烂嗑下地狱吧！”</p><p>“是吗，大家都称呼我什么恶魔，什么杀人犯，原来我可以是个死到临头还挺会唠嗑的丫头片子啊，第一次有人这么评价自己，我还怪不适应的。”</p><p>少女大概搞懂为什么这群怪人如此嚣张了——正所谓无知者无畏，这群怪人根本就不懂，所谓的犯罪体质从何而来。</p><p>无论是什么铁丝与公交卡也好，还是指虎对财物有感应也罢，本质上都是因为他们也只是可怜的恶物宿主，一旦开展犯罪行动，恶物纠缠他们而引发的恶灾，便会自然而然地降临到那些可怜的受害者身上。</p><p>恶灾的根本目的是破坏人类秩序，会自然而然地帮助这群罪犯。</p><p>少女一直盯着对方右手上的指虎...很显然上面也已经附着了一只低级恶物，她的眼神逐渐变得轻蔑了起来。</p><p>这副魔法少女Limit的身体与力量究竟是不是真正归属于名为“陆洪海”的少年呢？少女并没有在意过这方面的答案。</p><p>但是怪人的本质倒是清楚了，不过就是同样被恶物附身的普通人而已。</p><p>“什么嘛，大人们老是给我起一些莫名其妙的名号，装作自己很成熟的样子，不过你们明明是成年人，似乎也没好到哪去，亏我以前还一直认为，大人就应该是靠谱的。”</p><p>“武器都被我抢了！你还想耍什么花招？”</p><p>“好啊，那大叔你可要听好了哦。”</p><p>虽然警笛声迟迟没有传来，但是Limit已经感受到了脚底传来的，整齐划一的步伐，他们要来抓捕怪人了。</p><p>少女将魔力流动驱动至极致，但是对于这个没有任何魔力的世界来说，无论是普通人，还是本质是普通人的怪人，他们都看不见恶物，感受不到恶灾的异样，同样也感受不到魔法少女Limit的魔力流路。</p><p>肥胖男看到眼前的少女突然开始“瑟瑟发抖”了起来，然而与之相反，一种恐怖的气势使他完全无法接近。</p><p>【极限强化】的魔法功率，迅速提升至了极限，在少女的眼中，她的右手逐渐被银白色的魔力包裹，魔力流路首尾相连，层叠包裹，最终直接融入皮肤，魔法与少女的身躯融为一体。</p><p>“我是魔法少女Limit，是能够拯救世界的英雄。”</p><p>“我自始至终都不是什么怪人，警察把我认定为怪人，只是英雄与正义之间偶尔喜欢开的一点小玩笑而已。”</p><p>“而你们这群自认为有了怪人的力量，实际上只是恶物的可悲傀儡，永远只配活在下水道里的罪犯，直到现在都可悲地以为你们就是那一小撮天命不凡的人，不想想为什么怪人只配沦为罪犯！”</p><p>“不过嘛！既然我好歹也算有个怪人的名头，那就让你见识一下，凭什么老子的悬赏能值八万块钱！”</p><p>旁边就是一顶铁质路灯——作为高档小区的路灯，用料可谓十分扎实，直径超过20厘米，高度更是达到了12米，除了内置的缆线，完全就是纯粹的实心铁棒，论质量已经达到了神话小说中如意金箍棒的四分之一。</p><p>然而，少女的右手，就这么直直插入了这顶路灯的灯杆，握紧魔法棒的肥胖男瞬间僵直在了原地，手中的魔法棒都掉在了地上，发出了沉重的响声。</p><p>他一动也不敢动，这一刻男人彻底认清了，为什么市民们称呼她为海洲恶魔，为什么在抓捕形式上，她享有A级通缉犯的待遇。</p><p>他只能眼睁睁地看着，那根钢铁材质，就连坦克直接撞上去都得熄火的路灯，就被魔法少女Limit看上去柔弱无骨的小手轻易地捅了个对穿。</p><p>“恶！恶魔！”</p><p>少女就连面色都没有凝重哪怕一下，她整只手穿过路灯，轻巧地向上一提，整根路灯连着地下缆线一同拔地而起，伴随着电线火花的噼啪四溅，上吨重的路灯就这样被银发少女拔地而起！</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全民吃瓜吧</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《全民吃瓜吧》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于全民吃瓜吧</h2>
+<p>					全民吃瓜吧<p>伯伦希尔城内的一条不起眼的街道中，两位平民间一段普通的对话正进行着。</p><p>“哟，老吉米，准备去干嘛呢？”</p><p>“当然是去把咱家编的箩筐送给工会，不然这周的饭钱就没着落了。”被称为吉米的男人挠了挠脑袋道。</p><p>“对了，德林牧师让我问问你，怎么好几天没看你去教堂洁身了，牧师大人不是说了，太久不洁身容易招致残滓种的瘟疫吗，难道你没听说过威灵郡的事情？”</p><p>“啊，这事啊，”吉米忽然笑了起来道，“上次去市场交货的时候，运气真是好，遇到几个大傻子，免费派送东西，我随便拿了一个，好像他们叫那玩意肥皂，是用来清洁的，我试了试，和教会洁身的效果差不多，这么久以来也没遇到什么疫病，就一直没去了。”</p><p>“你说的都是真的吗？”站在吉米面前的男人挑了挑眉头问道，“我怎么感觉有点不靠谱，没有祷告与教堂的圣水能防得住疫病吗？”</p><p>“我觉得你可以去试试，那个叫肥皂的玩意就卖几铜板一个，一块能用一个月，如果真用这玩意替代洁身，一个月下来可以省两三枚银币呢，就算真没用，到时候再去教堂补救，也不亏太多不是吗？”吉米耸了耸肩道。</p><p>“不愧是你啊吉米，教堂的洁身用的可都是贤者们祝福过的圣水，贵些不是应该的吗，哪能这样容易地替换掉，你很不虔诚呐。”</p><p>“切，你少来，”吉米不屑地道，“洁身用的水祝没祝福过我不知道，我只知道我每次洁身缴的银币都进了那个德林的口袋里，老子都快吃不上饭了，还要定时去祷告洁身，谁爱去谁去吧。”</p><p>说着，吉林便朝着城中的市场走去，只留下与他对话的男人站在原地。</p><p>“嘶~我感觉吉米这个家伙说得倒也算有点道理，每个月省下来的银币也算是一笔不小的数目啊，如果有了这笔钱······”男人皱着眉头，撮着下巴，也朝着市场而去。</p><p>此时在特伦希瓦庄园之中，伊迪丝还在为灰球穿着衣服，伊迪丝发现这个暗族几乎只有一块遮风的斗篷与两条可称遮羞布的布料作为衣物，便为她多买了几件衣物。</p><p>暗族对此倒也没有特别抗拒，倒不如说灰球接受了伊迪丝的药物之后变得异常安分，她就像是进入了某种专注于修复身体的状态，每天除了睡，对什么事情都不上心，懒懒地缩成一团，蜷在伊迪丝的衣柜角落，有时候还会窝在伊迪丝温暖的床上。</p><p>就连吃饭都要伊迪丝将她拖起来，更不要说换洗衣物了，而暗族对于人类的衣服又无法独立完成穿戴，就导致伊迪丝得亲自为这个家伙换衣服。</p><p>不过照顾着灰球的伊迪丝也没觉得太心烦，人家的伤本来就是为她而受的，灰球的伤势十分严重，肋骨似乎都断了几条，再加上最开始的时候并没有得到较好的处理一直在发烧，几近昏迷，又不像露晞和伊迪丝能够正当光明地接受魔法疗伤，全靠暗族自身体能扛着。</p><p>从这个角度上而言，暗族的自愈能力相比于人类已经算强了，能看着灰球逐渐康复伊迪丝就觉得很开心了，最开始发烧那几天灰球不吃不喝，一直睡着，那时才是真的吓人。</p><p>哈尔德派来的仆从很快敲响了伊迪丝的房门，在那位引路仆人的带领下，伊迪丝困惑地见到了哈尔德。</p><p>“哈尔德，我不是说了，关于肥皂贩卖的事情不需要事事都报告给我，每过一段时间给我个报告就行了嘛？”伊迪丝一见到那位神经病管家，便不满地说道。</p><p>“伊迪丝大人，您是不知道，您的肥皂贩卖赚钱了，我们之前一直滞留的肥皂存货在这几天都卖完了，”哈尔德兴奋地说道，“为了避免货物短缺，我不得不提高了肥皂的售价，但邓茨交付的第四批货物仍然还是刚刚运到市场便一抢而空，我们之前亏的钱都赚回本了，现在正式开始盈利。”</p><p>“哈？”伊迪丝的脸上露出了困惑的表情。</p><p>“您的计划是如此的完美，怪不得之前亏损严重的时候您都表现得镇定自若，我居然还对您的计划产生过怀疑，有过惴惴不安，真是我的耻辱，以后我一定会更加紧密地追随于您的身后，遵循您的吩咐做事。”哈尔德极尽赞美之词地说道。</p><p>“好······好吧，这件事也有你一份功劳，哈尔德，不需要这么说。”伊迪丝木然道，她其实并不觉得肥皂的成功是件很意外之事，但她从来没想过会这么快，她还以为最少要磨个好几年，让肥皂这个东西让更多人所知晓才好卖。</p><p>这就是伊迪丝对这个世界并不了解才会产生的想法，她所不知道的是，正教会一银币一次的洁身在贵族看来确实不算贵，但是对于平民而言仍然是一笔昂贵的费用。</p><p>更不要说教会以肮脏会导致退行疫病做威胁，将洁身列为了一星期必须例行一次的宗教仪式，就如同什一税一般，极大的加重了平民的负担，而肥皂这种东西的出现，则给了许多平民以解脱。</p><p>“感谢您对我工作成果的肯定，但没有您万无一失的计划，哈尔德绝无可能有这样的成就。”哈尔德极为恭敬地说道，“实际上我将您请来，更多的是想听从您计划的下一步，听从您接下来的吩咐。”</p><p>“这些由肥皂赚取来的财富我们应当如何处理，是直接计入特伦希瓦家族之中吗？生产方面也还有一个问题，那就是邓茨提供的货物已经不足我们贩卖了，我们要想办法雇佣更多的人手，加大肥皂生产的规模，这也需要您去与他们洽谈，我不好逾越。”</p><p>望着眼前的哈尔德，伊迪丝开始汗流浃背了，计划？她后续哪有什么计划，她都以为自己能赚钱最少都要到好几年以后了，她哪里会想过赚来的钱要往哪里放。</p><p>何况她根本不缺钱，特伦希瓦家族的金库现在基本上随便给她用，她就算玩了命天天吃喝嫖赌，学其他贵族小姐一样，包几个男人······不对，还得是包几个妹妹，也花不完这些钱，去了王都履行婚约成了王后也不可能缺钱，这钱能拿来干嘛。</p><p>伊迪丝如今才惊讶地发现，上辈子从未觉得赚够了的钱，现在居然觉得不知道怎么花了，反正不给特伦希瓦家族就行了，这就是现在伊迪丝唯一的想法。</p><p>既然如此，那就只能这样了。</p><p>“咳咳~”伊迪丝十分严肃地轻咳一声，凝视着眼前的哈尔德道，“哈尔德，我不希望你总是听我的命令才会行事，我不需要只会听命令的废物，我会帮你去和邓茨交涉，扩大生产的，但贩卖这边，你觉得接下去我们应该怎么做？”</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

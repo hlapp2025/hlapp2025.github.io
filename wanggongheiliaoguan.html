@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>网红黑料馆</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《网红黑料馆》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于网红黑料馆</h2>
+<p>					网红黑料馆<p>“早上好，娜塔莉的小妹，今天也是个好日子呢。上古时代的宝贝现在开卖了，要不要来大叔这选一把趁手的武器啊？”</p><p>“俗话说得好，枪在手跟我走，这年头出门在外哪能没一件趁手的武器。我想，一柄狼牙棒也是个不错的选择，碰上割腰子的请给我从它们后面狠狠通透通透，你会喜欢上这种感觉的！”</p><p>“记住，我是你们的大叔——uncle陈，别忘了每天出门前都要记着自己腰间吃饭的宝贝，管好自己的裤带子。最后，我爱你们！”</p><p>一如往常，当我出门时，右侧斜对面的肌肉大叔都会用他那洋溢着成熟男人味的嗓音和我热情地打招呼——也就是上面热血沸腾的问候三连，那股激动的劲我怀疑他下一步马上就要给我来个猛男的抱抱。</p><p>uncle陈那一股充满某种奇妙的嗓音让我立马就记住了这个挂着五金店招牌的老板，这里什么器具都卖，包括打造的武器！毕竟按他的话说这叫拓展业务，为用户提供多样化个性化的选择。</p><p>另外，他对我的称呼不知何时从“你”逐渐变成了“娜塔莉的小妹”，这都得从一次饭后闲聊开始……</p><p>由于每天我都会出门散步，而且娜塔莎医生这里人来人往，除了来看病的家族成员以外，还有一个原因是娜塔莎作为营地为数不多的好大夫，她的【堡垒】就坐落在营地中心废弃的充电桩旁边，好不热闹的地方。</p><p>一来二去营地的人都见识了我这个走路还有点拐的——女孩，又因为手上一直拿着写字板，远远的看上去像个小妹妹一样，再之隔着人群和帐篷车辆之间发出的娜塔莉的声音，于是某种声音一传十十传百的散开了。</p><p>“娜塔莎医生有个新妹子，是她妹子娜塔莉的小妹，看着好软萌的。”</p><p>不不不，我真的不是小萝莉啊，你们别以为我穿着病号看着弱小，其实娜塔莉才小好吧。</p><p>“略略略，你是小妹，大家都知道咯。”当我私下用写字板向姐妹俩吐槽时，娜塔莉冲我咧了个鬼脸，像个百灵鸟一样飞也似的溜达了出去。</p><p>喂，少女，你讲道理好不好啊，虽然我们都是零零后，但我可是03年生的，你个丫头片子(っ-‸-ς)。</p><p>“那你算是她姐姐了，请不必较真，娜塔莉这孩子很可爱呢不是吗~”娜塔莎温柔地解释着。</p><p>是啊，这孩子确实可爱呢，可我觉得我变成比我小的女孩子的妹妹这种事，浑身上下都不自在，非常的不自在！！</p><p>合着我不仅变小了，还性转了！特别是后者，我真不习惯这个感受，就好像你从小被灌输男子汉大丈夫，顶天立地能屈能伸，而有一天大家对你说你其实是一个女孩子一样。</p><p>不对，事实就是这种事情确实已经发生了啊༎ຶ‿༎ຶ</p><p>“其实……”娜塔莎的目光遥望少女溜达的方向，“在恶土长大的这些年以来，这孩子也是希望有一个妹妹一样的人来由她守护吧。”</p><p>我敏锐地捕捉到了娜塔莎话语的低沉，似乎包含着复杂的情绪，只是尚不明确其中滋味。</p><p>是嘛，娜塔莉也有想要守护的人，可偏偏是一个原本素不相识的人，这很奇怪吧！</p><p>确定？这小妮子，真的只是想感受保护别人，而不是耍小孩子脾气故意压我一头么……</p><p>尽管娜塔莉天天喊我小妹占我便宜，可终究，那件事情还是来了。</p><p>……</p><p>似乎是上次沐浴日的影响，我始终没敢真的和娜塔莎姐妹一起洗浴，为此娜塔莎还嗔怪说我不懂得节约水资源。</p><p>没办法我好说歹说我这个人害羞，而且我会用桶子接住水，先洗头，然后再擦洗身子，这样一来也用不了多少水。</p><p>那这似乎比起姐妹两的泡澡计划还节省水，再加上营地属实也不缺那点水，而且我又没有出去活动，基本上隔一天才洗一次。</p><p>如此这般下来，娜塔莎终究还是没有抓着我去玩什么澡盆3p之类的令人兽血沸腾的事情。</p><p>废话啊虽然我生理上是个女孩子可我内心可是个大男孩啊，如果我去了指不定会当众流鼻血的吧，而且是每次都会流的那种啊。</p><p>那么再怎么解释也无法掩盖是我激动了的事实啊。而且，我觉得娜塔莉一定会注意到我那不受控制注视着某处的眼神吧，到时候怎么都解释不清就完蛋了，所以</p><p>一定不能去！</p><p>尽管在生活上尽量和两姐妹隔开了交集，但有一件事情还是让娜塔莎注意到了。兴许，这件事情可能和娜塔莉也有一点点关系吧。</p><p>那就是……</p><p>是的，可能是大家都没注意到我被救回来后先前的衣物早已破碎，加上全身绷带和病服穿了好几天的缘故，又或者是娜塔莎每天的工作已经够繁忙了的原因吧。娜塔莎自己也没注意到，似乎我作为一个青春妙龄少女，少了一些女孩子该有的物品。</p><p>在某个惬意的傍晚，我洗澡出来后，娜塔莎出神地望着我的脸，搞得我怪害羞的说，然而随后却皱起了眉头。</p><p>“小家伙，你把我们当外人了吗！”</p><p>啊，发生什么事了？（无辜脸）</p><p>“缺什么东西不能告诉我吗！是我不好……”</p><p>娜塔莎突然的自责让我很不好意思。</p><p>她在说什么？</p><p>我缺了什么东西？</p><p>还有，为什么素不相识的娜塔莎会对我这么好？</p><p>“刚好！”娜塔莎食指轻拭眼角，恢复了平静的语气说道，“明天我们出发去附近的镇子里采购物资，和我们一起去吧。”</p><p>而当时处于懵逼状态的我还不明白发生了什么事。</p><p>于是，现在站在镜子前的我就是非常尴尬的局面，那什么……</p><p>“脱了，对！我说脱下来，听话。”</p><p>处在更衣室没有写字板的我紧张的直呼呼，搞什么啊怎么在这种场合让我脱衣服，就算是买衣服我自己试穿不就好了嘛。</p><p>像是下定了某种决心一般，怀着忐忑的心情小心翼翼地脱下了最后一件衬衫，然后……</p><p>娜塔莎在亲自帮我测量！</p><p>再怎么白痴我也知道为什么来这了，原来是买那个……</p><p>搞不好正是昨天洗澡时才发现的，毕竟娜塔莉也到了青春期，可能这个做姐姐的顺势就注意到同为青春期的我目前为止从未穿戴过文胸的事情。</p><p>说起这个还挺不好意思的，上初中那会儿，某个早自习我们的文娱委员忘记拿起她的练习簿，于是我追了上去，结果由于两人都在奔跑居然一不小心给对方的文胸解开了……</p><p>真是的，现在居然轮到我穿这种东西了，这个让我巴不得埋到地下一万米的黑历史居然毫无保留地冒了出来啊啊啊！！！</p><p>神啊，你是在惩罚我，一定是这样的吧！让我糊里糊涂变成女孩，让我亲自感受作为女孩子的一切，然后最终目的是让我想起以前的糗事对不对？</p><p>但千万，别公开我的浏览器历史啊，粉身碎骨浑不怕，必留清白在人间啊！</p><p>“唔……真是很大邪恶！可恶可恶！！”</p><p>咦，娜塔莉你怎么进来了，你不是在隔壁挑选自己的衣服吗？</p><p>“身为妹妹却留着比姐姐还肥硕的邪恶，可恶的大奶牛！！”</p><p>喂喂，我比你大啊，不是我是说我年龄其实比你大，你不要老是叫我妹妹好不。</p><p>而且〃∀〃</p><p>这也没办法啊，这具身体她自己发育成这样的啊我说，又不是我非得这么要这么大的邪恶的。</p><p>至于大奶牛什么的，也太冒犯了吧，提到自己因为某种邪恶而被称呼大奶牛，我就联想到牛奶是怎么收集的，然后强大的脑内剧场居然自动渲染起了那种邪恶的场景细节了啊喂！！！</p><p>至于渲染细节我就没法说了，如果说出来的话，恐怕在流浪者的生涯就要结束了罢！（恼）</p><p>娜塔莉气鼓鼓地把我面前各种卡哇伊图案的文胸全都一扫而空，说是什么姐姐偏心之类的话，然后决定自己先试那些可爱的类型。</p><p>呼！拿走了也好，说实话我从没见过这么多文胸，娜塔莎还让我多选几件试穿，这一下子给我整得大脑都快宕机了。这下终于不用再持续遭受神的惩罚，娜塔莉你真是我的小天使啊！</p><p>“哎这孩子，实在是淘气，你别介意，我去找她去。”</p><p>哎？其实你不用去找娜塔莉的，她喜欢就让她挑去吧。我也不想面对着一堆文胸挑来挑去的了，感觉像个变态一样……</p><p>可惜我没法说话，只能无奈的呃呃两声，然后眼看着娜塔莎快步驶出，留下不断荡漾的门帘。</p><p>真是，算了我还是换一件吧，这件其实蛮勒得慌的，好像我确实是太邪恶了……</p><p>对了，这个要怎么解来着？怎么上学那会我只是随便拍了拍人家就把人扣子不小心解了，结果我现在对着这东西干着急啊，神又在给我恶作剧了嘛。</p><p>可恶啊我说，谁能帮帮我！</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

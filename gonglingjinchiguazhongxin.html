@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>红领巾吃瓜中心</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《红领巾吃瓜中心》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于红领巾吃瓜中心</h2>
+<p>					红领巾吃瓜中心<p>   “拜师礼就不必啦，整那些虚的没什么意思，何况我也并非莉莉娅真正意义上的老师，最多就算个引路人吧。能走到哪一步，最终还得看你自己。”</p><p>     “好吧，我知道了，薇莉丝姐姐。”</p><p>     不知道是不是薇莉丝的错觉，说出这句话的时候，王女小姐脸上似乎带着些许惋惜？</p><p>     “行了，天色也不早了，莉莉娅早点回去休息吧。好好想想要选择的方向，明晚还是这个时候，再来房间找我就好。”</p><p>     “好……等下，薇莉丝姐姐，明晚可能不行了。”</p><p>     莉莉娅下意识就想答应，但似乎是突然想到了什么，又连忙开口道：“我已经跟雷顿将军商量好了，奇袭部队明天夜晚就要出发。”</p><p>     “这么急？”薇莉丝皱了皱眉。</p><p>     “没办法，兵贵神速，谁也不知道兽人第二波进攻会什么时候开始。”</p><p>      “行吧……不过莉莉娅，你确定，要亲自去吗？”</p><p>      “….对。”</p><p>      王女殿下没有迟疑，表情相当坚决。</p><p>      “嘛…随便你好啦，反正我这苦逼的打工人，肯定是要跟雇主一起出城的，到时候找机会再教也是一样。”薇莉丝无所谓地摊了摊手。</p><p>      见护卫小姐没有因自己的决定露出反感之色，莉莉娅也松了口气，“那薇莉丝姐姐，就这么说定了，明天见？”</p><p>    “明天见，晚安～”</p><p>     莉莉娅很快推门而去。</p><p>     薇莉丝坐在椅子上，静静地注视着窗外的夜色，不知在想些什么。</p><p>     光芒一闪，金发的小龙娘出现在少女身后，发出有些困惑的询问：“主人，您真的要教那个人类我们世界的力量吗？”</p><p>     通过共享的视野，晓光看到了之前房间里发生的一切。</p><p>     薇莉丝笑着揉了揉自家宠物的小脑袋，“怎么，你不希望我这么做吗？”</p><p>     小龙娘低下头，语气沉闷：“主人做什么都是对的，我只是无法理解，为何您要对一个区区人类那么好，就因为她是那个什么王女？不过蝼蚁的领袖罢了，对于您来说，应该并没有什么意义。”</p><p>      嗯？怎么感觉这语气有点酸溜溜的呢？难道宠物也会吃醋吗…….？</p><p>     组织了一下词汇，薇莉丝耐心解释道：“话不能这么说，从认识到现在，莉莉娅还是给了我很大帮助的。多亏了她，我才能快速了解这个世界的各种常识和情报，虽然都是些摸不着的东西，但却很有用不是吗？”</p><p>     犹豫片刻，少女还是决定把话讲明白：“而且，我也挺喜欢莉莉娅这孩子的，坚定、有抱负、敢说敢做敢拼，我很想看看，她能走到哪一步。”</p><p>     “主人喜欢她？”</p><p>     小龙娘语气突然变得有些古怪。</p><p>    “噗咳咳咳！！…….是欣赏、欣赏的那种喜欢啦，你别想太多啊喂！”</p><p>     薇莉丝差点给自己口水呛死。</p><p>     这小龙娘捕捉关键词倒是挺有一手的，怎么有种丈夫被妻子追问奸情的感觉呢，明明自己和晓光，还有莉莉娅都不是那种关系…….</p><p>     盯…….</p><p>     “真的？”</p><p>     “真的。”</p><p>     薇莉丝毫不犹豫。</p><p>     “……至少现在，我并不对莉莉娅抱有那种方面的感情，虽然她是个很可爱的美少女，但我也不是那种见一个爱一个的类型，放心，我有数。”</p><p>     见薇莉丝面色坦然，语气郑重，晓光也稍微放松了下来。</p><p>     她不知道自己为什么会特别在意这种事，本来无论主人想干什么，宠物都应该无条件支持才对，但小龙娘刚才就是忍不住开口的冲动，明明以前都不会这样的。</p><p>      “抱歉，主人，说了奇怪的话。”</p><p>      “没关系，早点休息吧，我有种预感，咱家王女殿下这次的行动，恐怕会挺有意思呢……..”</p><p>     ……………….</p><p>      寂静的夜晚，连飞鸟都已经回巢安寝，万壑堡垒恢弘的城墙如巨兽般横梗在大地上，前方则是一望无际的低语平原。</p><p>      据说，不少人夜晚在这片平原上休息时，偶尔能听见耳边传来细微如少女轻语般的呢喃，仔细去捕捉的话，却又什么都听不见……</p><p>     几番调查之后，王国的专家将其解释为，平原夜晚的风经过特殊地形时产生了变化，才巧合地出现类似于人声一样的效果，并非谣传的什么幽灵鬼怪、远古遗迹之说。</p><p>    虽然有很多学者都不服这一结论，但他们也提不出更有说服力的见解，渐渐，这就成了大多数王国人的共识。</p><p>    兽人大军驻扎的火光在遥远处若隐若现，自从第一天试探性进攻被打退后，它们就一直呆在离万壑堡垒十几公里远的位置拉开阵线，既不进击，也不撤退，莉莉娅等人也无法判断敌军指挥官究竟在打算些什么。</p><p>    但这并不会影响到她的行动。</p><p>    趁着黑暗笼罩，万壑堡垒侧面的小门突然打开了一道口子。</p><p>    无数轻骑兵悄无声息地快速涌出，融入夜色之中，待到最后一名战士也冲出堡垒，门便静悄悄地再度关上，似乎，什么事都没有发生过…….</p><p>     兽人营帐，中军。</p><p>     一道笼罩在黑袍中的身影于夜色中悄然移动着。</p><p>     他并没有刻意隐蔽自己的存在，但路过的那些兽人士兵却像是压根没看到他一样，毫不阻拦，竟放任他接近了最中心的巨大营帐。</p><p>     “站住，不许再靠近了。”</p><p>     抵达中军大帐边缘，黑袍人突然停下，因为他的背后已经抵上了几根尖锐的利爪，只要稍一发力，就能轻松刺破心脏。</p><p>     但黑袍人不慌不忙，反而用有些赞许的低沉声线道：“久闻狐人族精通诡道，尤擅隐匿、刺杀和探查，今日一见果真名不虚传，一只还没成年的小狐狸，居然也能识破我的秘术。”</p><p>     “你，是传说级吧。”他眯了眯眼。</p><p>     “没什么大不了的，只是你自己，坐井观天罢了，我认得你，人类，又来做什么？”</p><p>     夜晚湿冷的空气里传来有些不太熟练，但声音却很好听的王国语，给人柔魅与冷漠交织在一起的错觉，制住黑袍的很明显是个女孩子，或者说……母狐狸。</p><p>     小狐狸梅维斯对这个擅自潜入的家伙敌意很重。</p><p>     如果不是之前见他与族长交谈，并安然离去，这种偷偷溜进军队里的人族，她根本不会开口询问，直接就宰掉了。</p><p>      对于狐狸少女的冷嘲热讽与敌视，黑袍人似乎并不在意，有些好笑道：“自然是大事，与你说真的没问题吗？不应该让我见见祭祀大人？”</p><p>     “族长岂是你想见就能…….”</p><p>     话说到一半，小狐狸的声音突然一顿，不爽地咂了咂嘴，收回伸出的爪子。</p><p>     “大祭司同意见你了，人类。”</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

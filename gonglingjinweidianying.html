@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>红领巾微电影</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《红领巾微电影》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于红领巾微电影</h2>
+<p>					红领巾微电影<p>雨下了一整夜，直到天快亮了才稍稍止歇。</p><p>白山劈了门扇，做了个简易的板车，由他那两匹神骏的好马拉着。</p><p>然而雨后的道路湿滑而又泥泞，二人早早上路，却也行得很慢。</p><p>如此，足足到了傍晚时分，才到了一处茅屋小院里安歇下来。</p><p>“那神医就在此处吧？我便送到这里了。”白山豪迈地一笑道。</p><p>赵缨从柴扉之中看去：这个农家小院确实简陋，但遮风挡雨却也是足够了。</p><p>那土胚墙和茅草顶看起来还很新，应当是刚盖起来不久。</p><p>论起僻静，这处小院坐落于城外三十里的山谷之中，离最近的镇子也有十里路。</p><p>若非故意寻找，平日里断难来人。</p><p>赵缨踉跄起身，正要拜谢，却见那少侠竟已解下车辕，而后一气呵成地翻身、上马，在一片爽朗的笑声中远去，只留下一个潇洒的背影。</p><p>“当真是大侠风范。”她不由叹道。</p><p>回过头来，面对着小院柴扉时，她却突然涌出一股近乡情怯般的慌乱来。</p><p>她伸出手，却半天都叩不下去。</p><p>正踟蹰间，那门却自己开了。</p><p>随即一个虎头虎脑的胖娃娃探了出来。</p><p>“姑姑？”</p><p>“诶？小……小武？”</p><p>赵缨强行缓下神来，却认出了自己的侄儿赵武。</p><p>这是自家大哥的儿子，也是这边居住的这位神医的外孙。</p><p>“小武，你外公和妈妈在吗？”</p><p>“不在，上山采药去了。”小武诚实地说道：“说让我自己一个人在家，无论是谁都不要开门。”</p><p>“……”</p><p>赵缨一阵无语：“那你还给我开门？就不怕来得是歹人？”</p><p>“嘿嘿……那是旁人。姑姑的声音，小武绝对认不错！”这小子憨厚地道。</p><p>赵缨微微一笑。</p><p>她又问：“话说你怎会在这里，不是该在镖局才对吗？怎么，私塾不上了？”</p><p>“那夫子的脸比马脸都长，我可不愿天天见他！”小武气鼓鼓地发了通脾气，又补充道：</p><p>“其实是爷爷喊我来的，只说是外公想我们了。”</p><p>小武是自家大哥的遗孤，他的爷爷自然也就是自己的便宜父亲，那位赵镖头了。</p><p>他的外公，正是自己要找的那位姓卢的名医。</p><p>“什么时候的事？”</p><p>她问道。涉及到赵镖头的事，赵缨总是会本能地留一个心眼。</p><p>“也没几天，五天前？不……三天以前。我们那天走得很匆忙，我娘连衣服都没带几件。”小武回想着，说道。</p><p>三天以前，正是赵家张罗着“嫁女儿”的日子，赵缨一下子就明白了。</p><p>赵家定然是知晓这位大嫂跟自己亲近，害怕节外生枝，便提前把这娘俩儿给支走了。</p><p>大嫂卢秋月倒也罢了，她的父亲卢延寿可是渝州城有名的名医，在当地颇有一定影响力。</p><p>若是他们一家闹起来，对赵镖头来说还真的会是件麻烦事。</p><p>想到这，赵缨的面容变得冷峻了起来。</p><p>“姑姑，真的是外公想我们了吗？”小武不安地道。</p><p>他只有七八岁大，但是自小失去了父亲。缺爱的孩子心思总是敏感得很，总能从一些小细节上发现点什么。</p><p>“嗯？你为什么这么问？除了这个还能是什么原因呢？”赵缨摸着他的脑袋，轻柔地问道。</p><p>“是不是有仇家上门，爷爷嫌我们碍事了？”</p><p>“瞎猜啥呢！”赵缨一巴掌拍在他后脑上，失笑道。</p><p>她不敢告诉他真相，那真相比他想的还要残酷。赵家确有变故，却并非来自仇家外敌，而是同室操戈。</p><p>她虽在笑，内心却一阵一阵地感到悲凉。为小武，也为了自己这个前身。</p><p>直到天色彻底黑了下来，卢家父女两人才赶着牛车回到小院子里。</p><p>“小武！跟你说了多少遍，家里没人的时候不要开门不要开门！遇见歹人怎么办？”</p><p>大嫂卢秋月人未到到，声先至。赵缨明显感觉到，小武的身子猛地一个激灵。</p><p>她差点乐出声来。</p><p>又觉得怎么着也得帮侄儿解围，于是她忍着伤痛，勉力高声道：“嫂子，不关小武的事！”</p><p>柴扉“啪”地一声洞开，卢秋月欣喜地闯了进来。</p><p>“妹妹！你也来了？我今天还在个行商那里听说了件不好的事，还一直担心来着。”</p><p>她说着，冲过来给了赵缨一个大大的拥抱，热情地让人招架不住。</p><p>两团丰满的软肉贴在身上，赵缨的脸色一下子红了起来，连话都说不利索了。</p><p>“我……我没事。”</p><p>“没事就好！”卢秋月稍稍松开了些，赵缨这才喘了口气。</p><p>自家这位大嫂年近三十，脸上已经有了些风霜的痕迹。但或许是常年跋山涉水的缘故，身材却依旧如年轻时一般紧致与苗条。</p><p>赵缨不自觉地瞥了眼她的胸部，又下意识地看了看自己的。她竟莫名地生出一种自惭形秽的感觉。</p><p>她赶紧将奇怪的想法甩出脑袋。真是，转世成女人了，还是改不了这个比大小的习惯。</p><p>小武被打发去了院外，去帮外公卸车去了。小院中只剩下了她们两人，赵缨这才道：</p><p>“那行商说得，其实是真的。”</p><p>卢秋月顿时变了脸色。</p><p>赵缨想了想，将这两日的经历一一道来。她从赵家合谋，到冥婚入棺，再到脱身而出，白山帮助等等，全无隐瞒，只有穿越和蚕神这两节略过不提。</p><p>在她的潜意识中，这位大嫂是值得信赖的。这种信任来源于赵四娘的记忆。</p><p>此番陈述，果然听得卢秋月揪心不已，抱着赵缨连连叹气：“妹妹你受苦了。”</p><p>这句安慰的话一入耳中，赵缨一下子便如被雷击一般，心脏猛猛地颤了一下。</p><p>到这个世界以来，各种迷茫、愤懑、委屈，万种情绪此时一齐涌上了心头。她再也坚持不住地大哭出声，声音大得连院外的老牛都听得清楚。</p><p>小武和须发花白的卢神医一同探出脑袋，神色不同。</p><p>“好了好了，看你憔悴成什么样子了。”卢秋月柔声道：“你既然受了伤，快快进房间里让我父看看。他专治跌打损伤，医术你是知道的。”</p><p>赵缨这才尴尬地抹着眼泪，但经如此一阵发泄，她的心情却是好得多了。</p><p>她看着门外站着的一老一少，老脸通红地钻进了屋子里。</p><p>该死的，丢死人了！</p><p>直到进屋一刻钟以后，她还是感觉脸颊发烫。</p><p>“呵呵，不必觉得羞赧。人有七情六欲，再正常不过了，你把它发泄出来，比起郁结在心里可强得多。”</p><p>老卢缓缓步入屋里，边走边说道。</p><p>赵缨扯出一个微笑：“卢神医。”</p><p>“适才听你哭得那么大声，还以为赵天伦死掉了呢。”卢神医打趣道。</p><p>赵天伦是赵镖头的大名。赵四娘一向孝顺，若是亲爹死了，还真会如此大哭。</p><p>可是她是赵缨，不是赵四娘了。</p><p>“若是他真死了，那才好呢。”赵缨摇头嘀咕道。</p><p>“是吧，可害我白高兴一场！”卢神医附和着，深处两指搭上了她的脉搏。</p><p>赵缨惊讶地睁大了眼睛。</p><p>“不要这么惊奇，老夫和姓赵的一直不对付，这事也不是秘密。”卢神医随口道：</p><p>“你的事，老夫都已知晓，姓赵的这事做得确实不地道。不过你也莫要自伤自怜，他容不下你，老夫这里却不差一个病人。”</p><p>赵缨的鼻子又有点酸涩。</p><p>两根枯瘦的手指在她洁白如皓玉般的手腕上探了半天，老神医终于直起身子道：</p><p>“好了，没有什么大事，只是气血有些枯竭。静养一阵儿再多进补一些，便可恢复如初。”</p><p>赵缨喜出望外：“真的吗？”</p><p>“确实如此。”卢神医捋着胡须，眉头紧皱，确实百思不得其解。</p><p>“从脉相来看，你肯定是受过很严重的伤，却似乎已经愈合，连断掉了骨头都长好了。你莫不是服用过什么疗伤圣药？”</p><p>赵缨犹豫了一下，不知道该不该把蚕神的事说出来。</p><p>很显然，她身体恢复的如此之快，完全是蚕神的功劳。它可是吸干了吴参将全身的真气，进补了庞大的能量，它理应反哺回来。</p><p>只是她隐隐约约地感觉到这玩意来头并不简单，直觉地觉得不该让旁人知晓。</p><p>正纠结间，卢神医却是大手一挥：“无妨无妨，每个人都有自己的秘密。”</p><p>说罢，也不再言，捋着胡须施施然地走出去了。</p><p>过不多时，卢秋月抱着厚厚的一摞衣物进来。</p><p>“你身上这件衣服看上去就臭烘烘的，快换下来吧。这些都是我的衣服，换上吧，咱俩身量差不多。”</p><p>赵缨望着她丰满的胸脯，心道这你跟我说差不多？</p><p>吐槽归吐槽，她却也知道卢家父女是有心了，感激地道：</p><p>“你们对我这么照顾，教我怎样报答才好。”</p><p>“什么话！”卢秋月摆了摆手：“我嫁入你家也有十年了，可是看着你从这么高长大的。”</p><p>她比划着，又怅然：“再者说，你大哥生前最疼爱的，也正是你这个妹子。若你有什么闪失，我该怎么跟你大哥交代！”</p><p>眼见似乎勾起了她的伤心事，赵缨这个直男性子哪里会安慰人？一时间不由得有些麻爪。</p><p>所幸卢秋月很快便回过神来，朝着自家妹子歉意一笑。</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

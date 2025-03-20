@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>吃瓜论坛源码</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《吃瓜论坛源码》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于吃瓜论坛源码</h2>
+<p>					吃瓜论坛源码<p>【亡者之衣（破损）：紫色珍品】</p><p>【数百年前由亡灵法师吉恩·索尔倾尽心血，搜集材料制作而成的魔法长衣，原本目标是打造一件金色品质的灵器，因为条件不足，最后只达到紫色巅峰级别，但也已具备部分高阶能力。</p><p>形状可随使用者变化，通常展现为白布外形，是攻防一体的顶级魔法装备。</p><p>后，亡灵法师意外身陨，此物遗落于他人，又兜兜转转来到了【永生魔术师】帝摩斯·杨的手中。</p><p>他以此物为媒介，令不甘于死去的强者巴尔克尔灵魂附着其上，成为【亡者之衣】的器灵，形成特殊的灵魂生命体，达成了金色灵宝品阶，称【永生御座】第四御座，摄魂双鬼。</p><p>后，器灵摄魂双鬼在战斗中被某位存在抹杀，【亡者之衣】本体也因承受过高伤害而破损，跌回原本品级，如今已经失去了依凭肉体，容纳灵魂的能力，只余基本攻防作用。】</p><p>嗯？这次介绍好长啊，比起上次那个魔神宝玉的碎片详细多了，甚至连来历都写的清清楚楚。</p><p>同样是紫色装备，为什么差别这么大呢？</p><p>难道是因为后者跟所谓的“神”扯上了关系？</p><p>毕竟你看，这装备介绍上明明把所有涉及到的人物名字都写的清清楚楚，只有干掉它的薇莉丝小姐本人，被语焉不详地形容成了“某位存在”，说明，也不是什么东西都能往上面写的。</p><p>这么说来，突然感觉咱好厉害啊。</p><p>叉会腰.jpg</p><p>正当牧师小姐脑袋里转着一堆乱七八糟东西的时候，周围景色快速变换，她已经回到了塔佩亚盆地的战场中。</p><p>薇莉丝赶忙把掉落物收进背包里，装作什么都没发生过一样拍拍手站起来。</p><p>原本杀声震天的据点已经是人去楼空，只有那一座座的木屋和大殿依然在烈火中熊熊燃烧着。</p><p>周围躺了不少生物的尸体，有穿着黑袍的【永生御座】成员，有银甲的王国士兵，甚至连影卫都死了好几个，足可见之前战斗的惨烈程度。</p><p>最关键的是，薇莉丝在尸体堆中精准捕捉到了一只，长着灰色尖耳，背后拖着尾巴的女性兽人，看起来有点像狐狸。</p><p>她身上有好几道致命伤口，已经死地不能再死了，而那几个牺牲掉的影卫，基本也都倒在她尸体附近的位置。</p><p>“兽人吗…..”</p><p>把普拉卡卡的尸体随手收起来，薇莉丝暂时没时间去管它，道具栏虽然不能装载活物，但死尸却不在此列。</p><p>当务之急，是找到王女莉莉娅，确认她的状况。</p><p>通过躲在虎人昆尼尔身上那只光精灵传递来的画面，薇莉丝已经看到了先前发号施令，像是兽人军队指挥官的某只老狐狸。</p><p>虽然年龄长相毛色气质之类差的很多，但毫无疑问这具狐人尸体跟那家伙是同一个种族。</p><p>兽人的援军，已然到了。</p><p>兽王国强者众多，这么重要的行动，很可能会有传说级高手压阵，而自己和花都不在，光凭莉莉娅和手下的影卫，想对付传说还是有点超纲了。</p><p>虽然远在高空观察的晓光，到现在都没有通过契约紧急传递信息过来，说明王女小姐性命应是无忧，但还是尽快找到她为好。</p><p>“定向侦测，启动！”</p><p>薇莉丝闭上眼，一股无形的意念扩散开来，在某个目标的引导下迅速汇集，于牧师小姐脑海中构建出了清晰的方向和距离信息。</p><p>找到了，离这里不远。</p><p>通用技能，【全地图定向侦测】是一个在探险类任务中非常好用的神技。</p><p>使用者需要将一件带有自身印记的道具交予他人，无论对方跑到哪里，只要道具未曾丢失、被屏蔽或离开最大探测范围，就都能轻松找到那人的位置。</p><p>一般来说，在【幻世】里，这技能通常是用在无法公频打字交流的npc、或保护任务要求的特殊怪物身上。</p><p>之前薇莉丝给王女小姐那件【飞升之匣】的时候，特意叮嘱她不要放进储物道具，必须贴身携带的原因，很大一部分就是为了特定时候能够借此找到莉莉娅。</p><p>快速确定了位置后，牧师小姐又回头看了一眼死去的那几个影卫，这都是薇莉丝曾经见过的熟面孔。</p><p>虽然在莉莉娅面前总保持着一副恭敬而寡言的模样，但薇莉丝知道她们私下里都是有着各自生活、独特个性的鲜活存在。</p><p>要救活她们吗？</p><p>果然…..还是不行。</p><p>即使是神的恩赐，也并非毫无代价，何况薇莉丝？</p><p>生命很脆弱，是每个人有且仅有唯一，最重要的珍宝。</p><p>从普拉卡卡的反应，和这段时间看到听到的一些见闻中，薇莉丝也能明白“复生”二字在这个世界有多么令人向往和渴求。</p><p>但，正因为生命是只有一次的奇迹，才更能令人珍惜，不加节制地肆意使用复活力量，只会让双方都陷入混乱的处境之中。</p><p>罢了，让她们就此安息吧，相信这些少女在付出生命的时候，也已经做好了相应的觉悟。</p><p>心里轻轻道了声抱歉，牧师小姐转头，展开无暇而圣洁的羽翼，向远处的高空而去。</p><p>…………………..</p><p>“呼……..咳……..咳咳………”</p><p>莉莉娅拄着长剑，略微有些涣散的美眸，依旧死死盯视着刚停息的粉白色身影，胸腔剧烈地来回收缩，平复因魔力亏空和失血带来的眩晕感。</p><p>她已经倾尽全力了，但现在的王女殿下，与真正的传说级差距还是太过遥远。</p><p>哪怕莉莉娅自信能与天空级战士一较高下，可对上这位长着粉白色狐耳与大尾巴的刺客梅维斯，依旧是毫无悬念地被单方面压制。</p><p>从头到尾，梅维斯就只用过那一招【狐灵秘术·魅魂斩】，但头疼的是莉莉娅无论用什么办法，都无法将其破解。</p><p>只要对方出手，她立刻就会不由自主对上那双粉色的竖瞳，然后陷入僵直，被梅维斯轻而易举一爪挠在身上。</p><p>连提前闭上眼睛都没用，牵引力传来的时候，必定会十分诡异地完成“对视”这个结果，哪怕莉莉娅有意避开，身体也会不由自主地那么做。</p><p>如果不是流体铠甲，身上穿戴的精良甲胄和身后风之影概率发动的自行格挡，莉莉娅现在早就死了。</p><p>即使如此，现在王女殿下身上也布满了大大小小数十道伤口，看起来狼狈不堪，甚至呼吸都带上了一丝腥躁的铁锈味。</p><p>“哈……真是的……对女孩子也下手这么狠，会留疤的啊混蛋……..”</p><p>莉莉娅自嘲地苦笑着，再次顽强举起长剑，虽然她明白这样也许毫无意义，但也只有主动进攻，才能尽量少挨些打了。</p><p>经过且战且退，完成了目标的大部分王国军队和影卫都已经撤到了盆地之外，有那些提前安排好的骑兵接应，只要赶在兽人狼骑到来前进入预定的脱离路线，撤退应是不难。</p><p>现在的问题就剩下……自己该怎么从这只狐狸手里保住小命了。</p><p>两位护卫姐姐，你们怎么还没搞定啊，再不来，雇主小姐真的要去见先灵啦！</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

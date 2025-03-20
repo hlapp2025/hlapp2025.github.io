@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海角社区脚本</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《海角社区脚本》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于海角社区脚本</h2>
+<p>					海角社区脚本<p>“天帝救我！”太乙仙师恐惧了，他知道了自己和天翔大帝之间的差距，哪怕是隔着无限的时空，天翔大帝也能够把他抓住，拉下来进行审判。</p><p>“轰！”天翔大帝出手，真的有一种气吞山河，威震四方的气势，那是真正的无敌者的风范。一时间，风云变化，原本被遮挡的星空，再一次出现，恢复到了原来的样子。</p><p>一道巨大的能量手掌虚影出现，直奔着那巨大的时空漩涡而去，要彻底地把太乙仙师给抓下来，进行审判。这是何等的霸道，面对仙人，也是丝毫不留情面。</p><p>这一片时空之中，无数的宇宙虚影出现，在这里沉浮。天翔大帝实力非同小可，不是普通的神祇能够抗衡的。</p><p>能够逆乱天庭，无视天庭的威压，天翔大帝自然是有一定的实力的。“镇压！”天翔大帝继续向前逼迫，要将太乙仙师逼迫出来。</p><p>“怎么可能？天翔大帝居然如此的强大？”袁天师几乎是不敢相信自己的眼睛，觉得自己是不是在做梦，显得不真实。</p><p>古往今来，仙人无一不是高高在上的存在，横贯古今未来，无敌的存在。就算是飞升天庭之前的仙人，那都是无敌者。</p><p>尚未飞升的仙人，就是无敌于世，更不用说是强大到天地不容，只能够被迫飞升到天庭的仙人了。那更是强大到无法形容，几乎是全能的至高存在。</p><p>能够飞升到天庭的仙人，无一不是无敌的存在。可是现在，一个飞升天庭不知道多少个岁月的仙人，居然是被天翔大帝压制。</p><p>而且，不单单是压制，天翔大帝还打算将对方拉下来，从天庭之中抓下来，在人间界进行审判，要给仙人定罪。</p><p>这在以前根本没有人敢想象，人世间的帝皇和天子，居然是要审判天庭的仙人，要代行天帝的权能。</p><p>古往今来人世间多少天子，多少帝皇都没有做过的事情，天翔大帝居然是真的在做，而且几乎是要成功了。</p><p>因为太乙仙师求饶了，向着天帝求援。这代表着，如果没有天帝出手，太乙仙师真的有可能会被天翔大帝拉下来，进行审判。</p><p>“下来吧，不要再挣扎了！”天翔大帝的声音充满了威严，有一种天上地下唯吾独尊的气势。那是真正的帝皇风范，举世无敌。</p><p>“天翔，你的行为越界了！”突然时空漩涡之中，有着一股强大的力量传出来，和天翔大帝的力量碰撞到了一起。</p><p>刹那间，无尽的能量波及到附近的广阔的宇宙星空，笼罩了万亿星域，那是两位至强者的交锋和碰撞。</p><p>“他在人间界犯下错误，就需要接受帝国的审判！”天翔大帝目光看向那时空漩涡之中，可以看穿重重宇宙时空。</p><p>一个是天庭之主，一个是人间界的帝皇，是神州大地的统治者。二人可以说是代表着人间界和天界的最强实力，在互相对峙。</p><p>“他是朕天庭的臣子，即便是犯下滔天大罪，也是要朕的天庭来审判。你一个人间的帝皇，无权审判！”天帝的声音从时空漩涡之中传来，有着一股威严，不容许任何的侵犯。</p><p>这就是天庭的主人，天帝的威严，能够镇压诸天万界的至高威严。若是有人胆敢反抗，直接镇压，当世无敌。</p><p>“更何况，你的大翔帝国可不是受到天庭的承认！逆乱天命，其罪当诛！”天帝的声音传出来，反过来要宣告天翔大帝的罪名。</p><p>“人定胜天！天既不公，何须奉天！！”天翔大帝非常的自负，对于天庭和天帝的威压没有丝毫的畏惧，针锋相对了起来。</p><p>“好！很好！朕倒要看看，你的大翔帝国能够支撑多久！”天帝出手，一只洁白的手掌从时空漩涡之中伸了出来。</p><p>一只手掌而已，就是有一种要颠覆整个天地，毁灭无穷无尽的宇宙的力量。萧龙的分身都是飘忽不定，随时有可能破碎。</p><p>太强大了，萧龙的分身感觉到整个天地在排斥自己，无数的法则符文在针对自己。那是一种举世皆敌的感觉，非常的不舒服。</p><p>不得已，萧龙只能够给予分身更加强大的实力，不然的话分身很有可能真的会陨落，元神神魂还有肉身都会被毁灭。</p><p>“这个天帝，到底有多强大？！”萧龙的分身躲藏在暗处，心里面不由得感觉到了心惊胆战，有一种大劫到来的预感。</p><p>要知道，这还只是天帝的一只手掌而已，而且针对的也不是萧龙的分身，而是站立在场中的天翔大帝本人。</p><p>即便是这样，萧龙也是感觉到了胆战心惊，有一种要陨落的感觉。难以想象，那天帝有何等的实力。</p><p>只见到那手掌之中，似乎是有着无数的源世界在沉浮，一重重宇宙浮现，无穷无尽，数量达到了一个惊人的地步。</p><p>一只手掌而已，居然是演化无数源世界，演化出来重重宇宙时空，这是何等的伟力？古往今来，可曾听说过？</p><p>“这种手段对我没有用！”天翔大帝挥手，同样是一只手掌拍出，同样是有着无数的源世界在沉浮，演化无穷无尽的时空。</p><p>“轰隆隆！”恍惚之间，好像是回到了遥远的过去，看到了古往今来那些大事件的再一次重现，在这里再一次演化。</p><p>有无数的宇宙在重新诞生，奇点重新产生，由无到有，演化万千时空，万千大世界。两人之间的境界，已经是超出了萧龙的想象。</p><p>无数的源世界产生，万千大世界诞生，由无到有，层层叠叠无限层的宇宙时空。随后又什么都看不见了，好像之前那些场景根本不存在一般。</p><p>一瞬间一切时空之中的事物都是出现了，在这里演化，有真龙在飞舞盘旋，有凤凰在展翅飞翔，震动瀚宇。</p><p>又一个转眼之间，一切的一切都不复存在，什么都没有了。没有时间，空间，维度，命运，因果，物质和能量。</p><p>到处都是光芒和黑暗，又到处都是一片虚无。两个人的境界，已经是超越了萧龙的理解，达到了一个前所未有的地步。</p><p>两个人的法力境界，绝对是已经超越了神道领域，达到了化道领域，乃是超脱境界的强者，不然的话不至于如此的强大。</p><p>他们的实力，已经无法用语言来形容，每一步的行动，一举一动都是符合天地大道的运行规律，这就是化道领域。</p><p>化道领域或者说超脱境界十重天，每一个境界都是玄之又玄，根本无法用简单的语言来形容，超出了很多人的想象和理解。</p><p>“不知道他们两位，处于超脱十重天的哪一重天呢？”萧龙推演着，想要知道一些信息，了解两位强者的具体的实力。</p><p>可是，刚刚推演，萧龙就是受到了严重的伤害，身上缠绕上一道道密密麻麻的法则符文。那是天地大道的反噬，要吞没萧龙的本体。</p><p>“退！”萧龙运转法力，再加上圣天龙帝法的强大，这才勉强地将那纠缠上来的法则符文尽数驱逐，恢复到了原来的状态。</p><p>那是天地大道的反噬，不允许任何人窥探过于强大的存在的信息，不然的话会被反噬，最后承担下天大的因果。</p><p>萧龙就是如此，想要推演有关于天帝和天翔大帝的信息，直接就是被反噬，被大因果纠缠到了身上和神魂。</p><p>若非萧龙自身的实力强大，再加上有圣天龙帝法的特殊性，不然的话萧龙就危险了，有可能会被纠缠到死亡和陨落。</p><p>这还是刚刚开始而已，若是继续下去，所造成的反噬会更加的恐怖。即便是至强者，也会被直接反噬陨落，会老死。</p><p>“我就不信了，一点信息都不给！”萧龙艺高人胆大，居然是再一次选择尝试，想要获得一些信息，知道具体的来历。</p><p>萧龙运转大法力，浑身的法力能量加持自身的神魂，神魂出身，遨游在广阔的时空长河之中，要去看到一些过去和未来的信息。</p><p>那无限多的时间线，无限多的命运线，密密麻麻的纠缠在一起，没有一定的实力，根本不知道应该怎么探查到需要的信息。</p><p>萧龙一步步抽丝剥茧，要将那密密麻麻纠缠在一起的命运线疏导出来，看到具体的自己需要的信息和线索。</p><p>三个元神小人也是来到了萧龙的神魂之后，跟随着萧龙的神魂一起整理，一起探查和窥探那时间线的发展和信息。</p><p>这种行为很危险，不亚于是在刀尖上跳舞，一个不小心，萧龙就有可能死无葬身之地，彻底地陨落，没有任何的机会。</p><p>两个强者，无论是天翔大帝还是天帝，那可都是无上的存在，古往今来都是未曾出现过的存在，超越了天地意志的掌控。</p><p>“噗嗤！”萧龙咳血，金色的神血喷出来，他的本体受到了很严重的伤害，几乎是要陨落了。神魂在晃动，随时有可能承受不住。</p><p>很快，萧龙的本体就是极速地老化，原本乌黑的长发变成了苍白的白发。萧龙的皮肤，也是布满了老年斑，生命力在快速地流逝。</p><p>那很严重，乃是大道的压制，在吞噬萧龙本体的生命力，要将萧龙给抹杀，彻底地陨落。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

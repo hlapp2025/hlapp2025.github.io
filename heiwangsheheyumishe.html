@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑王蛇和玉米蛇</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《黑王蛇和玉米蛇》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于黑王蛇和玉米蛇</h2>
+<p>					黑王蛇和玉米蛇<p>萧龙的伤势实在是太严重了，伤及到了本源，神魂和元神都是黯淡无光，几乎是到了形神俱灭的地步。即便是泡在由仙药精华凝聚而成的水池中，也是效果非常的微弱。</p><p>“呼！”萧龙的气息非常地微弱，几乎是到了没有的地步。而他的意识，在另外一个时空之中漫游，等待着从生与死的边界之中苏醒过来，取回属于自己的记忆。</p><p>“需要有人进入他的意识空间之中，把他的意识找出来！”龙仙这个时候开口说道，想要拯救萧龙就必须唤醒萧龙潜藏起来的意识。但是，那非常的危险。</p><p>“让我去吧，我能够唤醒萧龙哥哥的意识。”雪儿主动请缨，要进入萧龙的意识空间里面，寻找到萧龙的意识。</p><p>“好的，也只有这样了。”龙仙点点头，如今唯一的方法也就只有让的雪儿进去试一试了，不然的话萧龙很有可能醒不来。</p><p>这是一片黑暗的空间，失去了原来的空间，时间，维度，命运，因果的变化。失去了一切物质，能量的感受。</p><p>“我是谁？我在哪？我要去哪里？”萧龙的意识浑浑噩噩，忘记了很多事物，忘记了曾经的一切的记忆，只剩下了基础的本能。</p><p>萧龙的意识漫无目的地行走着，不知道要去向哪里，也不知道目的地在何处。这里没有时间和空间的概念，只有永恒的黑暗。</p><p>雪儿走进水池之中，那浓郁的仙药的精华，即便是触碰到，雪儿都能够感受到那浓郁的生命能量带来地好处。</p><p>那水池之中拥有着极为浓郁的生命能量，恐怕是不修行的普通人在水池边呼吸一下仙药的精华都能够延年益寿，长生不老。</p><p>雪儿慢慢地靠近萧龙所在的地方，看着那沉寂在痛苦之中的萧龙，雪儿的内心就是心如刀割。仿佛是自己正在经历萧龙的经历，一样的感同身受。</p><p>“萧龙哥哥，快醒过来。”雪儿也是盘腿坐下，额头和萧龙的额头紧贴在了一起，两个人的神魂触碰到了一起。</p><p>神魂波动频率完全一致，雪儿就是进入到了萧龙的潜意识之中，要去寻找萧龙的意识，唤醒萧龙的意识。</p><p>穿越过一阵光怪陆离的隧道之后，雪儿也是来到了这一个黑暗的维度，黑暗的时空之中，陷入到了无边无际的黑暗。</p><p>“这里，就是萧龙哥哥的意识空间吗？”雪儿看了一眼附近的情况，除了黑暗也就只有黑暗，永恒无尽的黑暗。</p><p>没有一丝一毫的亮光，没有一丝一毫的物质和能量的反应，仿佛是一切时间和空间诞生之前的世界，只有永恒的黑暗。</p><p>在这里，感受不到空间的变化，时间的更迭，更加感受不到所谓的天地法则，有的只剩下了无尽的虚无和黑暗。</p><p>雪儿往前走，却是并没有发现自己现在处于的时间和空间和之前的时间和空间有什么不一样，因为失去了时空的坐标，好像是没有了变化一般。</p><p>那种感觉，就好像是时间和空间永远定格了一般，雪儿之前走过的道路，好像是在原地踏步，并没有发生位置上的变化。</p><p>声音传不出去，光线也是无法传播，没有了任何的介质可以传播任何的信息，任何人的进入就好像是困在了一个时空孤岛一般。</p><p>那种感觉，断绝了一切的联系，一切的可能性，不存在于任何的时间和空间之中一样，无法理解和知晓。</p><p>“萧龙哥哥，你在哪？”雪儿的神魂力量释放而出，向着黑暗的深处扩散而去，要去探索这个黑暗的世界。</p><p>可是，无论雪儿的神魂力量如何的扩张，都是无法探测到哪怕是一分一毫的物质和能量的反应，仿佛一切都是不存在一般。</p><p>雪儿向着某一个未知的方向走去，在这里没有任何的参考物，一切都只能够依靠自己的本能来行事。</p><p>生与死的边界，是一个非常广阔的世界，有着无限次方无限层无限的空间，也有着无限次方无限层的无限时间，大到超出很多人的想象力。</p><p>无限多的时间线，无限多的空间宇宙。不！比无限还要庞大，无限次方无限多个宇宙时空，大到无法想象。</p><p>可以这么说，雪儿绝对无法想象到也不敢想象这种情况，比无限还要庞大，比无限还要广阔，超越无限的无限。</p><p>无限之上还有数，如果把无限比作阿列夫零的话，那么之上还有阿列夫一，一直到阿列夫无限等等更加庞大的数量。</p><p>就如同有限数无论如何叠加，如何的次方永远也无法达到阿列夫零，阿列夫零永远也无法到达阿列夫一。</p><p>无限次方无限？无限的无限的无限次方无限？哪怕是无限层指数塔，无限次方无限层指数塔，也无法让的阿列夫零到达阿列夫一。</p><p>而在这之上，是不可达基数次，那是永远也无法到达的极限的极限，无限的无限，无法想象，无法描述的数字。（本人数学不太好，对于阿列夫系列不是很了解，有错误请略过！嘿嘿）</p><p>雪儿不知道也无法理解无限之上，对于雪儿来说，世界观最开始只是局限于六域宇宙这个以太世界，之后不断地扩大。</p><p>随着这么多年跟随着萧龙四处漂流，也算是知道了一些更高层次的奥秘，知道了一些让其他人世界观崩塌的信息。</p><p>不过，雪儿还是不敢想象，这个世界有着多么广阔的大小，超出了所有人的想象。不敢，更是无法想象。</p><p>也不知道走了多么遥远的距离，度过了不知道多少的岁月，多少的时间，就连雪儿也是忘记了来到了这个世界有多久了。</p><p>也许是几百年，几千年，上万年，亦或者是更加久远的时间，都是忘记了，不过都没有关系。雪儿这一次的目的，就是找到萧龙，不达目的决不罢休！</p><p>哪怕是再久，度过了数万个纪元，数千万个纪元，上亿的纪元，也没有任何的关系，雪儿不会放弃，永远都不会。</p><p>在这个世界的另外一边，遥远的时空之外，萧龙也在漫无目的地走着，他不知道要去哪里，目的地在哪里。</p><p>本能的驱使，让的他一直走下去，一直到时间的终结，空间的毁灭，一直到时空长河的尽头，一直到永远的永远。</p><p>也不知道过去了多少个纪元，多少个时代，多少个不同的节点，两个人的意识还在这一片时间和空间之中。</p><p>这一段时间，足以让的无数的宇宙轮回无数次，足以让的一切自称为永恒的物体毁灭，进入到了轮回之中。</p><p>终于，两个人碰到了一起，雪儿疯狂地执念影响到了萧龙的意识世界，影响到了萧龙行走的轨迹，让两个人遇到了一起。</p><p>“萧龙哥哥！”远远地，雪儿就是看到了那黑暗之中有着一道身影，在一步步地向着自己慢慢地走过来，走了过来。</p><p>而萧龙的眼睛里面，则是第一次在黑暗之中看到了光明，那耀眼的光芒仿佛是破开黑夜的太阳一般，带来了希望。</p><p>不变的黑暗之中，第一次有了光明，萧龙的内心有一种渴望，一种想要进入到光明之中的感觉，想要获得光明。</p><p>那种感觉，就好像是漫漫长夜之中破晓的第一缕光芒，第一道阳光，充满了生命和希望，绝对是最为重要的存在。</p><p>犹如宇宙初开的时候，一切都是从无到有，无中生有，诞生出时间和空间，维度和因果，日月星辰随之而来。</p><p>无中生有，诞生出了一切的事物，一切的能量，一切都是无中生有。在雪儿看到萧龙的那一刻，萧龙也是看到了雪儿。</p><p>“轰隆隆！”随着雪儿和萧龙的眼神对视在一起，整个世界都是一下子发生了变化，有着点点星光在黑暗之中产生。</p><p>那是萧龙的内心世界发生了变化，不再是只有黑暗，不再是只剩下了黑暗，开始有了满天星辰，有了光明。</p><p>即便是忘记了一切的记忆，没有了曾经的回忆，萧龙也还是有着对于雪儿天生的亲和的感觉，还有着本能的反应。</p><p>“萧龙哥哥！”雪儿奔跑过来，一把将萧龙抱住，在漫长的岁月之中，雪儿一直在凭借着一个信念支撑着。</p><p>而今这个信念终于是完成了，雪儿怎么可能不情绪激动？多少年了，那个朝思暮想的人就在眼前，怎么可能不激动？怎么可能还能够平淡下去。</p><p>萧龙没有行动，呆呆地站在原地，任凭雪儿抱着自己。在他的眼睛里面，就算是不记得了眼前的人，可是莫名的熟悉感，依然是让的他有一种莫名地友好感。</p><p>“这位姑娘。。你是谁？我又是谁？你认识我吗？”萧龙疑惑地问道，“我好像认识你，感觉很熟悉，但是我想不起来。”</p><p>萧龙的表情很疑惑，同时在萧龙的眼睛里面只有陌生，忘记了很多事情，记不清楚曾经的人和事物。</p><p>雪儿擦了擦自己的眼角，看着萧龙的样子，觉得萧龙不像是在开玩笑，是真的忘记了一切事情，想不起来了。</p><p>“萧龙哥哥，你不记得雪儿了吗？”雪儿问道，萧龙无奈地摇了摇头，脑海之中没有了过去的记忆，就好像是一个失忆症的人。</p><p>“我不记得了，我的脑袋之中没有了以前的记忆了！”萧龙摇了摇头，“就连我自己是谁，我都不知道答案。”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

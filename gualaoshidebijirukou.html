@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瓜老师的笔记入口</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《瓜老师的笔记入口》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于瓜老师的笔记入口</h2>
+<p>					瓜老师的笔记入口<p>    兽人的装备很落后，所以鹰身人除了用利爪撕扯，唯一的远程攻击手段，就是从高空向下抛射石块，或者粗糙打磨过的短矛。</p><p>     通常来说，作为空军的鹰身人即使在兽王国里也很宝贵，所以它们一般不会降落下来与人类贴身搏斗，基本上是不断用这种方式来骚扰和压制，为主力攻城创造机会。</p><p>     联合王国并没有空军，或者说，没有能像兽人这样，成建制的大规模空战部队，所以这种时候也只能乖乖挨打了。</p><p>     密密麻麻的石头和各种乱七八糟抛掷物如雨点般洒落下来，虽然威力不算很大，但在重力加持下，如果命中头部，普通士兵也会立即失去战斗能力。</p><p>     早有准备的莉莉娅自然不会让这种事发生。</p><p>     不需要王女殿下主动提醒，旁边的雷顿立刻就鼓起一口气，发出响彻西城墙的雷鸣般爆喝声浪。</p><p>    “盾手，起盾！！！”</p><p>    “哈！”</p><p>    无数盾牌构成的防线拔地而起，几乎将整个城头全部笼罩在内，乒乒乓乓的碰撞声不绝于耳，由于早有准备、加应对及时，这波攻势几乎没有给城墙守军带来任何损伤。</p><p>    至于莉莉娅这边，虽然有几名银甲近卫兵立刻就想过来举盾保护她，但薇莉丝直接先一步撑开了巨大的金色帷幕，将包括王女殿下和自己在内，所有方圆百米的将领与士兵都罩在了里面。</p><p>     石块和短矛砸在那看起来薄薄的金色障壁上，涟漪都没能溅起来就被瞬间消融，而内部的人却可以毫无阻碍地向外攻击。</p><p>     攻城兽人，甚至城墙上的部分守军都被突然出现的巨大光罩吓了一跳，连手上的动作都下意识停顿了片刻，被薇莉丝保护在里面的那些将领，更是惊得差点把眼珠子瞪出来。</p><p>     虽然他们事前已经被告知了这位黑发少女是“传说级”的高手，但谁也没想到她能随手整出这么恐怖的东西来，这真的还是传说…..吗？</p><p>     只有亲眼目睹过薇莉丝施展【天降的祝福】这个9阶魔法的莉莉娅、雷顿和远处的小将雷克特反应稍微正常些，但前者还是用一种“果然如此”的眼神，面带深意地看了眼身边的绝色少女，然后再度将精力投入指挥中。</p><p>     嗯，这次还不错，没有造成那么离谱的反应，毕竟是在战场上，很多人也没心思去在意那种东西吧。</p><p>     薇莉丝并未特别去注意莉莉娅的表情，只是满意地暗自点头。</p><p>     她刚刚释放的护罩是6阶魔法，只需要lv50就可以学习，也不需要太复杂的前置条件，倒不如说这个技能【光佑之护】，本身就是某个更高位技能的学习前置之一，而且必须要点满才行。</p><p>     守护和结界类技能的大小，是可以由输入魔力量来进行调控的，虽然现在是【光祐之护】最基础的范围，但这个技能放大到极致，也就最多两公里直径罢了。</p><p>     而它的上位版，10阶魔法【永恒庇护之光】，如果薇莉丝刚刚施展的是这个，那完全可以将整个万壑堡垒，包括外部的一大片区域全都笼罩进去。</p><p>     并且这个技能成型后，会自动吸收空气中的魔力来补充消耗，除非被人彻底打碎，否则就能一直存在下去，是几个最强的守护与结界系技能之一，仅次于练满单系列全部技能后才能获得的最终奥义。</p><p>     薇莉丝的目的只是保护莉莉娅，自然不会放什么太过离谱的东西出来。</p><p>     倒不如说她挺想看看，这个世界自然发生的战争究竟是怎样一番景象？因此，除非遇到什么特殊情况，否则她不打算主动出手干涉这场战争走向。</p><p>     而且薇莉丝有点在意，花从今天早上开始就不在莉莉娅身边了。</p><p>     王女小姐只表示给她配置了特殊的任务，来不及细说，兽人就开始攻城了，因此薇莉丝也有些好奇呢。</p><p>     虽然抵挡住了豹人猿人登城和鹰身人的空中骚扰，但兽人中军那浩浩荡荡的狮、虎、熊三军各十万也已经完全摆开架势，开始正面攻城！</p><p>     什么，你问没有攻城器械怎么办？</p><p>     当然是，徒手扔了！</p><p>     虽然已经在书上和莉莉娅她们讨论时听过些，但兽人的狂野和蛮力还是让薇莉丝吃了一惊。</p><p>      那些身材高大，浑身肌肉隆起的黑色巨熊，竟然直接把身边的狮人、虎人提起，助跑几步，狂吼着将它们向万壑堡垒城头和内部丢来！</p><p>      开玩笑吧，那可是数以千米的距离啊，就连蓝星上的很多枪械子弹都打不了那么远……</p><p>      何况狮人虎人的矮小也只是相对它们投掷者而言，本身身高至少在两米开外，得多强的力量才能做到这么夸张的事情？</p><p>      而且不是一只两只熊人在这么做，整个军阵第一排，数千的兽人全都做出了相同的动作。</p><p>      无数团赤色，黄色的流星如炮弹般坠入城内、落在城墙顶部，还有些直接就轰隆一声撞在了坚实的城墙上。</p><p>      更离谱的是，除了那些中途坠机的家伙，大部分狮人虎人被这样丢过来，竟然跟个没事人似的，晃了晃晕乎乎的脑袋，直接就双眸充血地吼叫着杀向了周围的人类。</p><p>      不过……虽然薇莉丝小姐给吓了一跳，但很显然这种程度的撞击完全奈何不了【光佑之护】。</p><p>      几十团毛球噼里啪啦撞在璀璨的护壁上，身上立刻爆起金色的激电，然后软绵绵地落下城头，也不知道是死是活……</p><p>      莉莉娅应该是预料到了这种攻城战术的，但她看到那小部分直接越过城墙飞入内部的兽人身影，顿时也有点坐不住了，果断在魔法道具的帮助下高声大喊。</p><p>     “第四军团，立即包围捕杀落入城内的兽人部队，务必不能让任何一只流窜入居民区！魔法师部队展开防壁，拦截投掷，影卫出击，配合部队快速清理掉城墙上的狮人和虎人！”</p><p>      “是！！”</p><p>      四面八方响应起混合着的高昂声浪，薇莉丝看到下方，城墙内侧区域大量人影正在快速汇聚，形成了一个巨大的半圆，并逐渐向内收缩，这应该就是莉莉娅提前安排好的第四军团部队了。</p><p>     也不知道这些普通人类战士能不能应付那群狮人虎人，不过真正落入城内的兽人不多，双方数量差距足有几十倍，加上人类中也是有不少强者的，应该没问题吧。</p><p>      嘛，反正这也不是自己需要担心的。</p><p>      面对挥洒着鲜血与生命的真实战争，即使薇莉丝变得淡漠许多的内心，也多少有些热血澎湃起来了呢。</p><p>      大量的死亡并没有让薇莉丝感到不适，她感觉自己就像是在观察两群蚂蚁间激烈争夺地盘，心里涌出的只有兴趣盎然和拍手叫好的称赞欲望。</p><p>      那么，接下来又会发生什么新鲜的事呢？好期待啊～</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

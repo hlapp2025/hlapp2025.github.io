@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑料大世界</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《黑料大世界》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于黑料大世界</h2>
+<p>					黑料大世界<p>这一个世界似乎是永恒不变的，没有任何的时间的流逝，也没有空间的变迁，至于所谓的纬度和命运，显得那么的虚无。萧龙的神魂，根本探测不到世界的边界。</p><p>这个世界非常的广阔，大到无法想象，比起数万个平行宇宙还要巨大，比起以太世界还要广阔。萧龙没有在这个世界之中，感受到任何的物质和能量。</p><p>“唉，看来我们以后，只能够待在这里了。”萧龙叹了一口气，抱着雪儿的身体，无奈的说道。对方很显然，是打算将自己困在这里，永远永远地困在这一个世界里面。</p><p>也许这也是一种好事吧，萧龙不用担心其他的事情，没有其他的烦恼。也许，这也是另外一种解脱吧。</p><p>不过，萧龙想象的终究只是想象而已。只见到萧龙这个想法之后，周围的时间和空间都是发生了变化。</p><p>附近的场景又是那么的熟悉，这里是属于洛府的地带，是萧龙熟悉的不能够再熟悉的家乡宇宙：人域宇宙。</p><p>附近的场景，附近的天地能量和天地法则，显得是那么的熟悉，那么的充满了记忆的味道。萧龙他们，回到了原来的地方：洛府！</p><p>“真的回来了？”萧龙在自己的内心这么询问道，萧龙不敢确定。经历过多少次真实和虚幻的变化，让的萧龙不敢确定眼前到底是真实还是虚幻的。</p><p>附近的天地能量，让的萧龙有一种熟悉的感觉。萧龙伸手一抓，附近的天地能量就是化为一团明胶。</p><p>看着手上，那仿佛是史莱姆一般的明胶，萧龙很确定，这就是来自于六域宇宙的天地能量，非常的熟悉。</p><p>漫长的时间的经历，让的萧龙也是显得非常的疲劳，将雪儿安顿好之后，萧龙也是陷入到了沉睡之中。</p><p>第二天</p><p>咚咚咚！清晨，一声声战鼓的声音从遥远的星空之中传来，那是人域宇宙的边关的战鼓的声音，是在呼唤人域宇宙的修士。</p><p>这个战鼓一旦被敲动，就意味着人域宇宙外围有着强大的敌人，即将对人域宇宙发动进攻，要入侵人域宇宙。</p><p>萧龙也是被这一声声的战鼓擂动的声音给吵醒，看向了那遥远的宇宙星空之外，那边关之上。</p><p>那宏伟的城池之上，无数的修士正在快速地集结，汇聚在城墙之上，凝重地看着城楼之外那密密麻麻的列阵的大军。</p><p>“那些是什么？”城墙之上，一个人道极巅境界的强者问道，他不确定那些密密麻麻的大军来自于哪里，又是什么生灵。</p><p>“不知道，今天早上突然发现的！”有另外一个人道极巅境界的强者说道，两个人都是面面相觑，不知道发生了什么事情，为什么会这样。</p><p>“战鼓擂动，召集其他的修士到来！”那个人道极巅境界的强者立刻下命令地说道，“另外，赶紧去请天帝出世。”</p><p>天帝，说的自然是萧龙本人。萧龙对于人域宇宙的生灵来说，那可是有着大功绩，被众多的生灵推崇为天帝！</p><p>同时，萧龙也是接受人域宇宙很多星域之中的普通人的供奉，建设庙宇，香火鼎盛，获得了不少的信仰之力。</p><p>“轰隆隆！”人域宇宙之外，无数的大军正在集结，一个个巨大的法身站立在大军之后，俯瞰着芸芸众生。</p><p>那一个个巨大的法身，顶天立地，比起一整个平行宇宙都要巨大，一双眼睛好像是一个星域一般，大到吓人。</p><p>那是属于神道领域修士的法身，巨大无比，做到了真正意义上的顶天立地，站立在巅峰，俯瞰着下方的一切。</p><p>“那就是人域宇宙了，听说我们好多人都在这里铩羽而归！”有着一个黑暗神帝开口说道。</p><p>那个黑暗神帝很强大，绝对是一个巨头，呼吸之间就是喷吐出一道道浓郁的黑暗物质，形成一道道可怕的黑暗风暴。</p><p>“听说，人域宇宙出了一个了不得的天才，有着灭杀神帝的战斗力，不容小觑啊！”另外一个黑暗神帝开口说道，随意一个呼吸，就是可以引发星空风暴，席卷数万亿光年。</p><p>这两个黑暗神帝，都是一方巨头，不容小觑，在神帝境界之中走出了很遥远的距离，属于神帝之中的佼佼者。</p><p>“哼！我倒要看看，有没有传说之中那么的神奇！”第一个黑暗神帝冷哼一声，引发了星空震动，不屑地说道。</p><p>这个黑暗神帝非常的自负，对于萧龙所谓的灭杀神帝不屑一顾，对于自身的实力有着充足的自信。</p><p>黑暗神帝，那可是站立在无数修士顶端的存在，成道了不知道多少个纪元，拥有着无敌的战斗力。</p><p>能够成就神帝境界的，谁又会输给谁呢？都是各个时代，最为耀眼的明星，能够横推一整个时代的所有人。</p><p>更不用说是黑暗神帝了，那更是从尸山血海之上杀了出来的佼佼者。每一个黑暗神帝的背后，都有着从无数的竞争者之中杀出重围的存在。</p><p>“攻城吧！”一个黑暗神祗下命令地说道，随后黑压压的大军便是向着那宏伟的巨大的城池极速而去，要进攻城池。</p><p>“拦住他们！”一众人域宇宙的修士立刻大喊道，城池之上一个个火炮和激光炮立刻调转炮口，要攻击那些大军。</p><p>无数门火炮疯狂地释放出恐怖的火力，形成了一道道密集的炮弹弹幕网，对着进攻而来的敌人发动了猛烈地攻击。</p><p>然而那些大军，没有一个害怕的，全部都是迎着炮火极速而来，哪怕是被火炮命中，身体受到了重创，也不害怕和退缩。</p><p>一些黑暗生灵甚至已经是登上了城门，在和城墙上的一些修士拼死搏斗，厮杀到了一起。众多的修士一起围了上去，要和对方一起厮杀。</p><p>“杀！”一些修士没有害怕，因为他们知道他们不能够后退，身后就是他们的家园，已经是没有退路了。</p><p>“轰隆隆！”天上一颗颗巨大的陨石降落而下，狠狠地打在了城墙之上。那些陨石，都是星辰残骸，大到超出想象。</p><p>那是由黑暗大军召唤而来的，用来进攻城池的，砸在城墙之上，让的很多的火炮直接被毁灭。</p><p>“哗啦啦！”有人道极巅境界的强者出手，手中的大旗舞动起来，遮天蔽日，笼罩了整个城墙之上的天空。</p><p>那大旗乃是一个神兵，是曾经萧龙炼制的用来帮助人域宇宙的修士来守护和对抗外敌入侵的神器。</p><p>大旗横空而出，在旗面之上有着点点星光，居然是有着宇宙虚影浮现，在旗面之上显化出无穷无尽的时空。</p><p>“轰隆隆！”大旗横扫，将那些降落而来的一颗颗星辰直接扫灭，犹如一个个绚烂的烟花一般，在天空之中炸响。</p><p>“休想走，你的对手是我！”对方也是派出了一个人道极巅境界的强者，要出手针对人域宇宙方面的人道极巅境界的强者。</p><p>两个帝皇境界强者在天空之中爆发出可怕的大战，狂暴的能量仿佛是诞生出了第二个太阳一样，闪耀着炽烈的光芒。</p><p>绚烂的能量乱流，在天空之中向着四面八方扩散而去，波及到了广阔的星空，整个宇宙都是能够看到。</p><p>大旗猎猎，幻化出无尽的时空幻象，有着宇宙星空在闪烁，在大旗的旗面之上沉浮。这个神兵很强大，绝对是神器之中的佼佼者，有着无与伦比的实力。</p><p>人域宇宙这边的那个人道极巅境界的强者，手持这一杆大旗打的对方节节败退，甚至好几次都是被击中，身体出现了严重的伤势。</p><p>“看起来，人域宇宙这些年以来倒是发展的不错啊！”有着一个黑暗神祗开口说道，血红色的瞳孔之中有着莫名地神情。</p><p>“在这么发展，也不可能出现神祗，他们的宇宙可是被诅咒呢！”另外一个黑暗神祗舔着舌头说道，“我已经迫不及待地想要看一看他们痛苦的表情了，那垂死挣扎的表情真是美妙。”</p><p>在黑暗帝皇陨落之后，魔域宇宙这边又是派出了一个人道极巅境界的强者，要以车轮战的方式活生生地消耗对方的战斗力。</p><p>“是车轮战！”城墙之上有人看出了端倪，知道了对方的计划。魔域宇宙作为大域宇宙，无论是强者的数量还是质量，都是远远地超过人域宇宙。</p><p>也正是因为如此，魔域宇宙才能够有着如此大的底气，来跟人域宇宙来打车轮战，因为他们完全消耗得起。</p><p>别说是二换一，就算是十换一，魔域宇宙这一边也是完全消耗得起。这就是大域宇宙的底气，足够的底蕴积累。</p><p>而人域宇宙这一边，本来就是衰落的宇宙，再加上之前的末法时代，导致的修士凋零殆尽。若不是有萧龙反哺天地，恐怕人域宇宙就有可能彻底地完蛋。</p><p>人域宇宙，自从末代人皇失踪以后，就是多灾多难。有的人猜测，这是因为人域宇宙的气运，都是随着末代人皇一起消失了。</p><p>也有的人认为，这是人域宇宙之前出过太多太多的惊才绝艳的天才了，后世需要偿还，需要弥补之前的情况。</p><p>很多种可能性，导致了人域宇宙这个时代的衰落，导致了人域宇宙的人才凋零。若不是又出了一个天才：萧龙，惊才绝艳冠绝群雄，不然的话人域宇宙就彻底废了。</p><p>即便是这样，人域宇宙依然还在快速地衰落，还在向着更深处滑落。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

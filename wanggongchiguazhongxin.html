@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>网红吃瓜中心</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《网红吃瓜中心》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于网红吃瓜中心</h2>
+<p>					网红吃瓜中心<p>炎龙城作为联合王国二线城市，这里的冒险者公会自然是同等的二级分会。</p><p>评估一间冒险者公会的等级，主要就是靠这里的中坚、及高层冒险者数量，以及冒险委托的难度与丰富度。</p><p>像西尔城那样的三线城市，墨钢级就是顶天的战力了，委托任务，最多也就下发到a级左右程度，因为再高那边就处理不了了，发了也是浪费人力物力。</p><p>而炎龙城冒险者公会则更高一级，通常来说会拥有大地，甚至可能出现天空级的常驻冒险者，委托数量和难度也会进一步提升。</p><p>至于传说级冒险者，那就只有类似万壑堡垒、或者王都勇气之城这些，人口超百万的一线顶级城市才会存在了。</p><p>同时，勇气之城的冒险者公会，也是全世界所有冒险者的总会，光是常驻传说级就达到了三位之多，天空、大地级至少在百名以上。</p><p>说回这边。</p><p>薇莉丝当然不是心血来潮，才跑去注册冒险者的。</p><p>一方面，冒险者是联合王国十分常见与受到欢迎的工作群体，有个冒险者的身份，无论到哪都能比较容易地混入其中，不需要像这次一样还得编个什么大小姐加女仆之类巴拉巴拉的.……</p><p>另一方面，冒险者公会本身就是个巨大的信息收集中心，整个城市大大小小的事件、人际关系，除了被刻意封锁的那些，都会以委托的形式出现在任务栏上。</p><p>这些，都是薇莉丝从某位传说级冒险者那里打听来的实用经验。</p><p>如果炎龙城真的出过什么大事，这里一定能找到些端倪。</p><p>这会时值下午两三点，正好还没到每天交接委托的高峰期，冒险者公会里人流并不大，薇莉丝很容易就找到个无人问津的服务柜台，带着小龙娘一起凑了上去。</p><p>柜台的看板娘是个看起来大约二十四五的年轻小姐姐，长得很清秀。</p><p>正值青春年华的她身材已经发育得相当成熟，胸前那对引人注目的大熊熊，被制式的工作装包裹在内，领口微微敞开，显出了诱人瞎想的奇妙沟壑同时，却没有丝毫多余外露。</p><p>她的棕色短发扎成了利落的辫子盘在头顶，被正前方印有冒险者公会标记——弓与剑交叉图案的圆帽遮住，戴着白色丝质手套，笑容虽然有些公式化，却依旧干练而富有亲和力，让人心生好感，一看就知道经过了专业的培训。</p><p>“您好，欢迎来到冒险者公会，请问有什么可以帮您？”</p><p>见到左顾右盼着的薇莉丝和晓光，看板娘小姐顿时眼前一亮，笑容也变得真实而亲切了几分。</p><p>没办法，长得太漂亮了嘛，要知道薇莉丝这具身体，可是当初她花了几个小时时间，一点一点慢慢捏出来的自信之作，从头到脚都完美贴合了自身的xp……咳咳。</p><p>我的xp竟成了我自己。</p><p>“你好姐姐，我们想注册冒险者。”</p><p>某年龄未知的牧师上来就套了个近乎。</p><p>“注册….？”</p><p>看板娘小姐愣了一下，她刚看到这两位可爱的小姑娘，尤其是走在前面这位明显散发出高贵气质的黑发女孩，还以为是来发布委托的哪家大小姐呢。</p><p>不过她显然工作素养非常之高，立刻反应过来，也没有因为薇莉丝等人看起来年纪小而有所轻视，笑着点点头，从柜台下抽出两张纸。</p><p>“了解了，那么请先填写一下这两张表格，有什么疑问的话，可以随时向我咨询。”</p><p>“好的，谢谢姐姐啦。”</p><p>薇莉丝冲看板娘小姐甜甜一笑，不得不说她在面对男性和美丽女性之间，态度差距还是挺大的……..</p><p>接过那份薄薄的白色纸张，薇莉丝简单看了一下，上面的内容都还算比较基础。</p><p>名称、性别、年龄、职业、是否有野外生存经验、是否有战斗经验，主要就是这些，并未涉及太多隐私。</p><p>因为人类联合王国是不允许异族定居的，发现之后基本会驱逐出国境，所以这上面连种族都没有供填写，应该直接默认就是人族。</p><p>当然，据说只有联合王国的冒险者公会是这样，其他国家内，倒不会限制冒险者种族。</p><p>名称：薇莉丝</p><p>性别：女</p><p>年龄：18</p><p>职业：牧师</p><p>野外生存经验有，战斗经验有。</p><p>填写完毕后，薇莉丝又帮还不太懂王国语的小龙娘也弄了一份，职业直接填了个万金油的战士，年龄则是跟她一样的18。</p><p>反正也没人知道，随便糊弄就行了嘛，总不能真写个372吧。</p><p>联合王国人口多达数亿，领土广袤，在这种没有数据网络覆盖的环境下，即使是当权者也无法搞清楚治下每一位国民的信息。</p><p>所以这里很多地方，都是没有像蓝星上身份证之类东西的，通常识别一个人身份，就是靠他周围的人际关系。</p><p>像薇莉丝这种“远赴他乡”的旅人，黑户很常见，但只要注册了冒险者身份，现在这份表格上的信息就会慢慢传递到全世界的所有冒险者公会里建档，相当于是另类的身份证明了。</p><p>“薇莉丝小姐和…..晓光小姐是吗，了解了。建立档案和制作徽章需要花费一些时间，在此之前，需要进一步对实力进行初步评定，请两位先移步后台进行一些基础测试，可以吗？”</p><p>“好。”</p><p>在叫来的另一位看板娘小姐帮助下，主仆二人到公会的测试场里简单评估了实力强度。</p><p>当然，这里的评估，可不是某些学院入门经典的掏颗水晶出来搓一搓，然后直接给摸炸掉之类桥段。</p><p>冒险者是实打实的成年人工作，不说九死一生，却也要经常遇到危险的，那些花里胡哨的天赋啊、潜力啊屁用都没有，唯一的衡量指标，就是真实实力。</p><p>冒险者公会有专门的测试员，负责通过实际战斗来评测新手冒险者的入门等级，给薇莉丝二人测试的这位，大概实力在精金级左右吧，跟她们初来乍到时，遇见的莱斯特大叔差不多。</p><p>通常来说，初入冒险者门槛的新人基本都在入门到赤铜级不等，就是lv5-lv15左右，厉害一点的也不会超过秘银。</p><p>让至少有lv20以上的精金级高手来测试，已经可以在保证安全的前提下，尽可能判断出对方的实力上限了。</p><p>毕竟，有成为冒险者意愿的，大部分很早就会来注册了，不想干这行的，则一辈子基本都不会去碰。</p><p>那种半路出家，本身已经修行有成，却突然改行跑来当冒险者的奇葩，还是比较少见的。</p><p>不过这位倒霉的测试员先生，今天就很不凑巧地遇到了两位……….</p><p>总而言之，当这位穿着黑色武道服，很有高手风范的中年人，负着双手发出“你们一起上吧”的宣言…….</p><p>然后被某只金发龙娘一爪子拍进墙里，又由另一位牧师小姐，笑盈盈地几秒内治好了全身断裂的骨骼后，测试就结束了。</p><p>“秘、秘银级！”</p><p>给出了这样的评价后，可怜的测试员先生就狼狈逃走了，甚至不敢去与小龙娘那双冷漠的竖瞳对视一眼。</p><p>倒不是说他觉得这两位只有这种实力水准，只不过新手冒险者，评估上限就是秘银级，想要继续升级的话，还得完成一些高等级的委托才行。</p><p>“看来是我们侥幸获胜了呢，还有其他测试吗？负责人姐姐？”</p><p>薇莉丝有些不好意思地朝已经看傻了的引导员小姐笑笑。</p><p>她已经让自家宠物注意留手了，没想到还是差点把对方一下打死。要不是偷偷给那位大叔上了个护盾，估计之前用的就不是治疗魔法，而是复活术了……</p><p>总而言之，应该是通过了吧？</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

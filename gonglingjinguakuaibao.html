@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>红领巾瓜快报</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《红领巾瓜快报》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于红领巾瓜快报</h2>
+<p>					红领巾瓜快报<p>神皇境界，那是神道领域修士之中的中流砥柱，同时也可以算是修士道路之中的接近顶峰的存在。在神帝境界强者不出现的时代，那就是无敌的象征。</p><p>一个神皇，很多时候就能够决定一场战争的胜负。而想要进入到更高层次的神帝境界，无一例外都是需要在神皇境界打下坚实的基础。</p><p>神皇境界非常的关键，未来能不能够有着机会进阶到神帝境界，就是看这个境界能否打下坚实的基础。不然的话，很有可能如何努力，都无法打破最后的层次，进入到至高无上的神帝境界。</p><p>“呼！”萧龙深呼吸一口气，将附近的汇聚而来的最后一点天地能量吸收进入到了自己的身体里面。</p><p>成为神皇之后，无论是肉体，亦或者是元神还是神魂，都是得到了一个不小的提升，让的萧龙的实力更上一层楼。</p><p>那是一种前所未有的感觉，比起曾经的神王境界，萧龙觉得两者之间的差距不可同往日而语。</p><p>神魂变得更加的坚固，有了一种特殊的变化，说不清道不明的变化，让的神魂变得更加的强大，更加的坚固。</p><p>除此以外，三个元神小人也是变得越发的神圣起来，身上自然而然的带有神圣元素的光辉，仿佛是盘坐在萧龙身体里面的三座神祗一般。</p><p>那三个元神小人，周身有着一个个奇怪的符号在沉浮，在跟随着三个元神小人的呼吸，而有节奏地律动着，非常的神奇。</p><p>三个元神小人，自从萧龙的元神分裂，一分为三之后，就是一直无法彻底地了解元神小人有关的底细和信息。</p><p>三个元神小人到底是从哪里来，为什么会出现在萧龙的身上，这些的信息萧龙都不知道，无法猜出具体的信息。</p><p>只知道，这三个元神小人，绝对不简单。因为古往今来，从来没有听说过有人的元神会一分为三的。</p><p>当然，从始至终这三个元神小人都是没有表现出有什么不好的地方。恰恰相反，萧龙好几次都是依靠他们，化险为夷。</p><p>但是，更多的消息，萧龙也就无法知道了。毕竟，古往今来独一份的待遇，也没有人可以给他答案。</p><p>不过，从现在的情况来看，萧龙的这三个元神小人并不是什么不好的事情，而且还比一般的元神还要强大。</p><p>三个元神小人，脑袋后面的神环越发的璀璨，里面的一些宇宙星空的场景越发地清楚，仿佛是要演化成为真正的宇宙一般。</p><p>而萧龙的胸中五气也是越发的粗壮，在这些气息之上，有着一个个符文在气息的周围进行沉浮，在一遍遍的洗礼萧龙自身的身体的经脉。</p><p>身体的每一个细胞，都是有着恐怖的气息。萧龙的每一个细胞，都是有着能够毁灭星辰的恐怖的力量。</p><p>可以这么说，现在的萧龙那是已经是做到了一个令人瞠目结舌的地步，可以轻易地毁灭一个平行宇宙。</p><p>仅仅是萧龙呼吸出来的气息，都是足以形成巨大的星空风暴，吹拂万亿光年内部的一切的宇宙天体。</p><p>现在的萧龙，已经是超越了一般的生灵的范畴，已经是不属于普通人的境界了。“呼！”萧龙呼吸出一道道仙神之气，弥漫出强大的气息。</p><p>神皇和神王之间的差距，让的萧龙有了一种脱胎换骨的感觉。那种感觉，就好像是一个天上一个地下的感觉。</p><p>“萧龙哥哥，恭喜了。”雪儿推门而入，看到了正盘腿而坐的萧龙，感受着那前所未有的气息，由衷地祝贺萧龙。</p><p>“啊！如今才知我是我！”萧龙的神魂回归自己的肉身，熟悉了一下自己的肉体，有一种大梦初醒的感觉。</p><p>那万世的轮回，仿佛是真实发生的事情，让的萧龙分不出清楚到底是真实的亦或者是虚假的幻境。</p><p>万世的轮回，万世的积累，才有了现实的萧龙的一飞冲天。若非如此，萧龙想要突破可能还需要一段不短的时间。</p><p>“万世的轮回，萧龙哥哥也是变得不一样了。”雪儿露出了笑容，安慰萧龙，同时也是在帮助萧龙从幻境里苏醒。</p><p>“谢谢，等等！你怎么知道我的万世轮回？”萧龙正要感谢雪儿，突然停止了下来，眼神之中立刻多了一分警觉。</p><p>“萧龙哥哥的梦境，雪儿也是有体会到哦。”雪儿露出了满意地笑容，对着萧龙满意地说道，“雪儿也是跟随着萧龙哥哥，一起经历了万世的轮回哦。”</p><p>萧龙抬起头，从雪儿的眼睛里面萧龙看到了很多的画面，很多都是曾经萧龙经历过的万世轮回的内容。</p><p>万世轮回，萧龙曾经是一个帝国的皇帝，指点江山，挥斥方遒。但是，萧龙不会忘记，在他的身后，还有着一个默默支持自己的女人。</p><p>那个女人，一直在萧龙的身后，默默地支持着萧龙，跟随着萧龙南征北战，最后建立了一个广阔强大的帝国。</p><p>而在萧龙登基成为帝皇之后，那位女人也是成为了皇后，可惜没过几年就是离开了人世，成为了那一世萧龙心中永永远远的遗憾。</p><p>获得了江山，自己最心爱的伴侣却是离自己而去，那种悲痛深深地刺穿了那一世萧龙的内心。</p><p>那一夜，萧龙孤独地坐在那个女子的身边，就这么默默地看着她。已经失去了温度的身体，感觉好像是熟睡了一般。</p><p>一夜过后，萧龙原本乌黑的头发，一夜之间变成了满头的白发，为了心爱的人的离开而一夜白发。</p><p>又有一世，萧龙只是一个普通的农民，每天面朝黄土背朝天，直到有一天遇到了一个少女，深深地爱上了这个少女。</p><p>少女是一个富家子弟，但是她也是爱上了萧龙。萧龙虽然是一个普通人，但是透露出来的气质，深深地吸引了她。</p><p>女子果断的放弃了自己的家园，选择跟萧龙私奔，远走高飞。那一世，虽然清贫甘苦，但是女子和萧龙都很快乐。</p><p>两人相依为命，日出而作，日落而息，虽然生活清贫，但是两个人也是过的很快乐，无拘无束，自由自在。</p><p>生活在贫困，只要有爱人陪伴在自己的身边，他们的内心也不会有任何的不开心，只感觉到每一天都是非常的充实。</p><p>又有一世，萧龙是一个科学家，每一天都是没日没夜的沉浸在科学实验室之中，为的只是更接近真理，更接近真实的答案。</p><p>科学家，为了能够更加接近世界的真理，宁愿付出任何的代价，哪怕是自己的生命。他们值得尊敬，值得所有人的敬佩。</p><p>在萧龙的身后，同样是有着一个女人在默默地支持着他。哪怕是这个女人，看不懂自己的丈夫正在做着什么。</p><p>但是，只要是自己的丈夫愿意分享，哪怕是听不懂，这个女子也是要露出满意地笑容，给予对方以支持。</p><p>在饭桌上，萧龙一边吃饭，一边兴奋地手舞足蹈的诉说着自己在研究和实验上面又有着什么样的进展。</p><p>女子听不懂，什么爱因斯坦的相对论，斯蒂芬霍金的黑洞理论之类的，女子对于这些消息了解的不是很多。</p><p>但是女子看到这一世萧龙那高兴的样子，自己也是露出了由衷的笑容。只要萧龙高兴，女子也就会支持萧龙，陪着萧龙一起高兴和开心。</p><p>这一世的萧龙，因为没日没夜的实验，身体很早的时候就是已经到了极限，再加上实验室的环境，很早的时候就是一病不起了。</p><p>但是，那个女子也没有离开，就这么默默地照顾萧龙。只是萧龙不知道的是，每到夜深人静的时候，那个女子都在偷偷流泪。</p><p>说好的海誓山盟，说好的白首偕老，到最后都是变成了空话。最后，萧龙先行离开了这一世，留下了女子百年孤独。</p><p>“大骗子！”女子站在这一世萧龙的墓碑之前，流着眼泪悲伤地说道，“明明说好的，你居然先走一步！”</p><p>万世的轮回，似乎是每一世都会有一个这么一个女子，陪伴在萧龙的身边，默默地看着萧龙，支持着萧龙。</p><p>那个女子，或高或矮，或胖或瘦，或美或丑各种各样，但是都是有出现，陪伴着萧龙走过一次又一次的轮回。</p><p>有时候，两个人可以幸福快乐地过完一生，但是有的时候是女子先离开或者萧龙先离开。离别的痛苦，让的人接近是崩溃。</p><p>萧龙不知道那个女子是谁，只知道在那个女子的身上，有着熟悉的气味，有着非常熟悉的气息。</p><p>而今回归到现实的世界之后，萧龙才是明白，那个女子原来就是默默陪伴自己的雪儿，雪儿也是跟随着自己，经历了万世轮回。</p><p>“谢谢你，雪儿。”萧龙点点头，拉过雪儿的手臂，爱人熟悉的温度让的萧龙紧绷的心灵再一次安静了下来。</p><p>熟悉的气味，熟悉的气息，让的萧龙多日以来经历的万世轮回的痛苦，缓和了过来，两个人紧紧地抱在了一起。</p><p>“这一次，我不会骗你了。”萧龙微笑地说道。“那要是骗了怎么办？”雪儿一脸坏笑地问道。</p><p>“那我就随便你处置！”萧龙坚定地说道，“如有违背，天诛地灭！”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

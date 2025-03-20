@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>今日不打烊</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《今日不打烊》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于今日不打烊</h2>
+<p>					今日不打烊<p>“赫尔斯主教，您刚才为何一直没有下达命令？”阴影之中，一个男人低沉着声音道，“就这么让伊迪丝·特伦西瓦，这个异端贵族离开了？”</p><p>“不要急，阿历克校尉，此时的合作不过是一种策略，现在杀死那个伊迪丝反而不利于吾主之光辉的扩散。”赫尔斯十指交叉，淡然道。</p><p>那个被称为阿历克不由得向前一步，走出阴影，站到了赫尔斯的身侧，这是个极为健硕的男人，肌肉强壮，身姿笔挺，一道狰狞的伤疤横于面上，描绘着他曾经所经历的凶险战斗。</p><p>只听他急促地说道：“可这件事与第七使徒有关，如若出现差池，你我都是历史的罪人。”</p><p>赫尔斯毫不在意地摆了摆手，说道：“澜羽和那位新圣徒我们都已经调查过了，绝无疑点，他们也对伊迪丝的问题做出了安全的判断，当时我本人也是在场的，你们贤者会也没调查出什么实质性的证据，还能有什么问题呢？”</p><p>“哼，再说了，”赫尔斯冷哼一声，露出轻蔑的笑容，“刚刚她那个样子，你还觉得她像第七使徒吗，没想到那个能释放卫星级魔法的怪物魔法师希赫姆能养出这种女儿。”</p><p>“但毫无疑问，伊迪丝·特伦西瓦具有重大嫌疑，”阿历克激昂道，“无需证据，为了杜绝任何可能性，为了这个世界，她应当被抹除，不要忘了教宗大人的命令。”</p><p>忽然，赫尔斯的脸色低沉下来，怒道：“不要拿教宗那个迂腐的家伙来压我，他坐在他那华丽的大厅之中，根本什么都不懂！”</p><p>“赫尔斯主教，你可不要贪图在特伦西瓦公国的功绩，为了换取离开布列斯塔边境教区的机会而违命啊。”阿历克也不再按耐，直接了当地将赫尔斯心中的算盘给点破了。</p><p>“管好你们自己，贤者会无权干涉我们正教会的决定。”赫尔斯警告了一番后，长出一口气，强迫自己冷静下来，双方还远不到撕破脸皮的局面，继续说道。</p><p>“何况我们也并非完全没有防备的措施，我们计划给伊迪丝派一名神官向她教授我们的魔法，使徒皆无法使用我们的魔法，她如若不能学会，便可确定她就是第七使徒，这位神官也将担任监视的职责。”</p><p>阿历克挑了挑眉，问道：“可使徒无法使用教廷魔法这个说法不是还无法确认吗？”</p><p>“那些忤逆于正信的恶徒怎可能能够借用贤者们的光辉。”赫尔斯理所当然地说道。</p><p>“好吧，那那位负责监视的神官必须忠诚可靠。”</p><p>“那当然，人选我已确定，一位来自裁决廷的审判官，你也认识，曾跟随你学习过。”</p><p>“哦，”阿历克一下便猜到了赫尔斯口中的神官，笑着道，“那个家伙倒确实适合这个差事。”</p><p>······</p><p>今日的特伦希瓦公国中心——伯伦希尔主城格外寂静，街道之上不见往日的繁华，只余一个矮小的身影，独自行走在街道上。</p><p>她身着一身洁白的修女服，一头银色的如瀑般披在身后，在阳光下显得神圣而纯净，宛若传说之中贤者们创造的羽翼侍从降临世间。</p><p>她便是伊迪丝·特伦希瓦，这座城市乃至这个公国如今的继承人，却要身着修服只身徒步从城郊的特伦希瓦庄园前往位于伯伦希尔主城中心的卡诺莎大教堂，整座城市都为此停摆。</p><p>因为今日是她的受洗之日，作为出生并未接受洗礼者，她必须以此表示自己的虔诚，以求回归正信。</p><p>同时，今日也是特伦希瓦公国取消信仰自由的日子，无数信仰异端小教的民众在前几日便已陆续离开了这座他们居住了不知多少年的城市，以躲避正教会可能到来的清算，这几天来伯伦希尔城郊的道路上马车如流，令人望而生畏。</p><p>“唉~”伊迪丝不由得叹了一口气，她是没想到仅仅是改信这种事也会弄得如此复杂，她还是低估了信仰在这个世界的影响力，当信仰如同空气一般存在于人与人之间时，那么很多时候你面对它都将别无选择。</p><p>仅仅是特伦希瓦公国改变信仰政策的消息一公布，整个洛林王国便举国哗然，一时间各种各样的书信都飞往了特伦希瓦庄园，伊迪丝这段世间来应付各种信件都头疼不已，更不要说公国内居民的各种声音。</p><p>这场仪式也是排场巨大，首先是伯伦希尔主城今天所有的居民都不得出门并且全天不得生火，其次，特伦希瓦公国内所有贵族乃至公国周边的大贵族都接到了邀请，前往卡诺莎大教堂见证这场神圣的仪式，更是从昨天便等候在教堂。</p><p>而伊迪丝则是从今早出发，步行向大教堂，她略微估算了一下，她已经快走了一整个早上，距离卡诺莎大教堂应当还有一段距离，不得不说还是有点累人的，特别是对于这副身体来说。</p><p>伊迪丝也不顾身上白色衣服，坐在了路边，反正那群家伙已经等了一个晚上了，就继续让他们等着吧，她要休息一会。</p><p>“呼~”伊迪丝放松地坐在了路边的石头上，伸了个懒腰，自从上次降临节偷偷跑出去，她已经很久没有机会自己走走了，现在整个街道给她让出来，随便她逛，这种感觉还是挺微妙的，特别是看到家家户户都紧闭大门的时候。</p><p>忽然，伊迪丝看到她正对着的那条街道上，数个帐篷还未被收起，在风中摇摆着，应该是一些商人或是流浪者的东西，这些人游历四方，马车上拖着的帐篷就是他们的家。</p><p>伊迪丝就曾经想过这个世界是否有吟游诗人这样的角色，如今第一次看到这类东西，不由得好奇得靠了过去，很快她被其中一顶蓝色的帐篷所吸引。</p><p>这帐篷不同于其他纯色帐篷那样朴素，其上绘制着如星辰般的图像，闪耀的星宿相链，而帐篷底色的深蓝又如深空，引人遐想，伊迪丝不由得驻足观看。</p><p>不知道什么时候，伊迪丝的身后多出了一人。</p><p>“你好？”</p><p>“呀~”伊迪丝被吓了一跳，往后跳了一步，转过身来，只见面前站着一个陌生女孩。</p><p>那女孩看上去比自己大一些，也十分年轻，约莫十六七岁的样子，尚有些稚嫩的面庞已如雕塑般精致，一双明亮的双眸下略带着些灵动好奇。</p><p>而伊迪丝注意到，面前女孩的相貌有一些特别，女孩的皮肤细腻却惨白得有一些过头，宛若从未照射过太阳一般，她的五官相较普通的特伦希瓦公国居民则更为棱角分明，虽不细看不太能辨别出区别，但仍隐隐透着些许来自异域的气质。</p><p>不过她棕褐发披肩，梳得整整齐齐，衣装也是如此，黑白色相间的衣领扎至脖领一丝不苟，脸上微带些文质的笑意，倒是不像是个坏人，反像是个贵族学校出来的乖学生。</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

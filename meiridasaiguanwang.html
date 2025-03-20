@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日大赛官网</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《每日大赛官网》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于每日大赛官网</h2>
+<p>					每日大赛官网<p>赵福全只好悻悻地回返，冲着龙王塑像咣咣就磕了两个头：</p><p>“多谢龙王爷显灵！”</p><p>这呆头呆脑的样子，惹得翠儿更是火起，飞起一脚就踢在他屁股上，道：</p><p>“什么龙王显灵，分明就是有高人相助！”</p><p>见赵福全面露茫然，翠儿越发火大，心道指望不上这个憨货了。</p><p>她也伏倒在地，拜了两拜：“多谢前辈相助，还望前辈现身一叙。”</p><p>这位“前辈”却不紧不慢，压着声音道：</p><p>“我老人家耳背，你们说要私奔什么的，老夫可一句都没听到。”</p><p>那狗男女都是面色通红。</p><p>都知道，这“前辈”听见的只怕不只是私奔之类的话，只怕连那些羞人的事也一并听见了……</p><p>那个声音自然是白山压着嗓子发出来的。他装模作样地轻咳两声，又佯作不悦道：</p><p>“哼！老夫对于你们那些苟且并无半点兴趣，也并未相助过你们。记住了，人是你们杀的，跟老夫并无半点关系。”</p><p>“明白，明白。” 翠儿不自在地扭着头。</p><p>她低头想了半天，又很是自觉地说道：</p><p>“只恐歹人另有同伴，肯定会再回来找场子。感谢前辈出手相助，但我俩最好还是另找一处避雨吧。”</p><p>也不知是真这么想，还是介怀于苟且之事被别人撞见，心中尴尬。</p><p>她从血蛟帮的尸体上剥下一件蓑衣，往身上简单一披，而后就往雨中快步走去。</p><p>见那赵福全还傻傻愣愣地待在殿中，白山又冷哼一声：</p><p>“你的相好都走了，你还留在这里作甚？”</p><p>“啊？”赵福全这才如梦初醒。</p><p>他后知后觉地追了上去，身影一齐消失在了雨幕里。</p><p>雨势不见停歇，庙里却再次安静了下来。</p><p>正殿里，供桌劈成的木柴哔哔啵啵地燃烧着，一团火焰不断发散着温暖和希望。</p><p>“到正殿暖和一下吧。”白山吆喝着，又暗暗自嘲：</p><p>“来的时候光注意到那些湿柴禾了，怎么就没看见这么大一块干柴……”            </p><p>也不知龙王爷听没听到，听到了作何反应。</p><p>赵缨挪动着靠到前殿，靠在火堆前面。</p><p>又冷又饿地挨了半个晚上，此时感受着火光的温暖，她直感觉终于有了一口.活气儿。</p><p>她的心思也同时活了过来，忍不住道：“喂，我说你为啥要帮他们？”</p><p>“路见不平帮就帮了，哪有那么多为什么。再说我也不算帮，只是弄出点声响罢了。”白山说得理所应当，却也全都是事实。</p><p>他说完才想起来什么：“哦对，这两人是不是跟你有点旧怨来着？要不我再出去把他们抓回来，任你发落？” </p><p>赵缨却只是苦笑着拒绝：</p><p>“那公母俩跟我有仇，跟你可没仇。你没有替我报仇的义务。”</p><p>就如今这个身子状况，哪怕仇人当面又能如何？她有报仇的能力吗？</p><p>她摇着头：“我并非不恨。真要说恨，我只恨自身本事不济。”</p><p>她这一刻，又一次无比地憧憬着力量。</p><p>若是有强大的力量，无论是权力、势力，还是单纯的个人武力，哪怕有一样在身，也不至于过得如此憋屈！</p><p>一定要变强！她在心头暗暗地发誓道。</p><p>“姑娘要不要翻翻尸体？”</p><p>她闷闷不乐的样子，白山看在眼中，他忽地如此提议道。</p><p>“恶心是恶心了点，但以在下行走江湖的经验来看，你多半会有收获的。”</p><p>赵缨的眼睛瞬间亮了起来。</p><p>对哦，老子苟着苟着，怎么连舔包这么重要的事都给忘了！</p><p>赵缨恍然地一拍脑门，而后便迫不及待地想要起身。只是一下子牵动了伤口，又是一阵钻心的疼痛……</p><p>“哎哟，我这身子……还请劳烦搀我一把。”</p><p>看着她费力起身的样子，白山不由失笑：“何必，我去帮你翻查一下就是。”</p><p>倒不是因为别的，而是想体验下亲自舔包的快感……赵缨这么想着，却欲言又止。</p><p>白山从一具尸体身上搜出了一些银两，又从另一具尸体胸口拔出一把匕首。</p><p>那把匕首寒光闪烁，拔出来后只一甩，就将血珠子甩了干净，显然是把神兵利器。但赵缨却总觉得有点眼熟。</p><p>再一看，岂不是跟当初插在自己胸口上，是同一把？</p><p>这让赵缨又想起来翠儿这个贱人，顿时又恨得牙根发痒。只盼着早日养好身体，再用同一把刀捅她胸口一次！</p><p>白山又从这人怀中寻出一个油布包裹的物什。</p><p>拿回来，打开一看，却是一本书册。</p><p>上书《细雨春风》四个字。</p><p>他随意翻看几页，叹道：“像是本剑谱，可惜不全了。”</p><p>不全的原因，则是因为书的一角被匕首划破，又被尸体上的血迹弄得模糊不清。</p><p>纵是如此，赵缨也觉得心头火热：</p><p>“武功秘籍诶！”</p><p>从小看武侠剧长大的，谁不盼着这样的情节？</p><p>这册剑法倒也图文并茂，而且前半段的绘图几乎完好无损，只右下处的说明文字有些模糊，不过依稀也可辨认。</p><p>白山翻了两页，先摇了摇头：</p><p>“就剑法而言，不算高明。”</p><p>赵缨闻言就要将这玩意儿丢开......</p><p>“但胜在包罗万象，又浅显易懂，用来打根基、练基础最是合适不过。”</p><p>赵缨默默地又将那残本捡了回来......</p><p>经历过应试教育的摧残，她可太知道一本好的新手教材有多么重要。在这等入门的关键时候，这样的东西给个神功秘籍都不换！</p><p>她借着火光翻看了两页，好在前半部分的习练方法还算保存地详尽，只是后半本的杀招被血污了大半，字迹难以辨认了。</p><p>问题应该不大，毕竟半部剑法也是剑法嘛。</p><p>“手、眼、心，身、步、势......写得还真是详尽，有如此剑法，难怪巫山一脉的中坚人才层出不绝，只是可惜呀可惜......”</p><p>白山凑了上来，摇头晃脑，偏偏话说到一半，又转向他处：“这本虽称为剑谱，却也不仅仅是剑法，你尽可习练，根基打好了，往后的武道便是一路坦途！”</p><p>翻到最末页，发现书里还夹着一页书信：</p><p>“巫山剑派莫乙，欲加入血蛟帮，特以巫山派细雨春风剑法相赠。”</p><p>“莫乙？又是这狗贼！”白山微不可查地喃喃低语道。</p><p>莫乙是巫山派的一个长老，如今巫山派覆灭在即，老家伙这是准备跳船呢。</p><p>白山冷笑道。</p><p>连这等关乎到根基的剑法都拿出来了，看来巫山上已经自顾不暇了。</p><p>赵缨再想详细地问问时，白山却决计不肯再言了。</p><p>不说就不说，赵缨也懒得追问。她珍而重之地将那半部剑法揣入怀中，也不客气：</p><p>“这些银两我都不要，这把匕首我也可以相让，但这剑法我可就收下了。”</p><p>白山面无表情地点点头，表示知道了，但却还是把那把匕首推了回来，疑惑道：</p><p>“姑娘这是打算习武？”</p><p>“当然！”赵缨肯定地答复。</p><p>凡是前世华夏的人，谁没有个武侠梦？</p><p>而且，不说赵镖头和崔知府，单是赵福全的武功便已入二阶，遇到的血蛟帮三人也有点子功夫在身。若再遇到这样的贼人，总得有能力自保吧。</p><p>虽说她曾在紧急关头，用天蚕蛊的力量杀了不知道什么水平的吴青雷。但这玩意儿时灵时不灵的，实在是不能依靠。</p><p>也不知自己这个前身是个什么水平。</p><p>仔细一回想，赵家的武功似乎向来是传男不传女。自己这前身，除了偷偷摸摸地瞧过三招两式，竟是一点武道修为都没有的样子。</p><p>“姑娘若是真想学武，在下倒也可以教你一门轻功。”白山眨巴着眼睛，很认真地道。</p><p>“轻功？什么样的？”赵缨不胜欣喜。</p><p>“我们家传的，很高明的那种。”白山颇为自傲地答道。</p><p>“当真？”赵缨更加振奋，只觉得这家伙那张脸是越看越帅。</p><p>“哈哈，那我可就不客气啦！”</p><p>先得一套剑法，再加上一套身法，而且看上去都很厉害的样子。赵缨不由得大喜过望。</p><p>只见白山随手取过一块木炭，用刀削成细细的一条，又取过那张信纸来，就这么用炭笔在空白处笔走龙蛇。</p><p>“这是身法口诀，以及练法。你照着我写的去练，决计不会有错。”他道。</p><p>“其实这练法还是写的简单了，但也没办法……若日后有缘再见，我定会详细地指导与你。”</p><p>赵缨忽地听出了不一样的意思：“日后有缘……又是何意？”</p><p>莫非他要跑路？</p><p>“姑娘不是要寻名医疗伤？在下想着送你一程，送到之后便分道扬镳如何？”</p><p>白山自顾自地说道：“实不相瞒，我有个厉害的仇家，先前还能借吴参将的护卫之名躲避一二，此时却也只好另想他法了。但总之，我的身边十分危险，姑娘还是不要离我太近得好。”</p><p>赵缨不知说些什么，只好“哦”了一声。</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

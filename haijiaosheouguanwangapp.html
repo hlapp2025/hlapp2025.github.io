@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海角社区官网app</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《海角社区官网app》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于海角社区官网app</h2>
+<p>					海角社区官网app<p>贤者们认为，每一名行走在地面的智慧生物，都有一颗对应其生命的星辰悬于高空，星辰的运动轨迹昭示着这条生命的旅途，而星辰的陨落则意味着生命的消殒。</p><p>占星者能够通过观测星辰的运动来预测某一生命或是事件的发展，但是占星者决不能尝试找寻属于自己的那颗星，因为属于自己的那颗星被其本人直接观测的瞬间，那颗星辰的轨迹便会发生改变，而不再会延续其自然的轨迹移动。</p><p>也就是说，观星者永远只能观测到命运改变前的样子，而永远无法观测到关于自己命运的真正轨迹，那么无论做多少次观测，都不过是白费功夫不是吗。</p><p>曾有一位贤者尝试改变这一情况过，她以贤者最为精纯深奥的占星术尝试窥探自己的命运而想不被命运察觉，其结局却是成为命运的玩物，而她的名字便是——帕尔卡，她永远的成为了命途的编织者，却再也无法影响任何一段命运，任何一颗星辰的轨迹。</p><p>从那之后，观测自己的命运变成为了占卜师的禁忌，因为所有的占卜师都知晓了，任何迫切的想要抓住命运的人，都有被命运吞没的风险。</p><p>格蕾作为这个世界上屈指可数的天才占星师，对每一本神学典籍无不醇熟的虔诚神官，她不可能不知道这一禁忌。</p><p>可她仍然还是打算触犯这一禁忌，因为强大的占卜师哪怕只是知道命运发生改变前的痕迹，也能根据蛛丝马迹推测出未来的一些碎片，并且相信自己能够根据这些片段的信息使未来向好的方向改变，同时她也自信，她能够掌控自己窥探命运的欲望，而不至于被吞噬。</p><p>这实质上是一种无比的勇气，一种以自己的命运为筹码与世界秩序博弈的勇气，这亦可以说是一种自负，一种坚信自己能够主宰命运的自负。</p><p>伊迪丝无从知晓是什么让格蕾表现得如此迫切，但她能体会到“归宿”一词的重量，她能感受到这个异乡人心底在渴望着的东西，她能感受到格蕾的不安，因为在这个意义上，她们两人并没有什么差别，都是迷途之人。</p><p>“可是，格蕾老师，如果你看到的是一个你不想看见的未来，到时候该怎么办？”伊迪丝犹豫了一番后，还是决定说些什么，于是这样问道。</p><p>“那我就倾尽一切去改变。”格蕾毫不犹豫地说道。</p><p>“可如果不是你的力量能够逆转的呢？”伊迪丝问道。</p><p>“那我也会想方设法，使不可能化为可能。”格蕾的声音明显急切了起来，她急促地说道。</p><p>“格蕾老师，为什么这么急切，有些事情就不是一个人可以做到的呀，只要方向正确，竭尽全力，无论结果如何，问心无愧不就好了吗？”</p><p>“不，不是这样的，我必须看到结果，我必须建成那个未来，不然的话，到头来这一切不都毫无改变，毫无意义了吗，”格蕾摇了摇头，反问道，“伊迪丝，难道你就没有一些，必须要完成的事情吗，你的理想是什么？”</p><p>这个问题出口，格蕾却自嘲地笑了起来，她也真是昏头了，她居然会和一个十几岁的小女孩严肃的讨论这种问题，想都不要想，她可能会听到类似“我想要无忧无虑的生活”或是“想要成为某位骑士的新娘”这样的回答。</p><p>然而，伊迪丝的回答却如同格蕾一样：“当然有，我想要找到我的归宿。”</p><p>“为什么？”格蕾感到十分诧异，“你现在不就在你的家里，你也从未离开过你的家乡，为什么会有这样的想法。”</p><p>“格蕾老师，家乡不等于归宿，家园也不等于归宿啊。”伊迪丝摇了摇头，苦笑着说道。</p><p>“我认为只有能够让心安宁的地方，才是归宿，你的存在能够被他人所包容的地方，才是归宿，如果没有这两个条件的话，无论回到什么地方，又或是建成什么地方，那都不会是你的归宿。”</p><p>伊迪丝极为认真的说道，就连她自己都没有发觉，这句话从某种意义上来说，是曾经的伊迪丝与现在的伊迪丝所达成的共识，曾经的伊迪丝最大的愿望，也是离开这个仿佛软禁着她的特伦希瓦庄园，在说这句话的时刻，曾经的伊迪丝与现代人宋俞江相互影响着对方的存在。</p><p>“真是，荒谬。”就连家园的存在都未感受过的格蕾不能接受伊迪丝的说法。</p><p>在格蕾的潜意识之中，至高的理想国度与家园在很大程度上是重叠的，她从未有过家乡，所以她觉得那个理想的未来便是她的归宿，是她将建立在未来的家园，而一旦那个未来注定无法实现，那她便真的一无所有了。</p><p>她竟是如此害怕失败，远没有在碧翠丝面前冠冕堂皇时表露的那般坚定。而这份不安又让格蕾不知道如何反驳面前之人的话语，她感到自己的意志有些混乱。</p><p>“格蕾老师，”伊迪丝没有与格蕾争执，而是这样说道，“我觉得，无论你想要做什么，都不需要这么急迫，这么冒险，如若只是想要一个归宿的话，至少在我这里，你永远都是我的神学老师，我的心可以作为你一个小小的归宿，无论何时，你需要帮助，我都会尽我所能，做出些什么。”</p><p>这是漂亮话吗？伊迪丝也不知道，也许有一部分是，但更多的一部分是她能够理解一些格蕾的感受，她单纯的不希望这样的感情折磨眼前之人，尽管她也不过是自身难保。</p><p>“哈哈哈。”格蕾笑了起来，那笑容让伊迪丝不由得有些呆住了。</p><p>微弱的月光之下，女孩明媚的双眸之中倒映着万千繁星，嘴角捎带着一抹浅浅的笑意，多是无奈，却也见释然。</p><p>“我们对‘归宿’的认知还真是不同呢。”格蕾笑着说道，“不过果然，我还是无法认同你对归宿的说法。”</p><p>“哼。”伊迪丝冷哼一声，缓解一下自己的尴尬，毕竟看起来自己的好意是被人家拒绝了，她的脸上有些发烧。</p><p>“但是，”格蕾伸出手，揉了揉伊迪丝的脑袋道，“我明白你所说的‘归宿’对你来说肯定也非常重要，谢谢你的这份心意啦，你说的话，我会一直记住的，你可要小心了，毕竟如果真的有一天，我来找到你了，那一定是无比麻烦的事情。”</p><p>“那还是算了，太麻烦的事情我可懒得管。”伊迪丝偏过脸嘟囔道。</p><p>“哼哼~”格蕾的脸上露出玩味的笑容，就像她一开始见到伊迪丝时那般，“现在才说这些，已经晚了哟。”</p><p>“哼。”伊迪丝挣脱开了格蕾的手，一溜烟跑掉了。</p><p>“还真是人小鬼大的，明明才那么小个，居然能说出这么些话。”格蕾摇了摇头，喃喃自语道，“但总让人觉得，还有那么些道理，那就祝愿我们都能找到自己想要的‘归宿’吧。”</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

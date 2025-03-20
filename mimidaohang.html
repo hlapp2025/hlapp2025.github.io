@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>米米导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《米米导航》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于米米导航</h2>
+<p>					米米导航<p>宋俞江猛然睁开眼睛，他发现自己立身于一片深邃的黑暗之中，环顾四周，世界宛若虚无，空无一物。</p><p>他回忆起自己应该已经被那些正教廷的修士僧侣救助，那怎么会出现在这，难道又穿越了？他的眼中露出迷茫。</p><p>而正在这时，宋俞江的面前，无尽的黑暗之中一摞台阶凭空浮现，直通向更为遥远的漆黑，没有人知道这阶梯的尽头通向何方，但奇怪的是，宋俞江却感觉这台阶莫名熟悉。</p><p>暗紫色的砖石之上雕刻着猩红色的华丽雕纹，在神秘之中透着一股引人不适的不安。</p><p>宋俞江拾阶而上，随着他的不断向前，阶梯两侧的黑暗之中浮现出栋栋建筑，首先是些低矮狭小的民房，紧接着是复式的楼房，随后又逐渐转变为了座座高耸入云的尖塔。</p><p>不知过了多久，他停下脚步，回过头望向走过的道路，这些建筑层层叠叠，俨然构成了一座城市，忽然，他宛若回忆起来一般，脑中出现了这座名字的名称。</p><p>梦魇之城，圣德兰，它的繁华令人魂牵梦绕，却如梦魇般是所有觊觎其财富之人的覆亡之地，这座城市建立于世界的中央，却从未有人能够真正掌控它，这座城市建立于所有人面前，却从未有人真正见过它。</p><p>因为圣德兰的建立者是传说之中已经灭亡的上位种梦魇，他们掌控着所有智慧生物所构成的梦之领域，而这座梦魇之城自然建立于所有人的梦境之中，根植于所有智慧生物最底层的意识，那么理所当然的，宋俞江现在的立足之地就是梦境之中。</p><p>在那漫长台阶的尽头，一座宏伟的宫殿从黑暗之中涌现，暗紫色的大门如一座山峦一般，横隔在宋俞江的面前，更令人惊奇的是，这宫殿的门锁并非什么钥匙，而如一面镜子一般，将观看者的身影倒映在其中。</p><p>在那暗紫色的层层漩涡之中，宋俞江看到了自己，银色的长发下秀气的五官尚且稚嫩，却摆出一副完全不像这个无忧无虑的年龄应有的冰凉，淡紫色的双眸如宝石般透着纯粹，也如死寂，静得可怕。</p><p>暗紫色的素色长裙如瀑般垂下，好似那些修道院的僧侣才会穿的修服，却又露出雪白的双肩与纤细的锁骨，在那妖异的颜色衬托下显出几分妩媚。</p><p>尽管宋俞江从未见过这个漂亮的女孩，但却能立刻意识到，这便是伊迪丝，现在的自己。</p><p>自己现在是在梦境之中，在镜中却仍然看到了女性的自己吗，那岂不是意味着，他已经默认这个身份了。</p><p>宋俞江绝不接受，他可是个百分百的男人，他猛然挥拳向那宫殿大门的门锁，但却没能触碰到坚硬的镜面，反倒是手臂直接穿入了镜后的世界，掀起层层波澜。</p><p>暗紫色的随之光芒大涨，一个复杂的术式纹路开始在镜面之中勾勒，与此同时，更多的记忆涌入他的脑中。</p><p>恍惚之间，他好像经历了漫长的时间，沧海桑田，文明兴衰，十二上位种缔造了这个世界，并逐渐消失在了这个世界的历史之中，却又如同梦中之梦，醒来之后，记不下什么。</p><p>伊迪丝睁开了双眼，看到的是洁白的天花板，暖洋洋的阳光从一旁的窗户斜入房间之中，几粒尘埃悠闲地漂浮在空中。</p><p>她坐了起来，生怕忘记了梦中的东西，细细回忆着不久前的梦境，却仍然发现在梦魇之城圣德兰中看到的东西已经被忘却了八九分，唯独一个来自古老的术式记忆得清晰异常。</p><p>那个术式的结构正是之前在面对两名劫匪时，伊迪丝循着脑中模糊的记忆释放的，那个能干扰他人五感感官的幻觉术式，现在她清晰的知道了那个法阵的效果。</p><p>就是一个借助那个法阵，以自身的精神力干扰对方精神的术式，而制造越为逼真强大的幻觉，对自身的精神力消耗就越大，被干扰者也越容易察觉到自己身上的异常状态，反之亦然。</p><p>而伊迪丝还敏锐地注意到一件事，那就是伊迪丝之前可并不会这种术式，再加上她对梦魇之都那异样的熟悉感，都不寻常。</p><p>她猜测，她现在的脑中可能拥有的不止伊迪丝·特伦希瓦，地球的宋俞江两人过去经历的记忆，其中埋藏了更多的秘密。</p><p>还有那梦魇之都，尽管她突然从中回到了现实，但她能清晰的感觉到那宫殿中的不寻常，而那面是锁却又神似镜子的东西中也有许多未解之谜，不过这些猜想都要她再次回到圣德兰才能验证，她还不知道自己能否回去呢。</p><p>而这一切，也许都关乎伊迪丝，或者说宋俞江来到这里的原因，以及他的最终目标：他想要知道，自己能否回到地球，他想回家。</p><p>就在伊迪丝思考这些问题的时候，一旁一个突如其来的陌生声音打断了她的思考：“啊~美丽的特伦希瓦小姐，你终于醒了，我真的好为你担心啊。”</p><p>伊迪丝愣愣地望向声音的来源，发现一个男人坐在他的床边，他穿着华丽的贵族长袍，胸前别着一朵玫瑰，一头金色的长发明显特地做过造型，十分显眼，身上不乏贵重的饰品，而说话时一股呛人香水味扑面而来，简直是把花花公子四个字写在脸上。</p><p>伊迪丝努力地搜寻自己曾经的记忆，但无论如何努力她都发现，自己确实对眼前的这张脸没什么印象，她只得硬着头皮问道：“您好，请问您是？”</p><p>“啊~我真的好伤心，特伦希瓦小姐，您果然不记得我了，还记得您三年前在王都参加的那场宴会吗，”这个男人一边做出沉痛的表情，一边说道，“在那场宴会上，我对您一见钟情，三年来我一直忘却不了你的音容笑貌，我是夏兰家族的二子，罗森塔尔。”</p><p>好吧，对方这么一说，伊迪丝是艰难地回忆起来了，十三岁的伊迪丝曾经在一场王国国王召开的万人宴会上见过一面面前的男人，仅仅在同一个屋檐下呼吸过同样的空气。</p><p>“好吧，你好，夏兰先生。”伊迪丝习惯地展露礼貌性的微笑，就像平日里在公司遇到同事那样。</p><p>突然，这个男人居然伸出双手，握住了伊迪丝的手，含情脉脉地道：“特伦希瓦小姐，您能感受到我的爱意吗？”</p><p>被一个男人握住了手，来自异性的爱意伊迪丝是没有丝毫感受到，她只觉得自己全身有蚂蚁在爬，恨不得将被对方握住的自己的手砍掉。</p><p>这手不能要了，脏了，她突然意识到这一点，这是无论洗多少次，只要回忆起来都会恶心的油腻，她现在已经知道了在另一个视角下这种行为的可怕。</p><p>“罗森塔尔先生，”伊迪丝的脸上笑容冰冷，哪怕就连面前这样的蠢货也能感受到，“请您现在，立刻滚出去。”</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

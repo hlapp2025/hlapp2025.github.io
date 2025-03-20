@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日 今日 吃瓜</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《每日 今日 吃瓜》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于每日 今日 吃瓜</h2>
+<p>					每日 今日 吃瓜<p>山间有一条小溪水，不知发源于何处，当地的土人都换做清溪。</p><p>这条溪水流经黑虎寨山脚下时，还只是一条涓涓细流，可在涌入河谷、容纳诸多山涧之后，其水势便骤然增大。到流经清溪寨的时候，已经是条可以行走竹筏的大涧了！</p><p>“红娘子，沿着溪水再行一阵，就到了清溪浦了。这条清溪便在那里汇入大江！”</p><p>来自苗寨的向导撑着竹蒿，口中时不时地哼一句船歌。</p><p>于是“欸乃”、“欸乃”的歌声不停，船夫之间互相唱和。赵缨静卧于筏中，心神前所未有地放空下来。</p><p>眼睛一闭，再一睁，人声鼎沸的清溪浦口已到了跟前。</p><p>竹筏停靠在镇子外面，那向导歉意地道：“今日浦口码头已经停满了商船，咱们却是只能在这上岸了。”</p><p>“无妨无妨，我以前也经常找不到车位的。”</p><p>赵缨睡得迷迷糊糊，随口说了个只有她自己才懂的笑话。</p><p>清溪浦靠着川江，地势还算地平，倒也聚集成了个三五千人的大镇子。</p><p>只是今日商队靠岸补给，各类货物集散开，就势摆了个热闹的市集，周遭几十个寨子都被吸引来了。一时间，人流熙熙攘攘，这热闹程度便是渝州城的码头都有所不及。</p><p>“我滴个乖乖，这么多人！”</p><p>明明是渝州大城出身，何二却总觉得自己才是个没见过世面的土包子。</p><p>苏州的丝、洪都的瓷、金陵的稻、武昌的鱼……</p><p>他东瞧瞧，西看看，正研究得起劲，忽地却被赵缨一脚踹在屁股上。</p><p>“莫要现眼，抓紧采买些紧缺的物什！”</p><p>赵缨皱着眉，只觉得这个家伙实在丢人。</p><p>“铁器、粮种、棉麻布匹、油盐香料、还有待客用的茶叶……但凡是日常所用，都得采买一二。”</p><p>集市只开一天，要采买的东西却真不少，看来只得分头行动了。</p><p>她环顾左右，却忽地不见了沈川的踪影。</p><p>“老沈呢？”</p><p>“我也不知，似乎自从进了市集开始，就不见了踪影。”</p><p>“……”</p><p>算了，懒得管他。那么大个人了，还能走丢不成？</p><p>……</p><p>“什么？两贯铜钱？”</p><p>沈川难以置信地盯着眼前这个胖乎乎的当铺掌柜，纵是他一向好脾气，此时也忍不住抬高了音量：</p><p>“掌柜的劳烦你看清楚，这么大一块寒灵玉，放在行家手中只怕十贯都不止！便是西街金石轩的掌柜，也给了我三贯的报价呢！”</p><p>“那您呐，就去找行家卖去！我这儿呢就这个价，爱当不当！”</p><p>胖掌柜这般说着，一抬手却是扔得极为随意。若非沈川眼疾手快得接住，那块足有拳头的寒灵玉，只怕还要再跌个不少价值。</p><p>这可是他费了好大工夫，才从寒潭底下的玉髓上扣下来的，怎能如此糟践？</p><p>“有眼无珠，有眼无珠啊！”</p><p>沈川实在气恼，却也无可奈何。</p><p>毕竟这等小地方，识货之人实在难寻。</p><p>或许可以到商队处碰碰运气？可实在是没有门路……</p><p>他安安思索着，下意识地撩开门帘。</p><p>一个风风火火的娇小身影就那么闯了进来。</p><p>“抱歉抱歉，让开让开！”</p><p>好在沈川反应迅速，这才堪堪侧过身子，避免了与那黄衫少女相撞的命运。</p><p>那少女好似在屁股上装了火箭，一路狂奔进店，直到柜台之前才匆匆站定脚步。</p><p>然而其脚下定住，上身却由于惯性猛地前倾。</p><p>“咚！”地一声——</p><p>脑袋磕在柜台上的声音，让沈川听得直咧嘴，眼皮也一下子哐哐跳个不停。</p><p>“姑娘你……”他忍不住道。</p><p>哪知那少女晃着脑袋，却反倒冲他提醒一声：</p><p>“小心！”</p><p>“？？？”</p><p>门口处的沈川尚在愣神，却见一胖大的身子如炮弹般直撞而来，正与他撞了个满怀……</p><p>“哎哟……”</p><p>一时间呻吟声不断。</p><p>“兄台，到底有何急事，至于这般火急火燎？”</p><p>在沈川的搀扶下，那汉子倒也艰难地坐直了身子。他也不顾身上多处疼痛，却是一开口便指着那黄衫少女，道：</p><p>“抓贼！”</p><p>“呸！你才是贼！”</p><p>黄衫少女气道：“不就是拿了你几个包子嘛，至于这般撵着不放？再说咱也说过，待当了宝剑之后便给你钱，还多给你两个铜板！”</p><p>她说着，抬手将身侧的宝剑放到柜台，“啪”地一声，倒将当铺掌柜吓了一跳。</p><p>左右瞧了瞧，见好歹没给砸坏什么东西，胖掌柜这才惊魂未定地点着头，而后接过剑来、拔剑出鞘。</p><p>却见那剑身之上满是坑坑洼洼的缺口，有几道严重的，甚至还生成了贯穿剑身的裂纹……</p><p>“您这剑……可是多久没有修补过了？”</p><p>“管那么多干什么？只管说值多少钱？”</p><p>掌柜的为难道：“只怕……只值一钱银子。”</p><p>“一钱银子？你当废铁买呢！”</p><p>少女气急，却见那卖包子的胖大汉子还杵在门口，一双牛眼瞪得老大。</p><p>也只好叹道：“一钱银子就一钱吧，好歹结了账，也免得落了本女侠一个吃白食的名声！”</p><p>她说着，似是下定了什么决心一般，恋恋不舍地将那宝剑一送——</p><p>“且慢！”</p><p>却是沈川忽地张口，冲着卖包子的汉子问道：</p><p>“她欠你多少钱？”</p><p>“五个铜板！”那汉子伸出一只大手，老实地道。</p><p>“五个铜板，值当连宝剑都卖了吗？”</p><p>沈川笑道，探手入怀，却是摸出一把铜钱来：“我替她结了，多余的就当是送你的！”</p><p>“那不行，吃了俺五文钱的包子，俺便只能收五文钱！”</p><p>那汉子倒是颇有些自己的坚持，一个一个地数出五枚大钱之后，却将剩余的推了回去。</p><p>然后竟是头也不回地离开了。</p><p>也是个直人……沈川轻笑道。</p><p>到手的宝剑又被收了回去，那当铺掌柜一时急了：</p><p>“诶—诶？你这人怎么回事，三番两次地坏我生意不成？”</p><p>他还欲再说，却忽见沈川目光灼灼，颇有一股子威慑力，登时也吓得不敢说话了。</p><p>“她的事算是完了，但咱俩的事还没算呢！再聒噪，当心我砸了你这破店！”</p><p>一番威胁，吓得那掌柜的讷讷不语。</p><p>这般混不吝的威胁，本不是沈川的做事风格，却是赵缨的风格。</p><p>但不得不说，还真是爽呢。</p><p>那黄衫少女这才回过神来，宝贝地抱起自己的宝剑，又连声致谢：</p><p>“多谢多谢！咱请你吃顿饭吧，以作报答！”</p><p>沈川一下子笑了：“你连吃包子的没有，又拿什么请客？”</p><p>“我……”少女一下子脸色涨得通红，看着手中宝剑，又恋恋不舍地往柜台送去。</p><p>只是有沈川的眼神威胁，那掌柜却是说什么都不敢再收了。</p><p>沈川看了好笑，不由问道：“见你这样子，年纪也不很大吧！怎地一个人在外面乱跑？”</p><p>“哦，对哦……”</p><p>少女忽地想起了什么，连忙跑到跟前，两手比了一个人的轮廓：</p><p>“咱是来寻咱的夫君的，你见过他吗？大概这么高，喜欢穿绸缎衣服，总说什么‘大丈夫在世当立不世之功’之类的话。很奇怪的一个人……”</p><p>她说到这，忽而腹中雷鸣，尴尬得她一下子泛红了脸色。</p><p>“却是咱有两天没吃过东西了，要不然也不会抢人家的包子……”</p><p>沈川笑道：“干脆我做东，请你吃顿好的如何？也正好跟你打探一些江湖上的消息，就当你的报答了！”</p><p>“不行不行，咱们江湖人讲究滴水之恩涌泉相报！怎可一而再地受你恩惠？”</p><p>话没说完，她的肚子却又响了两声……</p><p>“也罢，咱受你的恩惠，愿意为你做两件事情，以抵饭钱！”</p><p>“莫要多话了，咱们走吧。”</p><p>“哦好……”</p><p>……</p><p>“多少钱？”</p><p>市集另一端的药铺中，赵缨也面临着同样的刁难。</p><p>“你可看个清楚！这般质地的蛇牙，世所罕见，到你这儿就成了大路货了？”</p><p>却与好脾气的沈川不同，她一把揪住那老掌柜的衣领子，将那硕大的蛇牙直接杵到了老头儿的眼前。</p><p>“你且好好看看，这东西到底值多少钱！再敢压价，我砸了你铺子！”</p><p>被这番威胁之下，那干瘦的小老儿终于是哆嗦着求了饶：</p><p>“女侠饶命！实……实不相瞒，这等蛇骨蛇牙自然是价值极高，只是本店实在是不能收购啊！还请女侠见谅！”</p><p>“为什么不能？”赵缨的脸色越发地难看。</p><p>“没买家呀！”</p><p>那小老儿几乎便要哭出来了：“这般蛇骨虽富含灵性，但是用途实在太窄，寻常药物便是需要，也只需普通的蛇骨磨粉即可。而用得到这等蛇骨的买家，又怎会光临我这小店呢？”</p><p>手一松，那小老儿却是一下子坐倒在地。</p><p>“有这缘由，你从一开始便好好说便是，何必东拉西扯呢？难道是欺我等不懂行情，想要低价昧了我的宝物吗？”</p><p>小老儿连声叫着“不敢”。</p><p>赵缨却也再懒得理会，自顾自地出门而去。</p><p>这破地方，糟透了！她暗暗想着。</p><p>忽地一人急匆匆地跑来，边跑还边冲她嚷着什么。</p><p>赵缨认得那人，是一块到市集上来的寨丁。</p><p>无奈地一皱眉：“有话便说！”</p><p>那人这才低着声音说道：“有寨中兄弟看到沈先生了。”</p><p>“什么？他在哪里？”</p><p>这家伙江湖经验丰富，有他在定不会如她这般束手无策。</p><p>哪知那寨丁却是欲言又止，终于道：</p><p>“有兄弟看到，沈先生拉着一个女子去了酒楼，一路还有说有笑的，像是很熟的样子……诶东家，东家？”</p><p>却是只见一个风风火火的背影。</p><p>“东家，走错方向了，在这边！”</p><p>赵缨却又折返而回，恶狠狠道：“我先走一步，你给我多找几个兄弟，越多越好！”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

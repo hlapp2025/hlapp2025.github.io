@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>51吃瓜社区</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《51吃瓜社区》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于51吃瓜社区</h2>
+<p>					51吃瓜社区<p>炎龙城的城主府，是一座面积不大，但装潢风格相当清幽雅致的别院，坐落在与薇莉丝入城西门刚好相反的东城区。</p><p>联合王国是由国王统治，贵族分管的半分封制国家。之所以加个“半”字，是因为大部分城市的城卫军，都由王室委派将军直接领导，每隔一段时间轮换，而贵族除了少量私军外，只拥有行政管辖权。</p><p>这种政策，在分摊了国王管治负担的前提下，又尽可能保证了贵族不会拥有过大权力，以至于拥兵自重。</p><p>炎龙城亦是如此，不过薇莉丝要见的只有城主就够了。</p><p>“两位，这就是城主大人的府邸，请在此稍候，我进去通报。”</p><p>小队长丹尼尔看起来是拥有自由进出城主府权力的，但薇莉丝二人却不行。</p><p>他简单解释了一下，歉意地朝牧师小姐笑笑，便与门卫点头致意，快步入了府中。</p><p>“啧，居然敢让主人等一个卑贱的……”</p><p>“好，停！”</p><p>薇莉丝快速捏住小龙娘弹性十足的脸蛋，左右开工，像揉面团一样噗妞噗妞地挤来挤去，打断了她接下来的牢骚，并偷偷用旁边守卫们听不到的音量叮嘱自家宠物。</p><p>“听好了哦小光，从现在开始我是外出历练的魔法师薇莉丝小姐，而你是我的女仆。不要总用高高在上的语气跟别人说话，就算心里不爽，也可以回头再报复，不要说出口来，经常这样会很麻烦的，知道吗？”</p><p>“呜呜！物资到了！（我知道了）”</p><p>没让薇莉丝二人等太久，很快，丹尼尔就带着一名看起来三十岁不到，气质温婉的成熟美少妇走了出来。</p><p>她将红色长发扎成了方便的单马尾，顺着肩膀垂在胸前，身着与炎龙城惯用颜色截然相当的淡蓝连身裙，领边佩有标志着伯爵爵位的华徽，手持一根修长朴素法杖。</p><p>很显然，此人是位魔法师。</p><p>美妇立刻就注意到了站在门口的薇莉丝和晓光，眸中泛起些许异色的同时，不需要丹尼尔开口，就主动来到薇莉丝跟前，行了个标准的王国贵族礼节。</p><p>“幸会，我是炎龙城城主，人类联合王国二等伯爵，娜丝塔亚·西尼尔，听说有新的医师前来应征，应该就是您吧？”</p><p>偏头瞥了眼被打断了介绍，面露尴尬却没怎么生气的小队长丹尼尔，薇莉丝对眼前这位漂亮的娜丝塔亚大姐姐感到些许好奇。</p><p>这城主府门口人来人往的这么多，她是怎么一眼看出自己身份的？</p><p>想着，牧师小姐回以一礼，语气不卑不亢。</p><p>“娜丝塔亚城主您好，我叫薇莉丝，这位是我的女仆晓光。我们路经此城，看到贴在城门公告栏上的征募令，正好我对治疗魔法略知一二，便想着来试试了，不知道病人在哪？”</p><p>“原来如此。”</p><p>娜丝塔亚城主的笑容看起来相当富有亲和力，明明管辖着以“炎属性”为卖点的城市，但这位却给人以一种温润如水之感，真是奇特。</p><p>“叫我娜丝塔亚便好，城主什么大可不必。”</p><p>“略知一二什么的，您可真是谦虚了，薇莉丝小姐应该有过常年行医治病的经历吧，如果不是对治疗方面的魔法有着精湛理解，可做不到这种程度。”</p><p>“常年……行医治病？”</p><p>来到这个世界后便专注于摸鱼，几乎没怎么救过人的牧师小姐愣住了。</p><p>“啊…..是我冒昧了，看您的表情，应该以前没来过炎龙城吧，这只是我的一点小手段，咱们边走边说如何？”</p><p>喂等下，我们双方的聊天似乎不在同一个频道吧？</p><p>虽然很想这么吐槽，但看样子娜丝塔亚出门并非是专门来迎接薇莉丝，反而看起来有什么急事，现在也不是计较那些小误会的时候。</p><p>既然如此，跟上去看看也无妨，既然她特意带上己方等人一起，想必就是跟所谓【龙血病】相关的事了，薇莉丝对这个感觉神神秘秘的病症还挺好奇的。</p><p>有了娜丝塔亚引路，自然就不需要丹尼尔小队长了，城主大人直接把他打发回去继续守城门后，就带着薇莉丝二人继续向东而行。</p><p>路上，娜丝塔亚也给薇莉丝解释了能够看出她“常年治病行医”的原因。</p><p>娜丝塔亚是一位【神眷者】。</p><p>这里的【神眷者】，并非指代神殿神官，而是某种概称。</p><p>这个世界上偶尔会出现些刚诞生，就拥有独特天赋的生物，对于这些个体，世界各国各地的态度，差别与称谓都很大。</p><p>有的厌弃他们，称其为【诅咒之子】，有的则尊敬这些人，如联合王国的大部分居民，认为这是神明的惠赐。</p><p>当然，更多国家对此还是持无所谓态度，只当作是拥有些特殊能力的普通人。</p><p>同时，也存在专门捕猎这些个体，拿来研究的邪恶组织，不过这种一般都会被打击得很厉害，只敢对那些没什么背景实力的贫民出手。</p><p>这些天赋的效果和强度都是完全随机的，但有一个共同点，不会对战斗有直观帮助。</p><p>例如小狐狸梅维斯，她的【死兆预知】只能看见，真正想触发，还得靠她自己的手段。</p><p>同样，娜丝塔亚，她的独有天赋是【观气】。</p><p>娜丝塔亚能够看见生物周边萦绕的那些无形之气。</p><p>假如一个人经常帮助别人，收获感激，那他身上就会散发出微弱的白色荧光，反之，如果总是与人战斗、杀戮，被人恐惧或敌视，那就会泛出血色。</p><p>当然，这只是一种很笼统的描述，娜丝塔亚小姐表示实际情况比这复杂很多，因为生物的行为是多样的，所以身上的气通常会很杂乱，她也只能看出个大概倾向。</p><p>不过薇莉丝和晓光，据娜丝塔亚所说，是属于两种特殊的极端。</p><p>牧师小姐身上的光，已经亮到她甚至会感觉刺眼，这是只有拯救了千千万万之人的圣者和大善人才可能出现的，城主大人也是生平仅见。</p><p>而小龙娘就比较极端了，她的情况，娜丝塔亚形容的概念是，只有从出生开始就不停与各种生物战斗，伴随着生死厮杀而成长的存在，才能散发出如此浓郁的血气。</p><p>如果不是因为她有着薇莉丝女仆的身份，恐怕城主大人刚见到晓光，就会立刻将其列为最危险的恐怖分子，即使现在，她看起来也不太敢跟小龙娘对视或说话……..</p><p>薇莉丝仔细想了想，貌似……还真能解释得通？</p><p>她自己就不提了，游戏里百人甚至千人团队副本的时候，作为全游顶级玩家的牧师小姐，一个大招抬几百人血量是再普遍不过的事了，把各种整活或者失误死掉的队友拉起来，更是如喝水一样的日常。</p><p>可…..这也算拯救千千万万人吗？</p><p>你这个技能的判定机制是不是出了一些问题？</p><p>至于小龙娘，她当然是从龙蛋里爬出来就开始杀怪了，毕竟要练级的嘛，不参加战斗怎么变强？</p><p>从出生打到成年，的确一点毛病都没有，更别说晓光还有在宠物空间里揍其他宠物的习惯…….</p><p>总感觉这个什么神眷者的能力，似乎有点不太靠谱？</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>
